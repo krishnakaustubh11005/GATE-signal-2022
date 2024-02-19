@@ -1,0 +1,106 @@
+% \iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\parindent 0px
+\bibliographystyle{IEEEtran}
+\title{GATE: CE - 29.2022}
+\author{EE22BTECH11219 - Rada Sai Sujan$^{}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+\section*{Question}
+Consider the following recursive iteration scheme for different values of variable P with the initial guess $x_1=1$:
+$$x_{n+1}=\frac{1}{2}\brak{x_n+\frac{P}{x_n}}, \quad\quad n=1,2,3,4,5 $$
+For $P=2$, $x_5$ is obtained to be 1.414, rounded off to 3 decimal places. For $P=3$, $x_5$ is obtained to be 1.732, rounded off to 3 decimal places.   \\ \\
+If $P=10$, the numerical value of $x_5$ is \rule{1.3cm}{0.15mm} . ($round$ $off$ $to$ $three$ $decimal$ $places$)     \hfill(GATE CE 2022) \\
+\solution 
+
+Applying $A.M \geq G.M$ inequality,
+\begin{align}
+    \frac{x_n+\frac{P}{x_n}}{2} \geq \sqrt{P}   \\
+    \implies x_{n+1} \geq \sqrt{P}  \label{eq:ce.29.22.1}
+\end{align}
+Solving the equation,
+\begin{align}
+    2x_{n+1}x_{n} - {x_n}^2 - P &=0
+\end{align}
+Applying $Z$-transform we get,
+\begin{align}
+    X\brak{z} \ast X\brak{z} &= \frac{PZ^{-1}}{\brak{1-z^{-1}}\brak{2-z^{-1}}}  \\
+    &= P\brak{\frac{z^{-1}}{1-z^{-1}} - \frac{z^{-1}}{2-z^{-1}}}
+\end{align}
+From the transformation pairs,
+\begin{align}
+    x_{n-a} &\overset{\mathcal{Z}}{ \longleftrightarrow} z^{-a}X\brak{z}  \\
+    x_{n_1}\times x_{n_2} &\overset{\mathcal{Z}}{ \longleftrightarrow} X_1\brak{z}\ast X_2\brak{z} \\
+    \frac{u\brak{n-1}}{a^{n}} &\overset{\mathcal{Z}}{ \longleftrightarrow} \frac{z^{-1}}{a-z^{-1}}
+\end{align}
+Now, applying inverse $Z$-tranform,
+\begin{align}
+    x_n^2 &= P\brak{u\brak{n-1} - \frac{u\brak{n-1}}{2^n}}  \\
+    \implies x_n^2 &=P\brak{1-\frac{1}{2^n}} \quad \text{[$\because n \geq 1$]}
+\end{align}
+Similarly,
+\begin{align}
+    x_{n+1}^2 &= P\brak{1 - \frac{1}{2^{n+1}}}  \\
+    \implies \lim\limits_{n\to\infty}\frac{x_{n+1}}{x_n} &= \lim\limits_{n\to\infty}\sqrt{\frac{P\brak{1-\frac{1}{2^n}}}{P\brak{1-\frac{1}{2^{n+1}}}}}    \\
+    &=1
+\end{align}
+Hence, the system is convergent.    \\
+Now finding the limit of the sequence,
+\begin{align}
+    x^2 &=\lim\limits_{x\to\infty}P\brak{1-\frac{1}{2^n}}   \\
+    \implies x &= \pm\sqrt{P}   \label{eq:ce.29.22.11}
+\end{align}
+From \eqref{eq:ce.29.22.1} and \eqref{eq:ce.29.22.11},
+\begin{align}
+    x_{n+1}=\sqrt{P}
+\end{align}
+Therefore, for $P=10$ the value of $x_5$ is,
+\begin{align}
+    x_5&=\sqrt{10}  \\
+    \therefore x_5&=3.162
+\end{align}
+\end{document}
