@@ -8,4 +8,4 @@
 \contentsline {chapter}{\numberline {6}Sampling}{11}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Contour Integration}{13}{chapter.7}%
 \contentsline {chapter}{\numberline {8}Laplace Transform}{15}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Fourier transform}{17}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Fourier transform}{19}{chapter.9}%
