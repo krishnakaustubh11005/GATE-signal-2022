@@ -1,0 +1,29 @@
+
+\begin{figure}[!ht]
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{tikzpicture}[>=Stealth,auto,node distance=1cm,semithick]
+  \tikzstyle{block}=[draw, fill=white, rectangle, minimum height=2em, minimum width=2em]
+  
+  \node [block] (input) {R\brak{s}};
+  \node [block, right=of input] (filter) {Node-1};
+  \node [block, right=of filter] (D) {Node-2};
+  \node [block, right=of D] (E) {Node-3};
+  \node [block, right=of E] (F) {Node-4};
+  \node [block, right=of F] (output) {Y\brak{s}};
+  
+  \draw [->] (input) -- node {$A$} (filter);
+  \draw [->] (filter) -- node {$B$} (D);
+  \draw [->] (D) -- node {$\frac{10}{s}$} (E);
+  \draw [->] (E) -- node {$\frac{10}{s}$} (F);
+  \draw [->] (F) -- node {$E$} (output);
+  
+  % Backward loops
+  \draw [->] (E) edge [bend right=45] node[above] {$C$} (D);
+  \draw [->] (F) edge [bend right=45] node[above] {$D$} (filter);
+\end{tikzpicture}%
+}
+\caption{Signal Flow Diagram}
+\label{fig:your_label}
+\end{figure}
+
