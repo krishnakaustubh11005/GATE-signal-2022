@@ -1,0 +1,24 @@
+\begin{enumerate}[label=\thechapter.\arabic*,ref=\thechapter.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item The Differentiation in frequency domain is as follows\\
+        Let x(t) be a signal such that,
+    \begin{align}
+        x\brak{t}&\xleftrightarrow{\text{F.T}} X\brak{\omega}\\
+        X\brak{\omega}&=\int_{t=-\infty}^{\infty}x\brak{t}e^{-j\omega t}dt\\
+        \frac{d}{d\omega}X\brak{\omega}&=\int_{t=-\infty}^{\infty}x\brak{t}\brak{-jt}e^{-j\omega t}dt\\
+        j\frac{d}{d\omega}X\brak{\omega}&=\int_{t=-\infty}^{\infty}tx\brak{t}e^{-j\omega t}dt\\
+        tx\brak{t}&\xleftrightarrow{\text{F.T}} j\frac{d}{d\omega}X\brak{\omega}\label{eq:Differentiation-property}
+    \end{align}
+\item The duality property is as follows\\
+    From inverse Fourier transform we get,
+    \begin{align}
+        x\brak{t}&=\frac{1}{2\pi}\int_{-\infty}^{\infty}X\brak{\omega}e^{j\omega t}d\omega
+    \end{align}
+    Replacing t by -t and multiplying 2$\pi$ on both sides we get,
+    \begin{align}
+        2\pi x\brak{-t}&=\int_{-\infty}^{\infty}X\brak{\omega}e^{-j\omega t}d\omega\\
+        X\brak{t}&\xleftrightarrow{\text{F.T}} 2\pi x\brak{-\omega}\label{eq:Duality-property}
+    \end{align}
+\end{enumerate}
