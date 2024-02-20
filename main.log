@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.2)  20 FEB 2024 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.2)  20 FEB 2024 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1193,7 +1193,36 @@ LaTeX Info: Redefining \cite on input line 694.
 
 
 Writing index file main.idx
-(./main.aux)
+(./main.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 <
+      <<<<<< HEAD
+? 
+
+LaTeX Warning: Label `tab:parameters' multiply defined.
+
+
+LaTeX Warning: Label `L(y'')' multiply defined.
+
+
+LaTeX Warning: Label `L(y')' multiply defined.
+
+
+LaTeX Warning: Label `L(t^n)' multiply defined.
+
+
+LaTeX Warning: Label `complex_shift' multiply defined.
+
+
+LaTeX Warning: Label `fig:plot' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -1250,6 +1279,16 @@ LaTeX Font Info:    ... okay on input line 26.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+Overfull \hbox (6.46565pt too wide) in paragraph at lines 48--13
+[]\OT1/cmr/m/n/10.95 <<<<<<< HEAD         =======              >>>>>>> 410951f5
+e919666df39df4d90222a500a1f63b6d
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--13
+
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count401
 \scratchdimen=\dimen380
@@ -1322,11 +1361,6 @@ LaTeX Info: Redefining \nameref on input line 26.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-<figs/logo.jpg, id=47, 642.4pt x 642.4pt>
-File: figs/logo.jpg Graphic file (type jpg)
-<use figs/logo.jpg>
-Package pdftex.def Info: figs/logo.jpg  used on input line 51.
-(pdftex.def)             Requested size: 128.47772pt x 128.47772pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1353,15 +1387,74 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
 Non-PDF special ignored!
 <special> ps:0.8 setlinewidth 0 setgray
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/logo.jpg>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2
+
+]
+<figs/logo.jpg, id=57, 642.4pt x 642.4pt>
+File: figs/logo.jpg Graphic file (type jpg)
+<use figs/logo.jpg>
+Package pdftex.def Info: figs/logo.jpg  used on input line 51.
+(pdftex.def)             Requested size: 128.47772pt x 128.47772pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1 <./figs/logo.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-(./main.toc)
+(./main.toc
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...pter}{\numberline {4}Systems}{9}{chapter.4}
+                                                  %
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...ter}{\numberline {4}Systems}{7}{chapter.4}
+                                                  %
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3
+
+]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...rline {9}Fourier transform}{21}{chapter.9}
+                                                  %
+? 
+)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1376,9 +1469,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.195 \begin{introduction}
-                           [1
-
-]
+                           [1]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1401,7 +1492,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3
+pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.200 \mainmatter
+                  [3
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1419,7 +1515,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \newpage
+             [1
 
 ])
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1427,7 +1528,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.204 \chapter
+              {Filters} [2
 
 ]
 Chapter 2.
@@ -1589,7 +1695,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-<2022/AE/37/figs/plot.png, id=206, 462.528pt x 346.896pt>
+<2022/AE/37/figs/plot.png, id=221, 462.528pt x 346.896pt>
 File: 2022/AE/37/figs/plot.png Graphic file (type png)
 <use 2022/AE/37/figs/plot.png>
 Package pdftex.def Info: 2022/AE/37/figs/plot.png  used on input line 91.
@@ -1609,13 +1715,39 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./2022/AE/37/figs/plot.png>])
+ [19 <./2022/AE/37/figs/plot.png>] (./2022/CH/34/main.tex (./2022/CH/34/tables/
+table1.tex)
+Underfull \vbox (badness 1275) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+<2022/CH/34/figs/Graph_of_y(t).png, id=253, 462.528pt x 346.896pt>
+File: 2022/CH/34/figs/Graph_of_y(t).png Graphic file (type png)
+<use 2022/CH/34/figs/Graph_of_y(t).png>
+Package pdftex.def Info: 2022/CH/34/figs/Graph_of_y(t).png  used on input line 
+92.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./2022/CH/34/figs/Graph_of_y(t).png>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22
 
 ]
 Chapter 9.
@@ -1625,28 +1757,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22
+ [24
 
 ]
 No file main.ind.
 (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2D4FFA522B53E2C78736D6773103853E;1029.
  ) 
 Here is how much of TeX's memory you used:
- 51368 strings out of 478287
- 1260168 string characters out of 5849290
- 1969919 words of memory out of 5000000
- 68675 multiletter control sequences out of 15000+600000
+ 51404 strings out of 478287
+ 1260986 string characters out of 5849290
+ 1970155 words of memory out of 5000000
+ 68689 multiletter control sequences out of 15000+600000
  482187 words of font info for 78 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,13n,108p,717b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 109i,14n,108p,717b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -1659,13 +1794,14 @@ cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm0800.pfb>
-Output written on main.pdf (28 pages, 240554 bytes).
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfrm0800.pfb>
+Output written on main.pdf (33 pages, 270256 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 366 PDF objects out of 1000 (max. 8388607)
+ 291 compressed objects within 3 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
