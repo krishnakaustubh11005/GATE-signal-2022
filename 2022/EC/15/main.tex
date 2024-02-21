@@ -1,0 +1,105 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\makeatletter
+
+\newcommand*{\underarrow}{\def\@underarrow{\relax}\@ifstar{\@@underarrow}{\def\@underarrow{\hidewidth}\@@underarrow}}
+\newcommand*{\@@underarrow}[2][]{\underset{\@underarrow\substack{\uparrow\if\relax\detokenize{#1}\relax\else\\#1\fi}\@underarrow}{#2}}
+
+\newcommand*{\overarrow}{\def\@overarrow{\relax}\@ifstar{\@@overarrow}{\def\@overarrow{\hidewidth}\@@overarrow}}
+\newcommand*{\@@overarrow}[2][]{\overset{\@overarrow\substack{\if\relax\detokenize{#1}\relax\else#1\\\fi\downarrow}\@overarrow}{#2}}
+\makeatother
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\parindent 0px
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{Assignment\\[1ex]GATE-EE-50}
+\author{EE23BTECH11034 - Prabhat Kukunuri$^{}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\section{Question}
+The Fourier transform X\brak{j\omega} of the signal\\ $x(t)=\frac{t}{\brak{1+t^2}^2}$ is \rule{1.5cm}{0.15mm}.
+\begin{enumerate}
+	\item[(A)] $\frac{\pi}{2j}\omega e^{-\abs{\omega}}$
+	\item[(B)] $\frac{\pi}{2}\omega e^{-\abs{\omega}}$
+	\item[(C)] $\frac{\pi}{2j}e^{-\abs{\omega}}$
+	\item[(D)] $\frac{\pi}{2}e^{-\abs{\omega}}$
+\end{enumerate}
+\solution
+\fi
+\begin{table}[h]
+    \centering
+    \input{2022/EC/15/tables/table-1.tex}
+    \caption{Variable description}
+    \label{tab:GATE-2022-EC-15-1}
+\end{table}\\
+The Fourier transform of the form x\brak{t}=$e^{-a\abs{t}}$ is 
+\begin{align}
+    x\brak{t}&\xleftrightarrow{\text{F.T}} X\brak{\omega}\\
+    X\brak{\omega}&= \frac{2a}{a^2+\omega^2}
+\end{align}
+Consider, 
+\begin{align}
+    x\brak{t}&=e^{-\abs{t}}\\
+    X\brak{\omega}&=\frac{2}{1+\omega^2}
+\end{align}
+By using differentiation property from \eqref{eq:Differentiation-property},
+\begin{align}
+    tx\brak{t}&\xleftrightarrow{\text{F.T}}j\frac{d}{d\omega}X\brak{\omega}\\
+     tx\brak{t}&\xleftrightarrow{\text{F.T}}j\sbrak{\frac{d}{d\omega}\brak{\frac{2}{1+\omega^2}}}\\
+     te^{-\abs{t}}&\xleftrightarrow{\text{F.T}}\frac{-4j\omega}{\brak{1+\omega^2}^2}
+\end{align}
+Applying duality property from \eqref{eq:Duality-property},
+\begin{align}
+    \frac{-4jt}{\brak{1+t^2}^2}&\xleftrightarrow{\text{F.T}}2\pi\brak{-\omega}e^{-\abs{-\omega}}\\
+    \frac{t}{\brak{1+t^2}^2}&\xleftrightarrow{\text{F.T}}\frac{-2\pi\omega e^{-\abs{\omega}}}{-4j}\\
+    \frac{t}{\brak{1+t^2}^2}&\xleftrightarrow{\text{F.T}}\frac{\pi}{2j}\omega e^{-\abs{\omega}}
+\end{align}
+%\end{document}
