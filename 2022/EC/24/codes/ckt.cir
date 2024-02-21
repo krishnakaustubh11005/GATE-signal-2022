@@ -1,0 +1,13 @@
+* NGSpice circuit for measuring current through capacitor
+Is 1 0 sin(0 1 1k 0 0)
+R 1 2 10
+C 2 0 100uF
+.ic V(2)=0
+.tran 0.01ms 10ms
+.control
+run
+set color0 = white
+plot -V(2)/10
+.endc
+.end
+

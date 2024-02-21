@@ -1,0 +1,12 @@
+*Title: Case(i)
+
+r 1 2 10
+Iin 0 1 SIN(45 1 159)
+c 2 0 100u ic=0
+.tran 0.02ms 20ms
+.control
+run
+set color0 = white
+plot v(r)
+.endc
+.end

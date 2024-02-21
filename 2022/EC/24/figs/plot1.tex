@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+
+        \draw[->] (-0.5,0) -- (4.5,0) node[right]{$E_{\text{ref}}$};
+        \draw[->] (0,-0.5) -- (0,4.5) node[above]{$J_d$};
+        
+
+        \draw (0,0) -- (4,4);
+        
+
+        \draw[dashed] (4,0) -- (4,4);
+        \node[right] at (4,4) {$\overline{J}$};
+        \draw[dotted] (4,4) -- (4,0) node[below]{$J_c$};
+
+        \draw[dashed] (0,4) -- (4,4);
+        \draw[dotted] (4,4) -- (0,4) node[left]{$J_d$};
+        
+
+        \draw[->] (0.5,0) arc (0:90:0.5);
+        \node[right] at (0.5,0.3) {$\frac{\pi}{2}$};
+\end{tikzpicture}
+
