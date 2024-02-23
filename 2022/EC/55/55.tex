@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,onecolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -62,10 +63,11 @@
     \end{align*} 
     Here $j = \sqrt{-1}$. If $\bar{x} = [1,0,0,0,2,0,0,0]$ and $\bar{y} = \text{DFT}(\text{DFT}(\bar{x}))$, then the value of $y[0]$ is\\
     \solution
+    \fi
     \begin{table}[h!]
  	\centering
  	\resizebox{6 cm}{!}{
- 		\input{tables/table1.tex}
+ 		\input{2022/EC/55/tables/table1.tex}
  	}
  	\caption{Given Parameters}
  	\label{tab:msmECgate55tab1} 
@@ -90,5 +92,5 @@
     &= x[0] + x[1] + \dots + x[7]\\
     &= 3 -1 +3 -1 +3 -1 +3 -1 = 8
     \end{align}
-\end{document}
+%\end{document}
 
