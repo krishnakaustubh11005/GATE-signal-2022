@@ -10,4 +10,13 @@
 \solution
 \input{2022/EC/15/main.tex}
 \pagebreak
+
+\item For a vector $\bar{x} = [x[0], x[1], \dots, x[7] ]$, the $8$-point discrete Fourier transform (DFT) is denoted by $\bar{X} = \text{DFT}(\bar{x}) = [X[0],X[1],\dots,X[7]]$, where
+    \begin{align*}
+    X[k] = \sum_{n=0}^{7}x[n]\exp\left(-j\frac{2\pi}{8}nk\right).
+    \end{align*} 
+    Here $j = \sqrt{-1}$. If $\bar{x} = [1,0,0,0,2,0,0,0]$ and $\bar{y} = \text{DFT}(\text{DFT}(\bar{x}))$, then the value of $y[0]$ is\\
+    \solution
+    \input{2022/EC/55/55.tex}
+    \pagebreak
 \end{enumerate}
