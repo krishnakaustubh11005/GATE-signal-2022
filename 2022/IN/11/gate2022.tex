@@ -1,3 +1,4 @@
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
@@ -70,6 +71,7 @@ The transfer function of this system is
 \end{enumerate}
 \hfill{(GATE IN 2022)}\\
 \solution
+\fi
 \begin{align}
 \frac{dy(t)}{dt} + y(t) = 3x(t-3)u(t-3)
 \end{align}
@@ -87,14 +89,14 @@ phase &= \tan^{-1}\brak{\frac{\omega \cos(3\omega) + \sin(3\omega)}{\omega \sin(
 \end{align}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=\columnwidth]{figs/freq.png}
+    \includegraphics[width=\columnwidth]{2022/IN/11/figs/freq.png}
     \caption{Plot for magnitude of transfer function}
     \label{fig:gate2022in11fig1}
 \end{figure}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=\columnwidth]{figs/phase.png}
+    \includegraphics[width=\columnwidth]{2022/IN/11/figs/phase.png}
     \caption{Plot for phase of transfer function}
     \label{fig:gate2022in11fig2}
 \end{figure}
-\end{document}
+%\end{document}
