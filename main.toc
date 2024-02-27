@@ -5,8 +5,8 @@
 \contentsline {chapter}{\numberline {3} Z-transform}{15}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Systems}{19}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Sequences}{29}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Sampling}{33}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Contour Integration}{35}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Laplace Transform}{37}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Fourier transform}{59}{chapter.9}%
-\contentsline {chapter}{\numberline {A}Fourier transform}{69}{appendix.A}%
+\contentsline {chapter}{\numberline {6}Sampling}{37}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Contour Integration}{39}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Laplace Transform}{41}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Fourier transform}{63}{chapter.9}%
+\contentsline {chapter}{\numberline {A}Fourier transform}{73}{appendix.A}%
