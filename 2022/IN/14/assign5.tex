@@ -1,0 +1,99 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE 2022 IN 14}
+\author{EE23BTECH11065 - prem sagar}
+\maketitle
+\newpage
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\textbf{Question}:
+\\The output of the system y\brak{t} is related to its input x\brak{t} according to the relation $y\brak{t}=x\brak{t}sin\brak{2\pi t}$.This system is 
+\\\\\brak{A} Linear and time-variant
+\\\brak{B} Non-Linear and time-invariant
+\\\brak{C} Linear and time-invariant
+\\\brak{D} Non-linear and time-variant
+\\\textbf{Solution}:
+\fi
+\begin{table}[!ht]
+\def\arraystretch{1.5}
+   \centering
+    \renewcommand\thetable{1}
+      \input{2022/IN/14/tables/tables4.tex}
+    \caption{input parameters}
+    \label{tab:IN 14}
+ \end{table}
+\\ From \tabref{tab:IN 14}
+\\\begin{align}
+y_1\brak{t}&\leftrightarrow x_1\brak{t}
+\\y_2\brak{t}&\leftrightarrow x_2\brak{t}
+\\ay_1\brak{t}+by_2\brak{t}&\leftrightarrow ax_1\brak{t}+bx_2\brak{t}
+\\ay_1\brak{t}+by_2\brak{t}&=\brak{ax_1\brak{t}+bx_2\brak{t}}sin\brak{2\pi t}
+\end{align}
+\\$\therefore$ satisfies principle of superposition
+\begin{align}
+ky\brak{t}&\leftrightarrow kx\brak{t}
+\\ky\brak{t}&=k\brak{x\brak{t}sin\brak{2\pi t}}
+\end{align}
+\\$\therefore$ satisfies principle of homogenity
+\\$\therefore$ it is linear
+\\\\Delay in input x\brak{t}:
+\begin{align}
+y_1\brak{t}&=x\brak{t-\tau}sin\brak{2\pi t}
+\end{align}
+\\\\Delay in output y\brak{t}:
+\begin{align}
+y\brak{t-\tau}&=x\brak{t-\tau}sin\brak{2\pi\brak{t-\tau}}
+\\y_2\brak{t}&=x\brak{t-\tau}sin\brak{2\pi\brak{t-\tau}}
+\\y_1\brak{t}&\neq y_2\brak{t}
+\end{align}
+\\$\therefore$ it is time variant
+\\$\therefore$ \brak{A} linear and time variant
