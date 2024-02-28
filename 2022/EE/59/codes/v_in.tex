@@ -1,0 +1,30 @@
+\begin{tikzpicture}[scale=1]
+    \draw[->] (0,0) -- (11,0) node[right] {$\omega t$};
+    \draw[<->] (0,-2) -- (0,2) node[above] {$V_s$};
+    \draw[domain=0:10, smooth, variable=\x, black,line width=1pt] plot ({\x},{sin(deg(\x))});
+    \draw[dotted,domain=0:10, smooth, variable=\x, black] plot ({\x},{-sin(deg(\x))});
+    \foreach \x/\xtext in {3.14/\pi,6.28/2\pi,9.42/3\pi} {
+        \draw (\x cm,0) -- (\x cm,0.1) node[below] {\small$\xtext$};
+    }
+
+\fill[gray!20] (0.5233,0) -- (0.5233,0.5) -- (0.785,0.5) -- (0.785,0) -- cycle;
+    \fill[gray!20] (3.6633,0) -- (3.6633,0.5) -- (3.925,0.5) -- (3.925,0) -- cycle;
+    \fill[gray!20] (6.8033,0) -- (6.8033,0.5) -- (7.065,0.5) -- (7.065,0) -- cycle;
+
+    \draw (0.5233,0) -- (0.5233,0.5);
+    \draw (0.5233,0.5) -- (0.785,0.5);
+    \draw (0.785,0.5) -- (0.785,0);
+
+    \draw (3.6633,0) -- (3.6633,0.5);
+    \draw (3.6633,0.5) -- (3.925,0.5);
+    \draw (3.925,0.5) -- (3.925,0);
+
+    \draw (6.8033,0) -- (6.8033,0.5);
+    \draw (6.8033,0.5) -- (7.065,0.5);
+    \draw (7.065,0.5) -- (7.065,0);
+
+
+     \node at (0.5233,0.9) {\small$T_1$};
+     \node at (3.6633,0.9) {\small$T_2$};
+     \node at (6.8033,0.9) {\small$T_1$};
+\end{tikzpicture}

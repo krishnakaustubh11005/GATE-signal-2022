@@ -1,0 +1,29 @@
+\begin{tikzpicture}[scale=1]
+    \draw[->] (0,0) -- (11,0) node[right] {$\omega t$};
+    \draw[<->] (0,-2) -- (0,2) node[above] {$V_o$};
+    \draw[domain=0.5233:3.14, smooth, variable=\x, black,line width=1pt] plot ({\x},{sin(deg(\x))});
+    \draw[domain=3.6633:6.28, smooth, variable=\x, black,line width=1pt] plot ({\x},{-sin(deg(\x))});
+    \draw[domain=6.8033:9.42, smooth, variable=\x, black,line width=1pt] plot ({\x},{sin(deg(\x))});
+
+    \foreach \x/\xtext in {0.5233/\alpha, 3.14/\pi,4/\pi + \alpha ,6.28/2\pi,7.2/2\pi + \alpha,9.42/3\pi}{
+        \draw (\x cm,0) -- (\x cm,0) node[below] {\small $\xtext$};
+    }
+
+     \draw [line width=1pt](0,0)--(0.5233,0);
+    \draw [line width=1pt](0.5233,0) -- (0.5233,0.5);
+    \draw[line width=1pt](3.14,0)-- (3.6633,0);
+    \draw[line width=1pt] (3.6633,0) -- (3.6633,0.5);
+    \draw [line width=1pt](6.28,0)--(6.8033,0);
+    \draw [line width=1pt](6.8033,0) -- (6.8033,0.5);
+
+    \node at (0.25,0.6){\small$T_2$};
+    \node at (0.25,0.2){\small$D_2$};
+     \node at (3.4,0.6){\small$T_1$};
+    \node at (3.4,0.2){\small$D_1$};
+    \node at (6.4,0.6){\small$T_2$};
+    \node at (6.4,0.2){\small$D_2$};
+
+    \node at (1.57,0.4){\small $T_1D_2$};
+    \node at (4.71,0.4){\small $T_2D_1$};
+    
+\end{tikzpicture}

@@ -1,0 +1,19 @@
+\begin{tikzpicture}[scale=1]
+    \draw[->] (0,0) -- (11,0) node[right] {$\omega t$};
+    \draw[<->] (0,-2) -- (0,2) node[above] {$i_{T_1}$};
+   
+    \foreach \x/\xtext in {0.5233/\alpha,4/\pi + \alpha,7.2/2\pi + \alpha,10/3\pi + \alpha}{
+        \draw (\x cm,0) -- (\x cm,0) node[below] {\small $\xtext$};
+    }
+     \draw [line width=1pt](0,0)--(0.5233,0);
+    \draw [line width=1pt](0.5233,0) -- (0.5233,1);
+    \draw[line width=1pt](0.5233,1)-- (3.6633,1);
+    \draw[line width=1pt] (3.6633,1) -- (3.6633,0);
+    \draw[line width=1pt] (3.6633,0) -- (6.8033,0);
+    \draw [line width=1pt](6.8033,0)--(6.8033,1);
+    \draw [line width=1pt](6.8033,1) -- (9.948,1);
+     \draw [line width=1pt] (9.948,1) -- (9.948,0);
+
+     \draw[dotted,domain=0:10, smooth, variable=\x, black] plot ({\x},{1});
+     \node at (0.4,1.2) {\small $I_{DC}$};
+\end{tikzpicture}
