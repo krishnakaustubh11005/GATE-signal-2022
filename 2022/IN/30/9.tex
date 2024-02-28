@@ -54,7 +54,7 @@ In the state-space representation of the system, the minimum number of state var
 \caption{Table: Input Parameters}
 \label{tab:1}
 \end{center}
-\end{table}\\
+\end{table}
 From \tabref{tab:1}
 \begin{align}
 H\brak{s}&=\frac{\brak{s+1}\brak{s+3}}{\brak{s+5}\brak{s+7}\brak{s+9}}\\
@@ -88,7 +88,7 @@ D &= \text{constant term}
  The denominator $\brak{s+5}\brak{s+7}\brak{s+9}$ suggests that the system has three poles. Thus, we'll have a third-order state-space model, and A will be a $3\times 3$matrix.
 \begin{align}
 \brak{s+5}\brak{s+7}\brak{s+9} &=s^3+21s^2+143s+315\\
-A &=  \mybmat{0 & 1&0 \\ 0 & 0&1\\-21&-143&-315}\\
+A &=  \myvec{0 & 1&0 \\ 0 & 0&1\\-21&-143&-315}\\
 \end{align}
 A is a $ 3\times 3$ matrix, then the characteristic polynomial will have a degree equal to the size of A, which is $3$.\\
 Therefore, the system order, and hence the minimum number of state variables, will be 3.\\
