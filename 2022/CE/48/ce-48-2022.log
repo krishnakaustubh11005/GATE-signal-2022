@@ -1,0 +1,36 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.2)  27 FEB 2024 20:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ce-48-2022.tex
+(./ce-48-2022.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+
+! LaTeX Error: File `2022/CE/48/tables/table5.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+! Interruption.
+<to be read again> 
+                   }
+l.77 \input{2022/CE/48/tables/table5}
+                                     ^^M
+? x
+ 
+Here is how much of TeX's memory you used:
+ 20 strings out of 478287
+ 494 string characters out of 5849290
+ 289004 words of memory out of 5000000
+ 18315 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,0n,26p,193b,16s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

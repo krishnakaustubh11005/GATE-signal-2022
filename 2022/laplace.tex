@@ -122,4 +122,37 @@ are shown below. If $y(t_d) = 0$ for $x(t) = u(t)$, the time $t_d (> 0)$ is.\\
 \solution
 \input{2022/BM/38/main.tex}
 \newpage
+
+\item Consider the circuit shown in the figure with input V(t) in volts.The sinusoidal steady state current I(t) flowing through the circuit is shown graphically(where t is in seconds). The circuit element Z can be\rule{1.5cm}{0.15mm}.\hfill{GATE 2022 EC 39}
+\begin{enumerate}
+    \item a capacitor of 1 F
+    \item an inductor of 1 H
+    \item a capacitor of $\sqrt{3}$ H
+    \item an inductor of $\sqrt{3}$ H
+\end{enumerate}
+\begin{circuitikz}
+    \draw (0,0) node[ground]{};
+    \draw (0,0) to [sV, l=$v(t)$] (0,3);
+    \draw (0,3) to [resistor, l=$R$,i>^=$I(t)$] (3,3);
+    \draw (3,3)to[european resistor,l=$Z$] (3,0);
+    \draw (0,0)to (3,0);
+  \end{circuitikz}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\columnwidth]{2022/EC/39/figs/sin.png}
+    \label{fig:GATE.2022.EC.39.1}
+\end{figure}
+\solution
+\input{2022/EC/39/main.tex}
+\pagebreak
+\newpage
+
+\item Consider the differential equation
+    $\frac{dy}{dx} = 4(x+2) - y$ 
+For the initial condition $y = 3$ at $x = 1$, the value of $y$ at $x = 1.4$ obtained using Euler's method with a step-size of 0.2 is ? (\textit{round off to one decimal place})
+\hfill{(GATE CE 2022)}\\
+\solution
+\input{2022/CE/48/ce-48-2022.tex}
+\pagebreak
+
 \end{enumerate}
