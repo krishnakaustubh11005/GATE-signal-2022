@@ -19,4 +19,34 @@
     \solution
     \input{2022/EC/55/55.tex}
     \pagebreak
+\item \textbf{Question:} An LTI system is shown in the figure where $$H\brak{s}= \frac{100}{s^2+0.1s+10}$$ The steady state output of the system for an input $x\brak{t}$ is given by $y\brak{t}=a+b\sin{\brak{10t+\theta}}$. The values of $'a'$ and $'b'$ are \\\\
+\begin{tikzpicture}
+    \draw [thick, draw=black] (-2,-1) -- (2,-1) node[anchor=south east] {$x(t)=1+0.1\sin{\brak{10t}}$};
+    \draw [thick,draw=black] (2,0) rectangle (5,-2) ;
+    \draw [thick,draw=black] (5,-1) -- (6.5,-1) node[anchor=south] {$y(t)$};
+    \draw [->] (-2,-1)--(0,-1);
+    \draw [->] (5,-1)--(6,-1);
+    \draw (3.5, -1) node[] {$H(s)$};
+\end{tikzpicture}\\
+\solution 
+    \input{2022/EE/37/main.tex}
+\item A periodic function $f(x)$, with period 2, is defined as \\
+   \begin{align}   
+   f(x) =
+   \begin{cases}
+    -1-x & -1 \leq x<0 \\
+     1-x &  0 <x \leq1 
+   \end{cases}
+   \end{align} 
+   The Fourier series of this function contains \\
+\begin{enumerate}[label=\Alph*.]
+\item Both $\cos(n\pi x)$ and $sin(n\pi x)$ where n=1,2,3...
+\item Only $\sin(n\pi x)$ where n=1,2,3...
+\item Only $\cos(n\pi x)$ where n=1,2,3...
+\item Only $\cos(2n\pi x)$ where n=1,2,3...  \hfill{GATE IN 2022 }
+\end{enumerate} 
+
+\solution
+\input{2022/IN/13/g13.tex}
+
 \end{enumerate}

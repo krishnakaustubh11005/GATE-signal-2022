@@ -1,0 +1,90 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[a4,12pt,onecolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{circuitikz}
+\usepackage{gvv}
+\begin{document}
+\title{
+\Huge\textbf{ GATE 2022 Assignment}\\
+\Huge\textbf{EE1205} Signals and Systems\\
+}
+\large\author{Kurre Vinay\\EE23BTECH11036}
+\maketitle
+\textbf{Question:}\\
+Let $x_1\brak{t} = e^{-t}u\brak{t}$ and $x_2\brak{t} =u\brak{t}-u\brak{t-2}$, where $u\brak{.}$ denotes the unit step function. If $y\brak{t}$ denotes the convolution of $x_1\brak{t}$ and $x_2\brak{t}$ ,then $\lim\limits_{t \to \infty} y\brak{t}$ = \underline{\hspace{1cm}}. (Rounded off to one decimal place)\\
+\hfill(GATE EC 2022 )\\
+\solution\\
+\fi
+\begin{table}[ht!]
+\begin{center}
+\label{table1:example}
+\begin{tabular}{|c|c|c|}
+   \hline
+   variable&value&description\\
+   \hline
+   $x_1\brak{t}$& $e^{-t}u\brak{t}$&given function 1\\
+   \hline
+   $x_2\brak{t}$&$u\brak{t}-u\brak{t-2}$&given function 2\\
+    \hline
+    $y\brak{t}$&-& convolution of $x_1\brak{t}$ and $x_2\brak{t}$\\
+    \hline
+\end{tabular}
+\caption{Table: Input Parameters}
+\label{tab:1}
+\end{center}
+\end{table}
+\begin{align}
+y\brak{t} &= x_1\brak{t}*x_2\brak{t}
+\end{align}
+from \tabref{tab:1}
+\begin{align}
+y\brak{t} &= e^{-t}u\brak{t}*\brak{u\brak{t}-u\brak{t-2}}
+\end{align}
+By applying Laplace transform
+\begin{align}
+Y\brak{s}&=X_1\brak{s}.X_2\brak{s}\\
+e^{-t}u\brak{t}&\xleftrightarrow{\mathcal{L}}\frac{1}{1+s} , \quad{ \text{Re}\brak{s}>-1}\\
+u\brak{t}-u\brak{t-2}&\xleftrightarrow{\mathcal{L}}\frac{1-e^{-2s}}{s} ,\quad{\text{Re}\brak{s} > 0}\\
+Y\brak{s}&=\brak{\frac{1}{1+s}}\brak{\frac{1-e^{-2s}}{s}},\quad{\text{Re}\brak{s} > 0}\\
+&=\frac{1-e^{-2s}}{s\brak{s+1}}
+\end{align}
+ Final value theorem
+
+\begin{align}
+\lim\limits_{t \to \infty} x\brak{t} &= \lim\limits_{s \to 0} sX\brak{s}\\
+\end{align}
+\text{Proof:}
+\begin{align}
+\mathcal{L}\left[x\brak{t}\right] = &X\brak{s} = \int_{0}^{\infty} x\brak{t}e^{-st} \, dt \\
+\mathcal{L}\left[\frac{dx\brak{t}}{dt}\right] &= \int_{0}^{\infty}\frac{d}{dt}\brak{x\brak{t}e^{-st}} \, dt \\
+&= sX\brak{s} - x\brak{0^-}\\
+ \lim\limits_{s \to 0}\left[ \int_{0}^{\infty}\frac{d}{dt}\brak{x\brak{t}e^{-st}} \, dt\right]&=\lim\limits_{s \to 0} \left[sX\brak{s} - x\brak{0^-}\right]\\
+  \int_{0}^{\infty}\frac{dx\brak{t}}{dt} \, dt &= \lim\limits_{s \to 0}\left[sX\brak{s} - x\brak{0^-}\right]\\
+ \left[x\brak{t} \right]_0^{\infty} &=\lim\limits_{s \to 0} \left[sX\brak{s} - x\brak{0^-}\right]\\
+  x\brak{\infty}-x\brak{0^-}&=\lim\limits_{s \to 0} \left[sX\brak{s} - x\brak{0^-}\right]\\
+ \implies x\brak{\infty}&=\lim\limits_{s \to 0} sX\brak{s}\\
+ \lim\limits_{t \to \infty} x\brak{t}  &= \lim\limits_{s \to 0} sX\brak{s}
+\end{align}
+By applying Final value theorem
+\begin{align}
+\lim\limits_{t \to \infty} y\brak{t}&= \lim\limits_{s \to 0} sY\brak{s}\\
+&=\lim\limits_{s \to 0} s\brak{\frac{1-e^{-2s}}{s\brak{s+1}}}\\
+&=\lim\limits_{s \to 0} \brak{\frac{1-e^{-2s}}{\brak{s+1}}}\\
+&= \brak{\frac{1-e^{0}}{0+1}}\\
+\lim\limits_{t \to \infty} y\brak{t} &= 0
+\end{align}
+

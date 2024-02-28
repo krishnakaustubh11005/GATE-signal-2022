@@ -1,0 +1,21 @@
+
+\begin{tikzpicture}[scale=1]
+\draw (0,0) rectangle (4,2);
+  \filldraw[fill=black!80] (0,0) rectangle (4,2);
+\draw (0.4,2) -- (0.4,3);
+% \draw[decorate,decoration={coil,amplitude=6pt,segment length=7pt}] (0.4,3) -- (0.4,5);
+\draw (0.4,3) to [R] (0.4,5);
+\draw [->](0.4,5)--(0.4,6);
+\draw (3.6,2) -- (3.6,3);
+\draw (2.8,3) rectangle (4.4,4.2);
+\draw [->](3.6,4.2)--(3.6,6);
+
+ \node at (4.2,6) {\Large$c\frac{dx}{dt}$};
+ \node at (1,6) {\Large$kx$}; 
+ \draw[->] (5,3)  -- (5,1.5);
+ \node at (5,1) {\Large $x$};
+
+ \draw[->](2,0) -- (2,-2);
+ \node at (2,-2.5) {\Large$mg$};
+\end{tikzpicture}
+
