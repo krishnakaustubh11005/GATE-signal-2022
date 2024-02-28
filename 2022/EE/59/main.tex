@@ -1,0 +1,181 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{listings}
+\usepackage{gvv} 
+\usepackage{caption}
+\def\inputGnumericTable{}                   
+
+%\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tikz}
+\usepackage{circuitikz}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE: EE - 59.2022}
+\author{EE23BTECH11013 - Avyaaz$^{*}$% <-this % stops a space 
+}
+\maketitle
+% \newpage
+% \bigskip
+
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+
+\large\textbf{\textsl{Question:}}
+For the ideal AC-DC rectifier circuit shown in the figure below, the load current
+magnitude is $I_{dc}$ = $15$ A and is ripple free. The thyristors are fired with a delay angle
+of 45\degree
+. The amplitude of the fundamental component of the source current, in
+amperes, is \_\_\_\_\_\_\_\_{\em (Round off to 2
+decimal places)}. \hfill(GATE 59 EE 2022)
+\begin{figure}[!h]
+\centering
+\input{2022/EE/59/codes/ques}
+\end{figure}
+
+\solution
+\fi
+\begin{table}[htbp]
+\setlength{\extrarowheight}{4pt}
+\setlength{\tabcolsep}{3pt}
+\centering
+\input{2022/EE/59/tables/table1}
+\caption{}
+\label{tab:inputs.EE.59.2022}
+\end{table}
+% It is a Single phase symmetrical semi-converter.
+% \begin{enumerate}[label={\roman*)}]
+%     \item Load current magnitude $\brak{I_{dc}}$ = $15$A
+%     \item Firing angle $\brak{\alpha} = 45\degree$
+% \end{enumerate}
+A symmetrical single phase semi converter is shown below,
+
+\begin{figure}[!h]
+\centering
+ \input{2022/EE/59/codes/sol}
+\end{figure}
+
+The Fourier series representation of supply current is given by:
+\begin{align}
+    i_s(t) = a_o +\sum_{n=1}^{\infty}C_n\sin({n\omega t} + \theta_n)\label{eq:gen_i_s}
+\end{align}
+ where,
+ \begin{align}
+ a_o &= \frac{1}{2\pi} \int_{0}^{2\pi} i_s(t)d\omega t \\
+     C_n &= \sqrt{a_n^2 + b_n ^2}\label{eq:bino_coeff}\\
+     \theta_n &= \tan^{-1}\left({\frac{a_n}{b_n}}\right)\label{eq: theta}
+ \end{align}
+\begin{align}
+  \implies  a_o &= \frac{1}{2\pi}\int_{\alpha}^{\pi} I_o d\omega t - \int_{\pi + \alpha}^{2\pi} I_o d\omega t = 0\\
+ \implies   a_n &= \frac{1}{\pi} \int_{\alpha}^{\pi}I_o\cos n\omega t d\omega t - \int_{\pi + \alpha}^{2\pi} I_o\cos{n\omega td\omega t}\\
+ a_n &= 
+ \begin{cases}
+    \frac{-2I_o}{n\pi}\sin{n\alpha} & \text{for } n = 1,3,5...\\
+     0 &\text{for } n = 2,4.....
+    \end{cases}\\
+ \implies   b_n &= \frac{1}{\pi}\int_{\alpha}^{\pi}I_o\sin n\omega t d\omega t - \int_{\pi + \alpha}^{2\pi} I_o\sin{n\omega td\omega t} \\
+ b_n &= 
+ \begin{cases}
+     \frac{2I_o}{n\pi}\left(1 + \cos{n\alpha}\right) &\text{for } n = 1,3,5...\\
+     0 &\text{for } n = 2, 4....
+    \end{cases}
+    \end{align}
+From \eqref{eq:bino_coeff}:
+\begin{align}
+  \therefore  C_n &= \frac{2\sqrt{2}I_o}{n\pi}\left(\sqrt{1 + \cos{n\alpha}}\right)\\
+  \implies  C_n &= \frac{4I_o}{n\pi}\cos{\frac{n\alpha}{2}}\label{eq:final_bino}
+\end{align}
+From \eqref{eq: theta}:
+\begin{align}
+    \theta_n &= \tan^{-1}\left(\frac{-\sin{n\alpha}}{1 + \cos{n\alpha}}\right)\\
+    \implies \theta_n &= \frac{-n\alpha}{2}\label{eq:final_theta}
+\end{align}
+
+From \eqref{eq:gen_i_s},\eqref{eq:final_bino} and \eqref{eq:final_theta}:
+\begin{align}
+I_{s}(t) = \sum_{n=1,3,5...}^{\infty} \frac{4I_{o}}{n\pi}\cos{\frac{n\alpha}{2}}\sin{\left(n\omega t - \frac{n\alpha}{2}\right)}
+\end{align}
+% \begin{align}
+% I_{s}(t) = \sum_{n=1,3,5...}^{\infty} \frac{4I_{dc}}{n\pi}\cos{\frac{n\alpha}{2}}\sin{\left(n\omega t - \frac{n\alpha}{2}\right)}
+% \end{align}
+
+
+% \begin{tikzpicture}[scale=1]
+%     \draw[->] (0,0) -- (10,0) node[right] {$\omega t$};
+%     \draw[->] (0,-2) -- (0,2) node[above] {$y$};
+%     \draw[domain=0:10, smooth, variable=\x, black] plot ({\x},{sin(deg(\x))});
+%     \foreach \x/\xtext in {1.57/\frac{\pi}{2},3.14/\pi,4.71/\frac{3\pi}{2},6.28/2\pi,7.85/\frac{7\pi}{2}} {
+%         \draw (\x cm,0) -- (\x cm,0.1) node[below] {$\xtext$};
+%     }
+%     \foreach \y in {-1,1} {
+%         \draw (1pt,\y cm-1.5) -- (-1pt,\y cm-1.5) node[left] {$\y$};
+%     }
+% \end{tikzpicture}
+
+\begin{figure}[!h]
+    \centering
+    \input{2022/EE/59/codes/v_in}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+    \input{2022/EE/59/codes/v_out}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+    \input{2022/EE/59/codes/i_T1}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+    \input{2022/EE/59/codes/i_s}
+\end{figure}
+
+From \tabref{tab:inputs.EE.59.2022}:
+\begin{align}
+   (I_{s_1})_{peak} &= \frac{4I_{dc}}{\pi}\cos{\left(\frac{\alpha}{2}\right)}\\
+    &= \frac{4 \times 15 }{\pi}\times \cos{\frac{45 \degree}{2}}\\
+    &=17.64 A 
+\end{align}
+
+%\end{document}

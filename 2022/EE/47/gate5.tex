@@ -1,0 +1,149 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\parindent 0px
+\bibliographystyle{IEEEtran}
+\title{GATE: EE - 47.2022}
+\author{EE22BTECH11219 - Rada Sai Sujan$^{}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+\section*{Question}
+Let an input $x\brak{t}=2\sin (10\pi t )+5\cos (15\pi t)+7\sin(42\pi t)+4\cos (45\pi t)$ is passed through an LTI system having an impulse response $$h\brak{t}=2\brak{\frac{\sin\brak{10\pi t}}{\pi t}}\cos \brak{40\pi t}$$ The output of the system is \\
+\begin{enumerate}[label=(\alph*)]
+    \item $2\sin\brak{10\pi t}+5\cos\brak{15\pi t}$
+    \item $2\sin\brak{10\pi t}+4\cos\brak{45\pi t}$
+    \item $7\sin\brak{42\pi t}+4\cos\brak{45\pi t}$
+    \item $5\sin\brak{15\pi t}+7\cos\brak{42\pi t}$
+\end{enumerate}
+\solution
+\fi
+\begin{table}[ht]
+    \centering
+    \input{2022/EE/47/tables/TABLE1.tex}
+    \caption{Frequency components}
+    \label{tab:gate22ee47Q.1}
+\end{table}
+Given,
+\begin{align}
+    h\brak{t}&=2\brak{\frac{\sin\brak{10\pi t}}{\pi t}}\cos \brak{40\pi t}  \\
+    &=\frac{\sin 50\pi t}{\pi t}-\frac{\sin 30\pi t}{\pi t} \\
+    &=h_1\brak{t}-h_2\brak{t}
+\end{align}
+where,
+\begin{align}
+    h_1\brak{t} &= \frac{\sin 50\pi t}{\pi t}   \\
+    h_2\brak{t} &= \frac{\sin 30\pi t}{\pi t}
+\end{align}
+Taking Fourier transform of $h\brak{t}$
+\begin{align}
+    h\brak{t} &\overset{\mathcal{F}}{\longleftrightarrow} H_1\brak{f}-H_2\brak{f}
+\end{align}
+where,
+\begin{align}
+    h_1\brak{t} &\overset{\mathcal{F}}{\longleftrightarrow} H_1\brak{f}  \\
+    h_2\brak{t} &\overset{\mathcal{F}}{\longleftrightarrow} H_2\brak{f}  
+\end{align}
+Plotting $H_1\brak{f}$ and $H_2\brak{f}$ we get,    \\
+\begin{align}
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines=middle,
+    xmin=-40,
+    xmax=40,
+    ymin=-0.5,
+    ymax=1.5,
+    xlabel={$f$},
+    ylabel={$H_1(f)$},
+    xtick={-25,25},
+    ytick={0,1},
+    ]
+    \addplot [blue, thick] coordinates {(-35,0)(-25,0) (-25,1) (25,1) (25,0)(35,0)};
+\end{axis}
+\end{tikzpicture}   \label{kk:gateee47Q.1} \\
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines=middle,
+    xmin=-30,
+    xmax=30,
+    ymin=-0.5,
+    ymax=1.5,
+    xlabel={$f$},
+    ylabel={$H_2(f)$},
+    xtick={-15,15},
+    ytick={0,1},
+    ]
+    \addplot [blue, thick] coordinates {(-25,0)(-15,0) (-15,1) (15,1) (15,0)(25,0)};
+\end{axis}
+\end{tikzpicture}   \label{kk:gateee47Q.2}
+\end{align}
+Plotting $H\brak{f}$ from \figref{kk:gateee47Q.1} and \figref{kk:gateee47Q.2}
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines=middle,
+    xmin=-40,
+    xmax=40,
+    ymin=-0.5,
+    ymax=3,
+    xlabel={$f$},
+    ylabel={$H(f)$},
+    xtick={-25,-15,15,25},
+    ytick={0,1},
+    ]
+    \addplot [blue, thick] coordinates {(-35,0)(-25,0)(-25,1)(-15,1)(-15,0)(15,0)(15,1)(25,1)(25,0)(35,0)};
+\end{axis}
+\end{tikzpicture}   \\
+Therefore, the given system is a Bandpass filter with passband: \\
+\begin{align}
+    15\leq\abs{f}\leq 25    \label{equation:gate22ee47Q.1}
+\end{align}
+
+Veryfying \tabref{tab:gate22ee47Q.1} with \eqref{equation:gate22ee47Q.1}, only $f_3$ and $f_4$ will be passed through the system. \\
+\begin{align}
+    \therefore y\brak{t}=7\sin\brak{42\pi t}+4\cos\brak{45\pi t}
+\end{align}
+($\because\abs{H\brak{f}}=1$, the amplitude of frequency components will be unchanged.)
+%\end{document}
