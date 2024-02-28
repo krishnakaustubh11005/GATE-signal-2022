@@ -1,0 +1,150 @@
+\iffalse
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\def\inputGnumericTable{}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{ifthen}
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+    \newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+    
+    \bibliographystyle{IEEEtran}
+    \vspace{3cm}
+    
+    \title{Gate 2022 EC Q50}
+    \author{EE23BTECH11212 - Manugunta Meghana Sai$^{*}$% <-this % stops a space
+    }
+    \maketitle
+    \bigskip
+    
+    \renewcommand{\thefigure}{\theenumi}
+    \renewcommand{\thetable}{\theenumi}
+    
+    \vspace{3cm}
+    \textbf{Gate 2022 EC Q50} 
+    
+    Two linear time-invariant systems with transfer functions 
+    \begin{align*}
+    G_{1}\brak{s} = \frac{10}{s^{2} + s + 1} 
+    \end{align*}
+    and
+    \begin{align*}
+    G_{2}\brak{s} = \frac{10}{s^{2}+s\sqrt{10} +10}
+    \end{align*}
+    have unit step responses $y_{1}\brak{t}$ and $y_{2}\brak{t}$, respectively. Which of the following statements is/are true?
+    \begin{enumerate}
+    \item $y_{1}\brak{t}$ and $y_{2}\brak{t}$ have the same percentage peak overshoot.\\
+    \item $y_{1}\brak{t}$ and $y_{2}\brak{t}$ have the same steady state values.\\
+    \item $y_{1}\brak{t}$ and $y_{2}\brak{t}$ have the same damped frequency of oscillation.\\
+    \item $y_{1}\brak{t}$ and $y_{2}\brak{t}$ have the same $2\%$ settling time.\\
+    \end{enumerate}
+    \solution
+    \fi
+    \begin{table}[h!]
+ 	\centering
+ 	\resizebox{6 cm}{!}{
+ 		\input{2022/EC/50/tables/table2.tex}
+ 	}
+ 	\caption{Given Parameters}
+ 	\label{tab:msmECgate50tab1}
+     \end{table} 
+    The general second-order transfer function is given by:
+    \begin{align}
+    G\brak{s} = \frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2}
+    \end{align}
+    After comparing the coefficients of $G_{1}\brak{s}$ and $G_{2}\brak{s}$,
+    \begin{table}[h!]
+ 	\centering
+ 	\resizebox{6 cm}{!}{
+ 		\input{2022/EC/50/tables/table1.tex}
+ 	}
+ 	\caption{Given Parameters}
+ 	\label{tab:msmECgate50tab2}
+     \end{table} 
+    as $\zeta = \frac{1}{2}$ is less than 1, the system is underdamped.
+    \begin{align}
+    Y\brak{s} &= X\brak{s} G\brak{s}\\
+    &= \frac{1}{s} \brak{\frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2}}  
+    \end{align}
+    Applying inverse laplace transform,
+    \begin{equation}
+    y(t) = 1 - \frac{e^{-\zeta \omega_n t}}{1 - \zeta^2} \sin(\omega_d t + \phi)
+    \label{eq:EC50msm}
+    \end{equation}
+    where $\omega_{d}$ is the damped frequency of oscillation.
+    \begin{equation}
+    \omega_{d} = \omega_{n}\sqrt{1 - {\zeta}^2}
+    \label{eq:EC50msm2eq}
+    \end{equation}
+    The percentage peak overshoot $\brak{PO}$:
+    \begin{equation}
+    PO = \left( \frac{y_{\text{max}} - y_{\text{ss}}}{y_{\text{ss}}} \right) \times 100\%
+    \label{eq:EC50msm1eq}
+    \end{equation}
+    $y_{\text{max}}$ is obtained by differentiating~\eqref{eq:EC50msm} with respect to time and equating it to zero, substituting the value in~\eqref{eq:EC50msm},
+    \begin{align}
+    y_{\text{max}} = 1 + \frac{1}{\sqrt{1-{\zeta}^2}}
+    \end{align}
+    $y_{\text{ss}}$ is obtained by final value theorem,
+    \begin{align}
+    y_{\text{ss}} &= \lim_{{s \to 0}} sY(s)\\
+    &= \lim_{{s \to 0}} s\frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2} \frac{1}{s}\\
+    &= 1
+    \end{align} 
+    Substituting the values of $y_{\text{max}}$ and $y_{\text{ss}}$ in~\eqref{eq:EC50msm1eq}, 
+    \begin{align}
+    PO = \frac{1}{\sqrt{1-{\zeta}^2}} \times 100\%
+    \end{align}
+    $y_{1}\brak{t}$ and $y_{2}\brak{t}$ have same $\zeta$, they have same percentage peak overshoot.So, option $\brak{1}$ is correct.\\
+    The steady state value of $y\brak{t}$ is given by final value theorem:
+    \begin{align}
+    y_{1ss} &= \lim_{{s \to 0}} sY_{1}(s)\\
+    &= \lim_{{s \to 0}} s \frac{10}{s^{2} + s + 1}  \frac{1}{s}\\
+    &= 10\\
+    y_{2ss} &= \lim_{{s \to 0}} sY_{2}(s)\\
+    &= \lim_{{s \to 0}} s \frac{10}{s^{2}+s\sqrt{10} +10}  \frac{1}{s}\\
+    &= 1
+    \end{align} 
+    as both the unit step responses have different steady state values, option $\brak{2}$ is incorrect.\\
+    From~\eqref{eq:EC50msm1eq}, as $\omega_{n}$ is different for $y_{1}\brak{t}$ and $y_{2}\brak{t}$, they have different damped frequency of oscillation. Hence option $\brak{3}$ is incorrect.\\
+    Settling time $T_s$:
+    \begin{align}
+    T_s = \frac{4}{\zeta \omega_n}
+    \end{align}
+    As, $\omega_{n}$ is different for $y_{1}\brak{t}$ and $y_{2}\brak{t}$, they have different $2\%$ settling time, Hence option $\brak{4}$ is incorrect.\\
+    So, only option $\brak{1}$ is correct.   
+%\end{document}
