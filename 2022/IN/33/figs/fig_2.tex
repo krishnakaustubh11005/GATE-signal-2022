@@ -1,0 +1,13 @@
+\begin{figure}[h]
+\renewcommand\thefigure{2}
+    \centering
+    \begin{circuitikz}[american]
+    \draw (0,0) to [generic=$sL_0$, *-] (2,0) to [generic=$\frac{1}{sC_0}$] (4,0) to [generic=$R_0$] (4,-2) to [short, -*] (0,-2);
+    \draw (4,-0.3) to[short, -*] (6,-0.3);
+    \draw (4,-1.7) to[short, -*] (6,-1.7);
+    \node at (6,-1) {Output};
+    \node at (0,-1) {Input};
+    \end{circuitikz}
+    \label{fig:2}
+\end{figure}
+
