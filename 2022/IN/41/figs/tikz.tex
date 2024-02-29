@@ -1,0 +1,36 @@
+\tikzset{
+    block/.style = {draw, fill=white, rectangle, minimum height=3em, minimum width=3em},
+    tmp/.style  = {coordinate}, 
+    minus/.style= {draw, fill=white, circle, node distance=1cm, append after command={\pgfextra \draw ($(\tikzlastnode.center) + (-0.15,0)$) -- ($(\tikzlastnode.center) + (0.15,0)$) node[above] {$-$}; \endpgfextra}},
+    plus/.style= {draw, fill=white, circle, node distance=1cm, append after command={\pgfextra \draw ($(\tikzlastnode.center) + (-0.15,0)$) -- ($(\tikzlastnode.center) + (0.15,0)$) node[above] {$+$}; \endpgfextra}},
+    input/.style = {coordinate},
+    output/.style= {coordinate},
+    pinstyle/.style = {pin edge={to-,thin,black}}
+}
+
+
+\begin{tikzpicture}[auto, node distance=2cm]
+    % Blocks
+    \node [input, name=rinput] (rinput) at (0,0) {};
+    \node [minus] (sum1) at (1,0) {};
+    \node [block] (controller) at (3,0) {$K_{p}$};
+    \node [block] (kd) at (3,-2) {$sK_D$};
+    \node [block] (up) at (3,2) {\Large$\frac{K_{i}}{s}$};
+    \node [plus] (sum2) at (5,0) {};
+    \node [block] (system) at (7,0) {$P\brak{s}=\frac{1}{\brak{s+1}\brak{s+2}}$};
+    \node [output] (output) at (9,0) {};
+    \node [tmp] (tmp1) at (3,-4) {$H(s)$};
+
+    % Connectors
+    \draw [->] (rinput) -- node[below]{$r\brak{t}$} (sum1);
+    \draw [->] (sum1) -- node[name=z,anchor=north,fill=white,circle,inner sep=1pt]{$e\brak{t}$} (controller);
+    \draw [->] (controller) -- (sum2);
+    \draw [->] (sum2) -- node[above, pos=-2.5]{$G_c\brak{t}$} (system);
+    \draw [->] (system) -- node [pos = 1,name=y] {$L\brak{t}$} (output);
+    \draw [->] (z) |- (up);
+    \draw [->] (up) -| (sum2);
+    \draw [->] (z) |- (kd);
+    \draw [->] (kd) -| (sum2);
+    \draw [->] (y) |- (tmp1);
+    \draw [->] (tmp1) -| (sum1);
+\end{tikzpicture}
