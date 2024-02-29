@@ -1,3 +1,4 @@
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
@@ -224,7 +225,7 @@ response in the real system.\\
 For a unit impulse input $\brak{x\brak{t}} = \delta \brak{t}$ to both systems, gain $\beta$ is chosen such that $y \brak{4T}$ is same for both systems. The value of $\beta$ is:
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=\columnwidth]{figs/fig3.png}
+    \includegraphics[width=\columnwidth]{2022/BM/40/figs/fig3.png}
     \label{fig: 10.5.3.128}
 \end{figure}
 \\
@@ -236,11 +237,12 @@ $\brak{C} -e^{-3 \alpha T} \brak{1 - e^{-\alpha T}}$\\
 \\
 $\brak{D} e^{-2 \alpha T} \brak{1 - e^{-2 \alpha T}}$\\
 \section{Solution}
+\fi
 \begin{table}[!h]
     \centering
-    \input{Tables/table4} \vspace{0.5cm}
+    \input{2022/BM/40/Tables/table4.tex} \vspace{0.5cm}
     \caption{Values} 
-    \label{tab:mytable}
+    \label{tab:mytableeee}
 \end{table}
 For both signals to be equal at t = 4T:\\
 \begin{align}
@@ -248,4 +250,3 @@ e^{- \alpha 4T} u\brak{4T}&= \sbrak{\beta\brak{ u\brak{4T} - u\brak{-T}} + e^{- 
 e^{- \alpha 4T} &= \beta + e^{- \alpha 3T}\\
 \implies \beta &=  -e^{-3 \alpha T} \brak{1 - e^{-\alpha T}}
 \end{align}
-\end{document}
