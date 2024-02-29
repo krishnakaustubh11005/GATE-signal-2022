@@ -1,0 +1,122 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{tikz}
+% \usetikzlibrary{positioning, arrows.meta}
+\usepackage{listings}
+\usepackage{gvv} 
+\usepackage{caption}
+\def\inputGnumericTable{}                   
+
+%\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tikz}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE: IN - 41.2022}
+\author{EE23BTECH11013 - Avyaaz$^{*}$% <-this % stops a space 
+}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+
+\large\textbf{\textsl{Question:}}
+A proportional-integral-derivative (PID) controller is employed to stably control a
+plant with transfer function
+\begin{align}
+    P(s) = \frac{1}{(s+1)(s+2)}
+\end{align}
+Now, the proportional gain is increased by a factor of $2$, the integral gain is
+increased by a factor of $3$, and the derivative gain is left unchanged. Given that the closed-loop system continues to remain stable with the new gains, the steady-state
+error in tracking a ramp reference signal\hfill(GATE IN 2022) \\
+\solution
+\fi
+\begin{table}[htbp]
+    \centering
+     \input{2022/IN/41/tables/table1}
+    \caption{}
+    \label{tab:my_label.41.IN.2022}
+\end{table}
+
+\begin{figure}[!htbp]
+    \resizebox{0.501\textwidth}{!}{\input{2022/IN/41/figs/tikz}}
+    \caption{Block Diagram of System}
+    \label{fig:gate_IN_Q41_blockdiagram}
+\end{figure}
+
+
+The transfer function of PID controller,
+
+\begin{align}
+    G_c(s) = K_P + \frac{K_I}{s} +sK_D\\
+    =\frac{s^2K_D + sK_P + K_I}{s}
+\end{align}
+Overall loop-transfer function,
+\begin{align}
+    L(s) &= G_c(s)\cdot P(s)\\
+    L(s) &= \frac{s^2K_D + sK_P + K_I}{s(s+1)(s+2)}
+\end{align}
+Steady-state error due to ramp signal,
+\begin{align}
+    e_{ss} = \frac{1}{K_v}
+\end{align}
+where,
+\begin{align}
+    K_v = \lim_{s \to 0} sL(s)
+\end{align}
+\begin{align}
+    K_v = \frac{K_I}{2}\\
+    e_{ss} = \frac{2}{K_I}
+\end{align}
+Now, the proportional gain is increased by a factor of 2, the integral gain is increased by a factor of 3, and the derivative gain is left unchanged.
+\begin{align}
+    K'_P = 2K_P, K'_I = 3K_I \text{ and } K'_D = K_D
+\end{align}
+\begin{align}
+    K'_v = \lim_{s \to 0} sL'(s)\\
+    K'_v = \frac{3K_I}{2}\\
+    e'_{ss} = \frac{1}{K'_V} = \frac{2}{3K_I}
+\end{align}
+
+
