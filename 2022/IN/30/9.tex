@@ -1,0 +1,94 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[a4,12pt,onecolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{circuitikz}
+\usepackage{gvv}
+\newcommand{\mybmat}[1]{\ensuremath{\begin{bmatrix}#1\end{bmatrix}}}
+\begin{document}
+\title{
+\Huge\textbf{ GATE 2022 Assignment}\\
+\Huge\textbf{EE1205} Signals and Systems\\
+}
+\large\author{Kurre Vinay\\EE23BTECH11036}
+\maketitle
+\textbf{Question:}
+The transfer function of a system is:\\
+\begin{center}
+$\displaystyle \frac { \brak{s+1}\brak{s+3}}{\brak{s+5}\brak{s+7}\brak{s+9}}$\\
+\end{center}
+In the state-space representation of the system, the minimum number of state variables (in integer) necessary is\underline{\hspace{1cm}}.\\
+\hfill(GATE IN 2022)\\
+\solution\\
+\fi
+\begin{table}[ht!]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+	   \hline
+	   variable&value&description\\
+	   \hline
+	   U\brak{s}&-&input function of the system\\
+	   \hline
+	   Y\brak{s}&-&output function of the system\\
+	   \hline
+	   H\brak{s}&$\frac { \brak{s+1}\brak{s+3}}{\brak{s+5}\brak{s+7}\brak{s+9}}$&transfer function of the system.\\
+	   \hline
+	   I&-&identity matrix \\
+	   \hline
+	   $\vec{\dot{x}}\brak{t}$ & $A\vec{x}\brak{t} + Bu\brak{t}$&derivative of State function of $ \vec{x}\brak{t}$\\
+	   \hline
+\end{tabular}
+\caption{Table: Input Parameters}
+\label{tab:1}
+\end{center}
+\end{table}
+From \tabref{tab:1}
+\begin{align}
+H\brak{s}&=\frac{\brak{s+1}\brak{s+3}}{\brak{s+5}\brak{s+7}\brak{s+9}}\\
+H\brak{s}&= \frac{P}{s+5} +\frac{Q}{s+7} + \frac{R}{s+9}\\
+\brak{s+1}\brak{s+3}&=P\brak{s+7}\brak{s+9}+Q\brak{s+5}\brak{s+9}+R\brak{s+5}\brak{s+7} \label{eq:gate2022}
+\end{align}
+By solving equation \eqref{eq:gate2022} , we get\\
+\begin{center}
+P = 1\\
+Q = -6\\
+R = 6
+\end{center}
+
+\begin{align}
+\implies H\brak{s}&=\frac{1}{s+5} -\frac{6}{s+7} + \frac{6}{s+9}\\
+\end{align}
+The state-space representation of the system is given by:
+\begin{align}
+\vec{\dot{x}}\brak{t} &=A\vec{x}\brak{t} + Bu\brak{t}\\
+\vec{y}\brak{t} &= C\vec{x}\brak{t} + Du\brak{t}\\
+H\brak{s}&=\frac{Y\brak{s}}{U\brak{s}}=C\myvec {sI-A}^{-1}B + D  
+\end{align}
+Comparing the coefficients:
+
+\begin{align}
+A &= \text{coefficient of } s \text{ in } \brak{sI-A}^{-1} \\
+B &= \text{coefficient of }  U\brak{s}\\
+C &= \text{coefficient of } Y\brak{s} \\
+D &= \text{constant term}
+\end{align}
+ The denominator $\brak{s+5}\brak{s+7}\brak{s+9}$ suggests that the system has three poles. Thus, we'll have a third-order state-space model, and A will be a $3\times 3$matrix.
+\begin{align}
+\brak{s+5}\brak{s+7}\brak{s+9} &=s^3+21s^2+143s+315\\
+A &=  \myvec{0 & 1&0 \\ 0 & 0&1\\-21&-143&-315}\\
+\end{align}
+A is a $ 3\times 3$ matrix, then the characteristic polynomial will have a degree equal to the size of A, which is $3$.\\
+Therefore, the system order, and hence the minimum number of state variables, will be 3.\\
