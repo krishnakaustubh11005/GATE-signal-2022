@@ -1,3 +1,4 @@
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
@@ -133,8 +134,8 @@ Q:An ideal OPAMP circuit with a sinusoidal input is shown in the figure. The 3dB
 
 \begin{figure}[H]
   \centering
-  \input{codes/circuit1.tex}
-  \label{fig:fig1}
+  \input{2022/EC/26/codes/circuit1.tex}
+  \label{fig:26fig1}
 \end{figure}
 
 
@@ -148,18 +149,18 @@ Q:An ideal OPAMP circuit with a sinusoidal input is shown in the figure. The 3dB
 \hfill(GATE EC 2022)
 
 \solution
-
+\fi
 \begin{table}[ht]
   \centering
-  \input{tables/table1.tex}
+  \input{2022/EC/26/tables/table1.tex}
   \caption{Input Parameters}
-  \label{tab:tab1}
+  \label{tab:26tab1}
 \end{table}
 
 \begin{figure}[H]
   \centering
-  \input{codes/circuit2.tex}
-  \label{fig:fig1}
+  \input{2022/EC/26/codes/circuit2.tex}
+  \label{fig:26fig2}
 \end{figure}
 
 \begin{align}
@@ -170,7 +171,7 @@ As Op-Amp is ideal
 V=V^+=0V\\
 \abs{\frac{V_{out}}{V_{in}}}=\frac{sCR_2}{1+sCR_1}\\
 H(s)=\frac{sCR_2}{1+sCR_1}
-\label{eq:eq4}
+\label{eq:26eq4}
 \end{align}
 Keeping $s=j\omega$\\
 For determining nature of Filter\\
@@ -184,12 +185,12 @@ H(j\omega)=\frac{R_2}{R_1}=2\quad (\text{Finite})
 \end{align}\\
 $\therefore$ It is high pass filter.\\
 
-On simplifying \eqref{eq:eq4} further
+On simplifying \eqref{eq:26eq4} further
 \begin{align}
 H(j\omega)=\frac{R_2}{R_1}\left(\frac{j\omega}{j\omega+\frac{1}{CR_1}}\right)\\
-\abs{H(j\omega)}_{max}=\frac{R_2}{R_1} \label{eq:eq8}\\
+\abs{H(j\omega)}_{max}=\frac{R_2}{R_1} \label{eq:26eq8}\\
 \abs{H(j\omega)}_{\omega=\omega_c}=\frac{R_2}{R_1}\abs{\frac{j\omega_c}{j\omega_c+\frac{1}{CR_1}}}
-\label{eq:eq9}
+\label{eq:26eq9}
 \end{align}
 %\textbf{Alternate}\\
 %Generally for first order transfer function
@@ -207,13 +208,13 @@ Given:
 \frac{\abs{H(j\omega)}_{max}}{\abs{H(j\omega)}_{\omega=\omega_c}}=\sqrt 2
 \end{align}
  
-From \eqref{eq:eq8} and \eqref{eq:eq9}
+From \eqref{eq:26eq8} and \eqref{eq:26eq9}
 \begin{align}
 \frac{R_2}{R_1}\abs{\frac{j\omega_c}{j\omega_c+\frac{1}{CR_1}}}&=\frac{1}{\sqrt 2}\frac{R_2}{R_1}\\
 \abs{\frac{j\omega_c}{j\omega_c+\frac{1}{CR_1}}}&=\frac{1}{\sqrt 2}\\
 \implies \omega_c &= \frac{1}{CR_1}
 \end{align}
-From \tabref{tab:tab1}
+From \tabref{tab:26tab1}
 \begin{align}
 \omega_c= 1000 \text{rad/s}
 \end{align}
@@ -223,10 +224,10 @@ Finally, Correct options are (B) and (C).
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1.0\columnwidth]{figs/plot1.png}
+  \includegraphics[width=1.0\columnwidth]{2022/EC/26/figs/plot1.png}
   \caption{\centering Frequency response plot}
-  \label{fig:fig1}
+  \label{fig:26fig3}
 \end{figure}
-\end{document}
+%\end{document}
 
 
