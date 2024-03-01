@@ -1,0 +1,13 @@
+\begin{figure}[h]
+\renewcommand\thefigure{1}
+    \centering
+    \begin{circuitikz}[american]
+    \draw (0,0) to [L=$L_0$, *-] (2,0) to [C=$C_0$] (4,0) to [R=$R_0$] (4,-2) to [short, -*] (0,-2);
+    \draw (4,-0.3) to[short, -*] (6,-0.3);
+    \draw (4,-1.7) to[short, -*] (6,-1.7);
+
+    \node at (6,-1) {Output};
+    \node at (0,-1) {Input};
+    \end{circuitikz}
+\end{figure}
+
