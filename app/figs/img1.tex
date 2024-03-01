@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+    % Real axis
+    \draw[->] (-1,0) -- (4,0) node[right] {$\text{Re}(x)$};
+    % Imaginary axis
+    \draw[->] (0,-1) -- (0,4) node[above] {$\text{Im}(y)$};
+    % Closed curve
+    \draw[red, ultra thick, postaction={decorate,decoration={markings,mark=at position 0.6 with {\arrow{>}}}}] plot[smooth cycle, tension=1] coordinates {(3,1)  (2,3) (1,2) (1.5,-0.3) (2.8, 0.5)} node[right] {$C$};
+    \node[circle,fill,inner sep=2pt,label={$z_0$}] at (2,2) {};
+    \draw[color=blue] (2,2) circle [radius=0.56]; 
+     \node at (2,1.2) {$C_r$};
+\end{tikzpicture}
