@@ -1,0 +1,22 @@
+\begin{circuitikz}
+
+\ctikzset{bipoles/length=1cm}                           
+\draw (0, 0) node[op amp] (opamp) {};
+\draw (opamp.-) to[R,l_= $1k\Omega$,-] (-2.5, 0.35) -- (-2.7, 0.35) to[C,l_=$1\mu F$,-](-3.35,0.35)  (-3.25,-0.5) node[ground]{};                                 
+\draw (opamp.-) to[short,*-] ++(0,0.5) coordinate (leftC) to[R= $2k\Omega$] (leftC -| opamp.out)to[short,-*] (opamp.out) to [short,-*] (1.5,0) (1.5,-0.5) node[ground]{};
+\draw (opamp.+) -- (-1,-0.35) to (-1,-0.5) node[ground]{}
+;
+\draw[thick] (opamp.up) -- +(0,0.2) node[right] {\scriptsize$+15V$};
+\draw[thick] (opamp.down) -- +(0,-0.2) node[right] {\scriptsize$-15V$};
+
+% Double-sided arrows for input and output voltage
+%\draw[thick,postaction={decorate,decoration={markings,mark=at position 1.0 with {\arrow{stealth}}}}] (-3.35,-0.5) -- (-3.35,0.30) node[midway,left] {$V_{in}$};
+%\draw[postaction={decorate,decoration={markings,mark=at position 1.0 with {\arrow{stealth}}}}] (-3.35,0.30) -- (-3.35,-0.5){};
+%\draw[thick,postaction={decorate,decoration={markings,mark=at position 1.0 with {\arrow{stealth}}}}] (1.6,0) -- (1.6,-0.7) node[midway,right] {$V_{out}$};
+%\draw[postaction={decorate,decoration={markings,mark=at position 1.0 with {\arrow{stealth}}}}] (1.6,-0.7) -- (1.6,0) {};
+ 
+ 
+\draw[thick, postaction={decorate,decoration={markings,mark=at position 0 with {\node[left] {\scriptsize$-$}; \draw[-latex](0.2,0)--(0,0);},mark=at position 1 with {\node[left] {\scriptsize$+$}; \draw[-latex] (0,0)--(0.2,0);}}}] (-3.35,-0.7) -- (-3.35,0.1) node[midway,left] {\scriptsize$V_{in}$};
+\draw[thick, postaction={decorate,decoration={markings,mark=at position 0 with {\node[right] {\scriptsize$+$}; \draw[-latex] (0.2,0)--(0,0);},mark=at position 1 with {\node[right] {\scriptsize$-$}; \draw[-latex] (0,0)--(0.3,0);}}}] (1.6,0) -- (1.6,-0.5) node[midway,right] {\scriptsize$V_{out}$};
+                                                          \end{circuitikz}                                        
+
