@@ -1,0 +1,76 @@
+\iffalse
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide}
+\usepackage[margin=0.25in]{geometry}
+\usepackage{pgfplots}
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage[latin1]{inputenc}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{pgf}
+\usepackage{lmodern}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usepackage{graphicx}
+\pgfplotsset{width=10cm,compat=1.18}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+
+\title{}
+\author{EE23BTECH11054 -  Sai Krishna Shanigarapu$^{*}$
+}
+\maketitle
+\newpage
+\bigskip
+
+\section*{Gate MA 2022}
+14. \hspace{2pt} The value of the integral 
+\begin{align*}
+    \int_C \frac{z^{100}}{z^{101}+1}\, dz
+\end{align*}
+where $C$ is the circle of radius 2 centred at the origin taken in the anti-clockwise direction is\\
+\begin{enumerate}[label=(\Alph*)]
+    \item $-2 \pi i$
+    \item $2\pi$
+    \item $0$
+    \item $2\pi i $
+\end{enumerate}
+\hfill(GATE 2022 MA)\\
+\solution\\
+\fi
+Using \ref{Cauchy} and \ref{Residue}
+Solving the integral,
+\begin{align}
+f\brak{z} &= \int_C \frac{z^{100}}{z^{101}+1}\, dz
+\end{align}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\columnwidth]{2022/MA/14/figs/Figure_1.png}
+    \caption{plot of $C$ with it's pole}
+    \label{fig:fig1_gate_ma_2022_14_054}
+\end{figure}
+Since the pole $z=-1$ is inside the circle, Using eq (\ref{eq:eq2_gate_ma_2022_14_054})
+\begin{align}
+    Res\, f\brak{-1} &= \lim_{z\to -1}\brak{\frac{z^{100}}{z^{101}+1}}\brak{z^{101} + 1}\\
+    &= 1 \label{eq:eq3_gate_ma_2022_14_054}
+\end{align}
+
+From eq (\ref{eq:eq1_gate_ma_2022_14_054}), and eq (\ref{eq:eq3_gate_ma_2022_14_054})
+\begin{align}
+    \int f\brak{z}\, dz &= 2\pi i \brak{1}\\
+    \implies \int_C \frac{z^{100}}{z^{101}+1}\, dz &= 2 \pi i
+\end{align}
+
+$\therefore$ option (D) is correct.
+
+
+%\end{document}
