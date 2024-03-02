@@ -1,13 +1,13 @@
 \vskip -8pt
 \contentsline {schapter}{Introduction}{iii}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Harmonics}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Filters}{11}{chapter.2}%
-\contentsline {chapter}{\numberline {3} Z-transform}{23}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Systems}{31}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Sequences}{63}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Sampling}{75}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Contour Integration}{77}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Laplace Transform}{83}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Fourier transform}{127}{chapter.9}%
-\contentsline {chapter}{\numberline {A}Fourier transform}{153}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Contour Integration}{155}{appendix.B}%
+\contentsline {chapter}{\numberline {2}Filters}{21}{chapter.2}%
+\contentsline {chapter}{\numberline {3} Z-transform}{47}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Systems}{55}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Sequences}{93}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Sampling}{105}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Contour Integration}{109}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Laplace Transform}{115}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Fourier transform}{161}{chapter.9}%
+\contentsline {chapter}{\numberline {A}Fourier transform}{193}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Contour Integration}{195}{appendix.B}%
