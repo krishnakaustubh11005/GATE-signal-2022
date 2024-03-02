@@ -1,0 +1,112 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                            \usepackage{tikz}
+\usepackage{circuitikz}
+\def\inputGnumericTable{}                                
+\usepackage[latin1]{inputenc}                            
+\usepackage{color}                                       
+\usepackage{array}                                       
+\usepackage{longtable}                                   
+\usepackage{calc}                              
+\usepackage{tikz}
+\usepackage{multirow}                                    
+\usepackage{hhline}                                      
+\usepackage{ifthen}                            
+\usepackage{caption}
+\usepackage{lscape}
+\usepackage{amsmath}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE 2022 IN.53}
+\author{EE23BTECH11010 - VENKATESH BANDAWAR$^{*}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+\textbf{Question:} In a unity-gain feedback control system, the plant
+$P(s) = \frac{0.001}{s\brak{2s+1}\brak{0.01s+1}}$
+is controlled by a lag compensator
+$C(s) = \frac{s+10}{s+0.1}$
+The slope (in dB/decade) of the asymptotic Bode magnitude plot of the loop gain
+at $\omega= 3 $rad/s is \_\_\_\_\_\_\_\_ (in integer)
+\hfill(GATE 2022 IN)\\
+\solution
+\fi
+\begin{table}[!h]
+    \centering
+    \input{2022/IN/53/tables/table1.tex}
+    \caption{Given Parameters list}
+    \label{tab:Given Parameters list.gate2022.IN.53}
+\end{table}
+\begin{align}
+    \abs{T(s)} &= \frac{0.1\brak{\frac{s}{10}+1}}{s\brak{\frac{s}{0.5}+1}\brak{\frac{s}{100}+1}\brak{\frac{s}{0.1}+1}}\label{eqn of loop gain.gate2022.IN.53}
+\end{align}
+Here, $10,0.5,100,0.1$ are corner frequencies of loop gain L(s) 
+
+\begin{table}[!h]
+    \centering
+    \input{2022/IN/53/tables/table2}
+    \caption{Caption}
+    \label{tab:corner frequency.gate2022.IN.53}
+\end{table}
+
+\begin{align}
+    Gain(K) = \lim_{s\rightarrow 0} sT(s)
+\end{align}
+\begin{align}
+    K &= 0.1
+\end{align}
+\begin{align}
+    \abs{T(s)} &= 20\log_{10} K\\
+    &= -20 dB
+\end{align}
+
+$T\brak{\omega} = \begin{cases} 
+    -20 log_{10}(w) &  \omega < 0.1 \\
+    -20.0 \brak{2log_{10}(w) - 0.1}  &  0.1 \leq \omega < 0.5 \\
+    -20.0 \brak{3log_{10}{\omega} - 0.1 + log_{10}{0.5}}  &  0.5 \leq \omega < 10 \\
+    -20.0 \brak{2log_{10}{\omega} + 0.9 + log_{10}{0.5}}  &  10 \leq \omega < 100 \\
+    -20.0 \brak{3log_{10}{\omega} - 1.9 + log_{10}{0.5}}  &  \omega \geq 100 \\
+\end{cases}$
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\columnwidth]{2022/IN/53/figs/bode_mag_plot.png}
+    \caption{Pink Line = Bode magnitude plot of loop gain}
+\end{figure}
+
+Slope of Bode magnitude plot (at $\omega=3$) = $-60$ dB/decade
+
