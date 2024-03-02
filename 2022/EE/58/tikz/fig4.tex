@@ -1,0 +1,26 @@
+\begin{tikzpicture}
+    \begin{axis}[
+      xlabel={$\omega t$},
+      ylabel={$v_0(t)$},
+      axis lines=middle,
+      ymin=-1.5, ymax=1.5,
+      xtick={0,0.5,1.0,1.5},
+      xticklabels={0},
+      ytick={0},
+      grid=none,
+      enlargelimits=0.2,
+      xticklabel style={xshift=-0.4cm},
+      width=8cm,
+      height=6cm,
+      ]
+      \addplot[thick, black] coordinates {(0,1) (0.5,1) (0.5,-1) (1,-1)(1,0)};
+      % Place Vs label at the right position
+      \node at (axis cs:0.25,0.5) {$V_s$};
+      \node at (axis cs:0.75,-0.5) {$-V_s$};
+      
+      % Vertical dotted line at x=0.5
+      \draw[dotted] (axis cs:0.5, -1.5) -- (axis cs:0.5, 1.5);
+      \draw[dotted] (axis cs:1, -1.5) -- (axis cs:1, 1.5);
+    \end{axis}
+  \end{tikzpicture}
+  

@@ -1,0 +1,34 @@
+\begin{tikzpicture}
+
+% Draw rectangle for inverter
+\draw (0,0) rectangle (2,2);
+\node at (1,1) {DC-AC};
+
+% Draw input lines with battery
+\draw (-1,1.5) -- (0,1.5) node[midway, left] {};
+\draw (-1,0.5) -- (0,0.5) node[midway, left] {};
+
+% Draw output lines
+\draw (2,1.5) -- (3,1.5) node[right] {};
+\draw (2,0.5) -- (3,0.5) node[right] {};
+
+% Draw load resistor symbol with rotated text
+\draw (2.9,0.7) rectangle (3.1,1.3) node[midway, rotate=90] {\rotatebox{-180}{\tiny Load}};
+
+\draw (3,1.3) -- (3,1.5) node[right] {};
+\draw (3,0.5) -- (3,0.7) node[right] {};
+
+% Draw battery symbol without arrow and label
+\draw (-1,1.5) to [battery1] (-1,0.5);
+\node at (-2.1,1) {\tiny $V_\text{s}=1000V DC$};
+
+% Draw current arrow
+\draw[->] (3,1.5) -- (3,1.3) node[midway, above] {};
+
+% Add labels for the current arrow
+\node at (4.1,1.4) {\tiny $i(t)=\sin(\omega t-\frac{\pi}{3})$};
+\node at (2.2,1.4) {\tiny $+$};
+\node at (2.2,1) {\tiny $V_0$};
+\node at (2.2,0.6) {\tiny $-$};
+\end{tikzpicture}
+
