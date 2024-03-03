@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -69,9 +70,10 @@ $y(t) = x(t)x(1+\dfrac{t}{2})$ is\\
 \end{enumerate}
 \hfill{(GATE EC 2021)}\\
 \solution
+\fi
 \begin{table}[h!]
 \centering
-\input{tables/table.tex}
+\input{2021/EC/4/tables/table.tex}
 \caption{Input Parameters}
 \label{tab:gate2021ec4table}
 \end{table}
@@ -86,16 +88,16 @@ Y(f) &= X(f) * 2e^{j2\pi f}X(2f)
 \end{align}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=\columnwidth]{figs/plot1.png}
+    \includegraphics[width=\columnwidth]{2021/EC/4/figs/plot1.png}
     \caption{Plot of $X(f)$ and $X(2f)$}
     \label{fig:gate2021ec4fig1}
 \end{figure}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=\columnwidth]{figs/plot2.png}
+    \includegraphics[width=\columnwidth]{2021/EC/4/figs/plot2.png}
     \caption{Plot of $Y(f)$}
     \label{fig:gate2021ec4fig2}
 \end{figure}
 Nyquist rate is $2f_{max} = 2(15kHz)$ which is $30kHz$
-\end{document}
+%\end{document}
 
