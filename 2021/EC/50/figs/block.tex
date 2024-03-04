@@ -1,0 +1,25 @@
+\begin{figure}
+    \centering
+    \begin{tikzpicture}[
+        block/.style={draw, rectangle, minimum height=1.5cm, text width=3cm, align=center},
+        arrow/.style={->, >=Stealth},
+        node distance=2cm
+    ]
+
+    % Nodes
+    \node[block] (mixer) {Mixer};
+    \node[block, below=of mixer] (if) {Intermediate\\Frequency\\($f_x = 400$ kHz)};
+    \node[block, below=of if] (lo) {Local Oscillator\\($f_r = 1000$ kHz)};
+    \node[block, below=of lo] (rf) {RF Signal\\($f_l = 600$ kHz)};
+    \node[block, right=of if, xshift=2cm] (image) {Image Frequency\\($f_i = 1400$ kHz)};
+
+    % Arrows
+    \draw[arrow] (rf) -- (lo);
+    \draw[arrow] (lo) -- (if);
+    \draw[arrow] (mixer) -- (if);
+    \draw[arrow] (if) -- (image);
+
+    \end{tikzpicture}
+    \caption{Superheterodyne Receiver Block Diagram}
+    \label{fig:blockdiagram}
+\end{figure}
