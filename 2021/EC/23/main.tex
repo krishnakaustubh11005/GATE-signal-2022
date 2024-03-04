@@ -1,0 +1,102 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\def\inputGnumericTable{}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{ifthen}
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE 2021 EC 23}
+\author{EE23BTECH11007 - Aneesh Kadiyala$^{*}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\vspace{3cm}
+\textbf{Question:} A speech signal, band limited to 4 kHz, is sampled at 1.25 times the Nyquist rate. The speech samples, assumed to be statistically independent and uniformly distributed in the range -5 V to +5 V, are subsequently quantized in an 8-bit uniform quantizer and then over a voice-grade AWGN telephone channel. If the ratio of transmitted signal power to channel noise power is 26 dB, the minimum channel bandwidth required to ensure reliable transmission of the signal with arbitrarily small probability of transmission error (\textit{rounded off to one decimal place}) is \rule{1cm}{0.15mm} kHz.
+
+\hfill(GATE 2021 EC)
+\\
+\solution
+\\
+\fi
+\begin{table}[h!]
+    \centering
+    \input{2021/EC/23/tables/parameters.tex}
+    \caption{Input Parameters}
+    \label{tab:2021ec23_1}
+\end{table}
+
+The signal is band limited to 4 kHz.
+\begin{align}
+B_0 &= 4\text{kHz} \\
+%R_N &= 2B_0 \\
+\implies R_N &= 8\text{kHz} \\
+%f_s &= 1.25R_N \\
+\implies f_s &= 10\text{kHz} \\
+%R &= nf_s \\
+R &= \brak{8}\brak{10\text{kHz}} \\
+\implies R &= \brak{8}\brak{10^4}\text{ bits/second}
+\end{align}
+Channel capacity for an Additive White Gaussian Noise channel is
+\begin{align}
+C = B\log_2{\brak{1 + \frac{P}{N}}}\text{ bits/second}
+\end{align}
+where $P$ is the maximum channel power and $N$ is the noise power and $B$ is the channel bandwidth.
+\begin{align}
+10\log_{10}{\frac{P}{N}} &= 26\text{dB} \\
+\implies \frac{P}{N} &= 10^{2.6} \\
+&\approx 398.107
+\end{align}
+For reliable transmission:
+\begin{align}
+R &\le C \\
+8\brak{10^4} &\le B\log_2{399.107} \\
+B &\ge \frac{8\brak{10^4}}{\log_2{399.107}} \\
+\implies B &\ge 9258.58\text{Hz}
+\end{align}
+$\therefore$ the minimum channel bandwidth required to ensure reliable transmission of the signal is $\approx9.26$ kHz.
