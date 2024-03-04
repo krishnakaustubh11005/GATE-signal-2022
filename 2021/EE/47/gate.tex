@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -63,21 +64,21 @@
 In the given figure, plant $G_p(s)=\frac{2.2}{(1+0.1s)(1+0.4s)(1+1.2s)}$ and compensator $G_c(s)=K\brak{\frac{1+T_1s}{1+T_2s}}$ . The external disturbance input is D(s). It is desired that when the disturbance is a unit step, the steady-state error should not exceed 0.1 unit. The minimum value of K is
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=\columnwidth]{figs/fig.png}
+    \includegraphics[width=\columnwidth]{2021/EE/47/figs/fig.png}
     \caption{}
-    \label{fig:sr40}
+    \label{fig:sr47}
 \end{figure}
 \\
 \textbf{Solution:}\\
+\fi
 \begin{table}[h!]
     \centering
-    \input{tables/table.tex}
+    \input{2021/EE/47/tables/table.tex}
     \caption{Input Parameters}
-    \label{tab:table_omega}
 \end{table}
  
 \begin{align}
-\text{From \figref{fig:sr40}}\notag\\
+\text{From \figref{fig:sr47}}\notag\\
 E(s) &= R(s)-C(s) \\
 \text{Assume R(s)=0}\notag\\
 E(s) &= -C(s) \\
@@ -104,4 +105,4 @@ e_{ss} &=\lim_{{s \to 0}} \left(\frac{-s\frac{1}{s}G_p(s)}{1+G_c(s)G_p(s)} \righ
 K &\geq 9.54 \\
 K_{\text{min}} &= 9.54
 \end{align}}
-    \end{document}
+    %\end{document}
