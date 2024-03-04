@@ -1,0 +1,82 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+ \newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+ \bibliographystyle{IEEEtran}
+ \vspace{3cm}
+ \title{\textbf{ME 36}}
+ \author{EE23BTECH11048-Ponugumati Venkata Chanakya$^{*}$% <-this % stops a space
+ }
+ \maketitle
+
+ \bigskip
+ \renewcommand{\thefigure}{\theenumi}
+ \renewcommand{\thetable}{\theenumi}
+ \textbf{QUESTION:}
+ The value of Integral \\
+  \begin{align*}
+        \oint \brak{\frac{6z}{2z^4-3z^3+7z^2-3z+5}}dz
+ \end{align*}
+ evaluated over a counter-clockwise circular contour in the complex plane enclosing only the pole $z=\jmath $, where $\jmath$ is the imaginary unit,is
+ \begin{enumerate}
+     \item $(-1+\jmath)\pi$
+     \item $(1+\jmath)\pi$
+     \item $2(1-\jmath)\pi$
+     \item $(2+\jmath)\pi$
+ \end{enumerate}
+ \hfill{(GATE 2022 ME)}\\
+ \solution\\
+\fi
+ Given $z=\jmath$ is only enclosing pole 
+ \begin{align}
+ \oint \brak{\frac{6z}{2z^4-3z^3+7z^2-3z+5}}dz
+ &=\oint \brak{\frac{\frac{6z}{2z^3+(2\jmath-3)z^2+(5-3\jmath)z+5\jmath}}{z-\jmath}}dz\\
+ &=2\pi \jmath\brak{\frac{6z}{2z^3+(2\jmath-3)z^2+(5-3\jmath)z+5\jmath}} \text{ At }z=\jmath
+    \text{ (Cauchy's integral formula)}\\
+    &=2\pi \jmath\brak{\frac{6\jmath}{2\jmath^3+(2\jmath-3)\jmath^2+(5-3\jmath)\jmath+5\jmath}}\\
+    &=2\pi \jmath\brak{\frac{\jmath}{\jmath+1}}\\
+    &=-2\pi \frac{\jmath-1}{\jmath^2-1}\\
+    &=(-1+\jmath)\pi
+    \end{align}
+ %\end{document}
+
