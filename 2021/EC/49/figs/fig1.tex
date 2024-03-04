@@ -1,0 +1,16 @@
+\begin{tikzpicture}[
+        node distance   = 1cm and 2cm,
+        document/.style = {rectangle, draw, rounded corners, fill=white!10, minimum width=1cm, minimum height=1cm, align=center},
+        document2/.style    = {rectangle, draw, rounded corners, fill=white!10, minimum width=3cm, minimum height=2cm, align=center},      arrow1/.style = {thick,-stealth},
+        document3/.style   = {rectangle, draw, rounded corners, fill=white!10, minimum width=1cm, minimum height=1cm, align=center},      arrow2/.style = {thick,-stealth},
+        document4/.style   = {rectangle, draw, rounded corners, fill=white!10, minimum width=1cm, minimum height=1cm, align=center},      arrow3/.style = {thick,-stealth}
+    ]
+
+    \node   (a1)    [document]                                          {$m\brak{t}$};
+    \node   (a2)    [document2, right=2cm of a1]                        {Phase Modulation};
+    \node   (a3)    [document3, below=2cm of a2]                        {$c\brak{t}$};
+    \node   (a4)    [document4, right=2cm of a2]                        {$s\brak{t}$};
+    \path [draw, arrow1] (a1)        --  node    [text width=2cm, midway, anchor=north]  {message signal} (a2);  
+    \path [draw, arrow2] (a3)        --  node    [text width=2cm, midway, anchor=north] {carrier signal} (a2);
+    \path [draw, arrow3] (a2)        --  node    [text width=2cm, midway, anchor=north] {output} (a4);
+    \end{tikzpicture}
