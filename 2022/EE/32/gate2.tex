@@ -1,0 +1,67 @@
+\iffalse
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage[latin1]{inputenc}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{pgf}
+\usepackage{lmodern}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+
+\title{}
+\author{EE23BTECH11047 - Deepakreddy P
+}
+\maketitle
+\newpage
+\bigskip
+
+\noindent \textbf{32} \quad A single-phase full-bridge diode rectifier feeds a resistive load of $50 \Omega$ from a 200 V,
+50 Hz single phase AC supply. If the diodes are ideal, then the active power, in watts,
+drawn by the load is \rule{1cm}{0.5mm} (round off to nearest integer).  \\
+\hfill (GATE EE 32)\\
+\solution\\
+\fi
+
+\begin{figure}[ht]
+  \centering
+      \input{2022/EE/32/figs/ckt1}
+  \caption{Circuit-1}
+\end{figure}
+
+\begin{figure}[ht]
+   \centering
+   \includegraphics[width=1.2\columnwidth]{2022/EE/32/figs/gt1.png}
+   \caption{Output voltage waveform of single-phase full
+bridge rectifier}
+\end{figure}
+
+
+\begin{center}
+    \begin{table}[ht]
+        \input{2022/EE/32/tables/table1}
+    \end{table}
+\end{center}
+
+\begin{align}
+    V_{rms} &= 200\\
+    P &= \frac{\brak{V_{rms}}^2}{R}\\
+    P &= \frac{\brak{200}^2}{50}W\\
+    P &= 800W
+\end{align}
+
+
+%\end{document}
+
