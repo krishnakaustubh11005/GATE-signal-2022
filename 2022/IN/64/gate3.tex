@@ -1,0 +1,59 @@
+\iffalse
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage[latin1]{inputenc}
+\usepackage{array}
+\usepackage{pgf}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{circuitikz}
+\begin{document}
+\bibliographystyle{IEEEtran}
+
+\title{GATE 2022[IN]-64}
+\author{EE23BTECH11066 - Yakkala Amarnath Karthik}
+\maketitle
+\bibliographystyle{IEEEtran}
+
+\textbf{Question:}\\ \\
+In the circuit shown, the switch is initially closed. It is opened at t= 0 s and
+remains open thereafter. The time (in milliseconds) at which the output voltage
+$V_{out}$ becomes LOW is  (round off to three decimal places)\hfill(GATE IN 2022)\\
+\input{figs/tikzque} 
+
+\textbf{Solution:}\\ 
+\fi
+At t$=0^-$, when the switch is closed,\\
+The voltage across the capacitor is:
+\begin{align}
+V_c\brak{0^-}&=5\times\frac{5}{5+1}\\
+&=\frac{25}{6}V
+\end{align}
+$V_c\brak{0^-}$ is also the non inverting voltage of the OP-AMP\\ \\
+At $t=0^+$, when the switch is open,\\
+The voltage across inverting terminal is:
+\begin{align}
+V_I&=5\times\frac{600}{600+400}\\
+&=2V
+\end{align}
+Analysing the circuit at t=$0^+$ in laplace domain:\\ 
+\input{2022/IN/64/figs/tikzans}
+Using voltage divider rule,
+\begin{align}
+V_{NI}\brak{s}&=V\times\sbrak{\frac{R}{R+\frac{1}{sC}}}\\
+    &=\frac{25}{6s}\times\sbrak{\frac{s}{s+\frac{1}{RC}}}\\
+    &=\frac{25}{6}\times\sbrak{\frac{1}{s+\frac{1}{RC}}}
+\end{align}
+Applying inverse laplace:
+\begin{align}
+    V_{NI}\brak{t}&=\frac{25}{6} e^{\frac{-t}{RC}}\\
+    \implies  2&=\frac{25}{6}\times e^{\frac{-t}{RC}}\\
+  \implies  t&=RC\ln\brak{\frac{25}{12}}\\
+    &=0.1\times10^{-6}\times5\times10^{3}\ln{\brak{\frac{25}{12}}}\\
+    &=0.367ms
+\end{align}
+%\end{document}
