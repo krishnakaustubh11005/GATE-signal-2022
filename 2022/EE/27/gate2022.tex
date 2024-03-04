@@ -1,0 +1,92 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}                                   
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}  
+\usepackage{circuitikz}                                           
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\newcommand{\brak}[1]{\langle #1 \rangle}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{\textbf{GATE 2022 EE}}
+\author{EE23BTECH11023-ABHIGNYA GOGULA}
+\maketitle
+\newpage
+\bigskip
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\textbf{Question27:}
+\\An inductor having a $Q$-factor of 60 is connected in series with a capacitor having a $Q$-factor of 240. The overall $Q$-factor of the circuit is \_\_\_\_\_\_\_\_\_\_. (Round off to the nearest integer) \\
+\hfill Gate 2022 EE Question 27\\
+\section*{Solution}
+\fi
+\begin{circuitikz}
+    \draw (0,0) to[R, l=$R_1$] (2,0) to[L, l=$L$] (4,0);
+\end{circuitikz}
+\begin{align}
+Q_1=\frac{\omega_0 L}{R_1}
+\end{align}
+\begin{circuitikz}
+    \draw (0,0) to[R, l=$R_2$] (2,0) to[C, l=$C$] (4,0);
+\end{circuitikz}
+\begin{align}
+Q_2=\frac{1}{\omega_0 C R_2}
+\end{align}
+at resonance as $\omega_0 L =\frac{1}{\omega_0 C}$ hence
+\begin{align}
+Q_2=\frac{\omega_0 L}{R_2}
+\end{align}
+\begin{circuitikz}
+    \draw (0,0) to[R, l=$R_1$] (2,0) to[L, l=$L$] (4,0) to[R, l=$R_2$] (6,0) to[C, l=$C$] (8,0);
+\end{circuitikz}
+\begin{align}
+Q = \frac{\omega_0 L}{R_1+R_2}\\
+Q = \frac{1}{\frac{R_1}{\omega_0 L}+\frac{R_2}{\omega_0 L}}
+\end{align}
+\begin{equation}
+Q =\frac{Q_1 Q_2}{Q_1+Q_2}
+\label{eq:EE 27eq1}
+\end{equation}
+then from \eqref{eq:EE 27eq1}
+\begin{align}
+Q=\frac{60 \times 240}{60+240}\\
+Q=48
+\end{align}
+%\end{document}
