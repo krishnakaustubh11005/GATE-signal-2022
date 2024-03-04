@@ -1,3 +1,4 @@
+\usepackage{xparse}
 
 %\newcounter{MYtempeqncnt}
 \DeclareMathOperator*{\Res}{Res}
@@ -93,7 +94,7 @@ columns=fullflexible
 %\let\StandardTheFigure\thefigure
 \let\vec\mathbf
 
-\NewDocumentCommand{\system}{oo}{%
+\NewDocumentCommand{\system}{gg}{%
   \IfNoValueTF{#1}
     {%
  \longleftrightarrow
@@ -141,3 +142,5 @@ columns=fullflexible
     >{\leavevmode\hbox to 1.5em{\stepcounter{matchright}\alph{matchright})}}X%
     }%
 }{\endtabularx}
+
+
