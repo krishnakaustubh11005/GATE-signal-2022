@@ -1,3 +1,4 @@
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
@@ -122,20 +123,19 @@
 A $1\text{kHz}$ sine wave generator having an internal resistance of $50 \ohm$  generates an open-circuit voltage of $10 V_p$. When a capacitor is connected across the output terminals, the voltage drops to $8 V_p$. The capacitance of the capacitor (in microfarads) is \hfill(GATE IN 2022)\\ \\ 
 
 \textbf{Solution: }
+\fi
 
 \begin{table}[h]
  	\centering
  	\resizebox{6 cm}{!}{
- 		\input{tables/tab.tex}
+ 		\input{2022/IN/60/tables/tab.tex}
  	}
  	\caption{Input Parameters}
-    \label{tab:tabnikh_60}
  \end{table}
 
 \begin{figure}[htb]
 	\centering
-	\input{figs/f1.tex}
-	\label{fig:nikh1}
+	\input{2022/IN/60/figs/f1.tex}
 \end{figure}
 
 \begin{align}
@@ -149,4 +149,4 @@ C &= \frac{3}{4\cdot 50 \cdot 2\pi\cdot 10^3} \\
 \implies C &= 2.387  \mu F
 \end{align}
 
-\end{document}
+%\end{document}
