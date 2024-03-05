@@ -1,0 +1,101 @@
+ \iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{xparse}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\def\inputGnumericTable{}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{ifthen}
+\usepackage{lscape}
+\include{app/lapl.tex}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE-AE.1}
+\author{EE23BTECH11046 - Poluri Hemanth$^{*}$}
+\maketitle
+\textbf{Question:}
+Consider the differential equation \\$\frac{d^2y}{dx^2}+8\frac{dy}{dx}+16y=0$ and the boundary conditions $y(0)=1$ and $\frac{dy}{dx}(0)=0$. The solution to equation is:\\
+\hfill{(GATE.AE-1.2021)}\\
+\textbf{Solution:}\\
+\fi
+\begin{table}[h!]
+    % Change address in github
+        \input{2021/AE/1/tables/table4.tex}
+        \caption{Parameters}
+        \label{tab:AE.1.2021}
+\end{table}\\
+From \ref{lap (derivatives)}
+\begin{align}
+	\frac{d^2y}{dx^2}+8\frac{dy}{dx}+16y&\Large\xleftrightarrow{\mathcal{L}}s^2Y(s)-sy(0)-y'(0)+8sY(s)-8y(0)+16Y(s)
+\end{align}
+\begin{align}
+	Y(s)(s^2+8s+16)&=s+8
+\end{align}
+\begin{align}
+	\Rightarrow Y(s)&=\frac{s+8}{s^2+8s+16}\\
+	&=\frac{1}{s+4}+\frac{4}{(s+4)^2}\label{1ae.1}
+\end{align}
+For inversion of $Y(s)$ in partial fractions-
+\\ From \ref{inv lap (partial fractions)}
+\begin{align}
+	&\frac{b}{(s+a)^n}\Large\xleftrightarrow{\mathcal{L}^{-1}}\frac{b}{(n-1)!}\cdot x^{n-1} e^{-ax}\cdot u(x)\label{invae.1}
+\end{align}
+\\
+Applying Laplace inverse-\\
+\\From \eqref{1ae.1},\eqref{invae.1}
+\begin{align}
+	y(x)&=\frac{1}{0!} e^{-4x}\cdot u(x)+\frac{4}{1!}x\cdot e^{-4x}\cdot u(x)\\
+	&=(1+4x)e^{-4x}u(x)
+\end{align}
+\newpage
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{2021/AE/1/figures/figure.png}
+        \caption{Plot of y(x)}
+    \label{fig:enter-label}
+\end{figure}
+
+
+%\end{document}
+
+
+
+
+
