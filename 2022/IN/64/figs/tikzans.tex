@@ -1,0 +1,25 @@
+\begin{figure}
+\centering
+\begin{circuitikz}[american]
+
+    % Draw resistors and voltage source
+    \draw (0,0) node[left] {$5V$}to[resistor={{$600\Omega$}}] (2,0) ;
+    \draw (2,0) -- (2,-1) to[resistor={{$400\Omega$}}] (0,-1) node[ground]{};
+    \draw (2,-0.5) --(3,-0.5) -- (3,-2.5);
+    
+    \draw (5,-3) node[op amp] (opamp) {};
+    \draw (opamp.up) ++(0,0.3) node[above] {$+5V$};
+    \draw (5,-2.5) -- (5,-2.1);
+     \draw (opamp.down) ++(0,-0.3) node[below] {$-5V$};
+      \draw (5,-3.5) -- (5,-3.9);
+    \draw (opamp.-) -- (3,-2.5)node[left]{$V_I=2V$};
+    \draw (opamp.out) -- (6,-3) --(7,-3) node[right] {$V_{out}$};
+    \draw (opamp.+) -- (3,-3.5)node[above]{$V_{NI}$} -- (3,-4.5);
+    \draw (3,-4.5) to[resistor={{$5k\Omega$}}] (3,-7.5)node[ground]{};
+  % \draw (3,-4.5) -- (0.8,-4.5);
+    \draw (3,-4.5) to [V, v=$\frac{25}{6s}V$] (0.8,-4.5);
+    \draw (0.8,-4.5) to[resistor={{$\frac{1}{10^{-7}s}\Omega$}}] (0.8,-7.5)node[ground]{};
+\end{circuitikz}
+    \caption{circuit diagram in laplace domain at $t=0^+$}
+\end{figure}
+

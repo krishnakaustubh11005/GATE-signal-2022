@@ -1,0 +1,26 @@
+\begin{figure}[ht]
+\centering
+\begin{circuitikz}
+
+    % Draw resistors and voltage source
+    \draw (0,0) to[resistor={{$600\Omega$}}] (2,0) ;
+    \draw (2,0) -- (2,-1) to[resistor={{$400\Omega$}}] (0,-1) node[ground]{};
+    \draw (2,-0.5) --(3,-0.5) -- (3,-2.5);
+    
+    \draw (5,-3) node[op amp] (opamp) {};
+    \draw (opamp.up) ++(0,0.3) node[above] {$+5V$};
+     \draw (opamp.down) ++(0,-0.3) node[below] {$-5V$};
+     \draw (5,-2.5) -- (5,-2.1);
+    \draw (opamp.-) -- (3,-2.5);
+    \draw (5,-3.5) -- (5,-3.9);
+    \draw (opamp.out) -- (6,-3) node[right] {$V_{out}$};
+    \draw (opamp.+) -- (3,-3.5) -- (3,-4.5);
+    \draw (3,-4.5) to[resistor={{$5k\Omega$}}] (3,-6.5)node[ground]{};
+    \draw (3,-4.5) -- (0.8,-4.5);
+    \draw (0.8,-4.5) to[C, l=$0.1\mu F$] (0.8,-6.5)node[ground]{};
+    \draw (0,0) -- (-1.5,0)node[above] {$+5V$};
+    \draw (-1.5,0) -- (-1.5,-1) to [resistor={{$1k\Omega$}}] (-1.5,-3);
+    \draw (-1.5,-3) to[ospst, l={$t= 0s$}] (-1.5,-4.5);
+    \draw (-1.5,-4.5) -- (0.8,-4.5);    
+\end{circuitikz}
+\end{figure}

@@ -1,0 +1,21 @@
+\begin{figure}
+\centering
+\begin{circuitikz}
+
+    % Draw resistors and voltage source
+    \draw (0,0) node[left] {$5V$}to[resistor={{$600\Omega$}}] (2,0) ;
+    \draw (2,0) -- (2,-1) to[resistor={{$400\Omega$}}] (0,-1) node[ground]{};
+    \draw (2,-0.5) --(3,-0.5) -- (3,-2.5);
+    
+    \draw (5,-3) node[op amp] (opamp) {};
+    \draw (opamp.up) ++(0,0.3) node[above] {$+5V$};
+     \draw (opamp.down) ++(0,-0.3) node[below] {$-5V$};
+    \draw (opamp.-) -- (3,-2.5)node[left]{$V_I=2V$};
+    \draw (opamp.out) -- (6,-3) --(7,-3) node[right] {$V_{out}$};
+    \draw (opamp.+) -- (3,-3.5)node[left]{$V_{NI}$} -- (3,-4.5);
+    \draw (3,-4.5) to[resistor={{$5k\Omega$}}] (3,-6.5)node[ground]{};
+    \draw (3,-4.5) -- (0.8,-4.5);
+    \draw (0.8,-4.5) to[C, l=$0.1\mu F$] (0.8,-6.5)node[ground]{};
+\end{circuitikz}
+    \caption{circuit diagram at $t=0^+$};
+\end{figure}
