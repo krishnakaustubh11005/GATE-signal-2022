@@ -1,0 +1,29 @@
+\iffalse
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, shapes.geometric, shapes.multipart}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider a superheterodyne receiver tuned to 600 kHz. If the local oscillator feeds a 1000 kHz signal to the mixer, the image frequency (in integer) is \underline{\hspace{1cm}} kHz.
+\hfill(GATE EC 2021)\\
+
+\textbf{Solution:}
+\fi
+\input{2021/EC/50/tables/gate21table.tex}
+Let \(f_x\) be the intermediate frequency given by \(|f_l - f_r|\).
+\begin{align}
+    f_x &= |1000-600| = 400 \, \text{kHz}
+\end{align}
+\input{2021/EC/50/figs/gate21fig.tex}
+
+From the above diagram, we can observe that:
+\begin{align}
+    f_i &= f_r+2(f_x) = 600+2(400)=1400 \, \text{kHz}
+\end{align}
+Therefore the Image frequency is \textbf{1400 kHz}
+\input{2021/EC/50/figs/block.tex}
+
+%\end{document}
+
