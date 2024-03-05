@@ -1,4 +1,4 @@
-
+\iffalse
 \documentclass[journal,12pt,onecolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -68,11 +68,12 @@ with initial conditions $y(0) = y'(0) = y''(0) = y'''(0) = 0$, the value of
 \end{align*}
 (round off to $3$ decimal places).
 \hfill(GATE CH 2021)\\
-\textbf{Solution:} 
+\textbf{Solution:}
+\fi
 \begin{table}[h]
  	\centering
  	\resizebox{6 cm}{!}{
- 		\input{tables/table.tex}
+ 		\input{2022/CH/36/tables/table.tex}
  	}
  	\vspace{6 pt}
  	\caption{Parameters}
@@ -81,7 +82,6 @@ with initial conditions $y(0) = y'(0) = y''(0) = y'''(0) = 0$, the value of
 \frac{d^3y}{dt^3} + 6\frac{d^2y}{dt^2} + 11\frac{dy}{dt} + 6y &= 1
 \end{align}
 Applying the Laplace transform to both sides:
-%refer table
 \begin{align}
 s^3Y(s) + 6s^2Y(s) + 11sY(s) + 6Y(s) &= \frac{1}{s} \\
 Y(s)\brak{s^3 + 6s^2 + 11s + 6} &= \frac{1}{s} \\
@@ -124,7 +124,7 @@ Verifying using Final Value Theorem :\\
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=\columnwidth]{figs/plot.png}
+\includegraphics[width=\columnwidth]{2022/CH/36/figs/plot.png}
 \caption{Plot $y(t)$ vs $t$ }
 \end{figure}
-\end{document}
+%\end{document}
