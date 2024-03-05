@@ -2,31 +2,31 @@
 \contentsline {schapter}{Introduction}{iii}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Harmonics}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}2022}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}2021}{22}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Filters}{23}{chapter.2}%
-\contentsline {section}{\numberline {2.1}2022}{23}{section.2.1}%
-\contentsline {section}{\numberline {2.2}2021}{61}{section.2.2}%
-\contentsline {chapter}{\numberline {3} Z-transform}{63}{chapter.3}%
-\contentsline {section}{\numberline {3.1}2022}{63}{section.3.1}%
-\contentsline {section}{\numberline {3.2}2021}{71}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Systems}{79}{chapter.4}%
-\contentsline {section}{\numberline {4.1}2022}{79}{section.4.1}%
-\contentsline {section}{\numberline {4.2}2021}{119}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Sequences}{129}{chapter.5}%
-\contentsline {section}{\numberline {5.1}2022}{129}{section.5.1}%
-\contentsline {section}{\numberline {5.2}2021}{140}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Sampling}{141}{chapter.6}%
-\contentsline {section}{\numberline {6.1}2022}{141}{section.6.1}%
-\contentsline {section}{\numberline {6.2}2021}{146}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Contour Integration}{153}{chapter.7}%
-\contentsline {section}{\numberline {7.1}2022}{153}{section.7.1}%
-\contentsline {section}{\numberline {7.2}2021}{158}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Laplace Transform}{159}{chapter.8}%
-\contentsline {section}{\numberline {8.1}2022}{159}{section.8.1}%
-\contentsline {section}{\numberline {8.2}2021}{216}{section.8.2}%
-\contentsline {chapter}{\numberline {9}Fourier transform}{217}{chapter.9}%
-\contentsline {section}{\numberline {9.1}2022}{217}{section.9.1}%
-\contentsline {section}{\numberline {9.2}2021}{253}{section.9.2}%
-\contentsline {chapter}{\numberline {A}Fourier transform}{255}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Contour Integration}{259}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Laplace Transform}{263}{appendix.C}%
+\contentsline {section}{\numberline {1.2}2021}{26}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Filters}{27}{chapter.2}%
+\contentsline {section}{\numberline {2.1}2022}{27}{section.2.1}%
+\contentsline {section}{\numberline {2.2}2021}{65}{section.2.2}%
+\contentsline {chapter}{\numberline {3} Z-transform}{67}{chapter.3}%
+\contentsline {section}{\numberline {3.1}2022}{67}{section.3.1}%
+\contentsline {section}{\numberline {3.2}2021}{75}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Systems}{83}{chapter.4}%
+\contentsline {section}{\numberline {4.1}2022}{83}{section.4.1}%
+\contentsline {section}{\numberline {4.2}2021}{125}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Sequences}{137}{chapter.5}%
+\contentsline {section}{\numberline {5.1}2022}{137}{section.5.1}%
+\contentsline {section}{\numberline {5.2}2021}{148}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Sampling}{149}{chapter.6}%
+\contentsline {section}{\numberline {6.1}2022}{149}{section.6.1}%
+\contentsline {section}{\numberline {6.2}2021}{154}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Contour Integration}{161}{chapter.7}%
+\contentsline {section}{\numberline {7.1}2022}{161}{section.7.1}%
+\contentsline {section}{\numberline {7.2}2021}{166}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Laplace Transform}{167}{chapter.8}%
+\contentsline {section}{\numberline {8.1}2022}{167}{section.8.1}%
+\contentsline {section}{\numberline {8.2}2021}{227}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Fourier transform}{231}{chapter.9}%
+\contentsline {section}{\numberline {9.1}2022}{231}{section.9.1}%
+\contentsline {section}{\numberline {9.2}2021}{271}{section.9.2}%
+\contentsline {chapter}{\numberline {A}Fourier transform}{275}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Contour Integration}{279}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Laplace Transform}{283}{appendix.C}%
