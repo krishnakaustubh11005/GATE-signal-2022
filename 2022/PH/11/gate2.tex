@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -31,42 +32,43 @@
 For the Op-Amp circuit shown below, choose the correct output waveform corresponding to the input \( V_{\text{in}} = 1.5 \sin(20 \pi t) \) (in Volts). The saturation voltage for this circuit is \( V_{\text{sat}} = \pm 10 \) V.
 \begin{figure}[ht]
 \centering
-    \input{figs/fig}
+    \input{2022/PH/11/figs/fig.tex}
     \label{fig:1}
 \end{figure}
 \begin{enumerate}
   \item[(A)]
   \begin{figure}[ht!]
     \centering
-    \input{figs/option1.tex}
+    \input{2022/PH/11/figs/option1.tex}
     \label{fig:ap13}
 \end{figure}
   \item[(B)]  
   \begin{figure}[ht]
     \centering
-    \input{figs/option2.tex}
+    \input{2022/PH/11/figs/option2.tex}
     \label{fig:ap06}
 \end{figure}
   \item[(C)] 
   \begin{figure}[ht]
     \centering
-    \input{figs/option3.tex}
+    \input{2022/PH/11/figs/option3.tex}
     \label{fig:ap03}
 \end{figure}
   \item[(D)] 
    \begin{figure}[ht]
     \centering
-    \input{figs/option4.tex}
+    \input{2022/PH/11/figs/option4.tex}
     \label{fig:ap16}
 \end{figure}
 \end{enumerate}
 
 \hfill{(GATE PH 2022)}\\
 \textbf{Solution:} \\
+\fi
 
 \begin{table}[htbp]
   \centering
-  \input{tables/table1.tex}
+  \input{2022/PH/11/tables/table1.tex}
   \caption{Input Parameters}
   \label{tab:PH.11.table1}
 \end{table}
@@ -86,4 +88,4 @@ V_o &= 10 \times 1.5 \sin(20\pi t)
 
 Output amplitude is greater than $V_{\text{sat}}$, so the voltage saturates at $V_{\text{sat}}$.\\
 Therefore, correct answer is (A).
-\end{document}
+%\end{document}
