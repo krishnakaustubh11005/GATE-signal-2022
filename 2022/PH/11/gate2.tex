@@ -1,0 +1,89 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{circuitikz}
+\usepackage{pgfplots}
+\usepackage{gvv}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE 2022-PH}
+\author{EE23BTECH1205 - Avani Chouhan$^{*}$}
+\maketitle
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\vspace{3cm}
+\textbf{Question : 11} \\
+For the Op-Amp circuit shown below, choose the correct output waveform corresponding to the input \( V_{\text{in}} = 1.5 \sin(20 \pi t) \) (in Volts). The saturation voltage for this circuit is \( V_{\text{sat}} = \pm 10 \) V.
+\begin{figure}[ht]
+\centering
+    \input{figs/fig}
+    \label{fig:1}
+\end{figure}
+\begin{enumerate}
+  \item[(A)]
+  \begin{figure}[ht!]
+    \centering
+    \input{figs/option1.tex}
+    \label{fig:ap13}
+\end{figure}
+  \item[(B)]  
+  \begin{figure}[ht]
+    \centering
+    \input{figs/option2.tex}
+    \label{fig:ap06}
+\end{figure}
+  \item[(C)] 
+  \begin{figure}[ht]
+    \centering
+    \input{figs/option3.tex}
+    \label{fig:ap03}
+\end{figure}
+  \item[(D)] 
+   \begin{figure}[ht]
+    \centering
+    \input{figs/option4.tex}
+    \label{fig:ap16}
+\end{figure}
+\end{enumerate}
+
+\hfill{(GATE PH 2022)}\\
+\textbf{Solution:} \\
+
+\begin{table}[htbp]
+  \centering
+  \input{tables/table1.tex}
+  \caption{Input Parameters}
+  \label{tab:PH.11.table1}
+\end{table}
+\begin{align}
+V_{in} &= 1.5 \sin(20\pi t)\\
+V_{\text{sat}} &= \pm 10 \, \text{V}
+\end{align}
+Due to virtual short, voltage at non-inverting terminal is \( V_{\text{in}} \) and $I_1 = I_2$\\
+\begin{align}
+\frac{0 - V_{\text{in}}}{2.2 \, \text{k}\Omega} &= \frac{V_{\text{in}} - V_o}{20 \, \text{k}\Omega}\\
+\frac{-20}{2.2} &= \frac{V_{\text{in}} - V_o}{V_{\text{in}}}\\
+\frac{-20}{2.2} &= 1 - \frac{V_o}{V_{\text{in}}}\\
+\frac{V_o}{V_{\text{in}}} &= 1 + \frac{20}{2.2}\\
+V_o &\sim 10 V_{\text{in}}\\
+V_o &= 10 \times 1.5 \sin(20\pi t)
+\end{align}
+
+Output amplitude is greater than $V_{\text{sat}}$, so the voltage saturates at $V_{\text{sat}}$.\\
+Therefore, correct answer is (A).
+\end{document}
