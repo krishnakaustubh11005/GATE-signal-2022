@@ -59,4 +59,16 @@ From\eqref{lap 2},recursion
         y'(t)u(t)&\system{L}sY(s)-\int y'(t)\;dt\vert_{t=0}\\
         y^{(n)}(t)u(t)&\system{L}s^nY(s)-\sum\limits_{k=0}^{n-1}s^{(n-1-k)}y^{(k)}(0)\label{lap (derivatives)}
 \end{align}
+
+\item Laplace transform of integrals:\\
+Let the function defined as $y(t) = \int_0^t f(u) du$ for all $t > 0$\\
+Laplace transform of y(t) in t 
+\begin{align}
+    \mathcal{L} \brak{y(t)} &= \int_0^{\infty} e^{-st} y(t) dt\\
+    &= \int_0^{\infty} e^{-st} \int_0^t f(u) du dt\\
+    &= \int_0^t f(u) du \sbrak{- \frac{e^{-st}}{s}}_0^{\infty} + \int_0^{\infty} \frac{e^{-st}}{s} f(t) dt\\
+    &= \frac{F(s)}{s}
+\end{align}
+
+
 \end{enumerate}
