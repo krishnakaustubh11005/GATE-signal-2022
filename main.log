@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.1)  5 MAR 2024 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.2)  6 MAR 2024 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2444,10 +2444,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64])
-(./2021/FILTERS.tex (./2021/EC/23/main.tex (./2021/EC/23/tables/parameters.tex)
+ [64]
+(./2022/EE/16/figs/ques.tex) (./2022/EE/16/main.tex
+(./2022/EE/16/tables/table.tex) (./2022/EE/16/figs/sol.tex)
 
-Underfull \vbox (badness 7740) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2465,6 +2466,89 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66])
+(./2021/FILTERS.tex (./2021/EC/23/main.tex (./2021/EC/23/tables/parameters.tex)
+
+Underfull \vbox (badness 7740) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+(./2021/BM/43/main.tex
+Underfull \hbox (badness 10000) in paragraph at lines 28--82
+
+ []
+
+
+Underfull \vbox (badness 4927) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69]
+(./2021/BM/43/Table/table.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72
+
+]
 Chapter 3.
 (./2022/Ztransform.tex (./2022/CE/29/gate2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--60
@@ -2480,9 +2564,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67
-
-]
+ [73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2491,14 +2573,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68])
+ [74])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
-<2022/BM/39/figs/qfig.png, id=1006, 2294.5725pt x 1365.1pt>
+ [75]
+<2022/BM/39/figs/qfig.png, id=1075, 2294.5725pt x 1365.1pt>
 File: 2022/BM/39/figs/qfig.png Graphic file (type png)
 <use 2022/BM/39/figs/qfig.png>
 Package pdftex.def Info: 2022/BM/39/figs/qfig.png  used on input line 13.
@@ -2510,7 +2592,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70 <./2022/BM/39/figs/qfig.png>]
+ [76 <./2022/BM/39/figs/qfig.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2519,14 +2601,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [77]
 (./2022/BM/39/tables/table.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]
+ [78]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2535,7 +2617,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
+ [79]
 Underfull \hbox (badness 10000) in paragraph at lines 254--256
 
  []
@@ -2549,7 +2631,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74])
+ [80])
 (./2021/ZTRANSFORM.tex (./2021/EE/31/main.tex
 Underfull \vbox (badness 7685) has occurred while \output is active []
 
@@ -2559,8 +2641,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75]
-<2021/EE/31/figs/transform.png, id=1091, 462.528pt x 346.896pt>
+ [81]
+<2021/EE/31/figs/transform.png, id=1159, 462.528pt x 346.896pt>
 File: 2021/EE/31/figs/transform.png Graphic file (type png)
 <use 2021/EE/31/figs/transform.png>
 Package pdftex.def Info: 2021/EE/31/figs/transform.png  used on input line 121.
@@ -2575,13 +2657,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
+ [82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77 <./2021/EE/31/figs/transform.png>] (./2021/BT/20/GATE_BT_21_20.tex
+ [83 <./2021/EE/31/figs/transform.png>] (./2021/BT/20/GATE_BT_21_20.tex
 (./2021/BT/20/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2591,8 +2673,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78]
-<2021/BT/20/figs/x_plt.png, id=1120, 462.528pt x 346.896pt>
+ [84]
+<2021/BT/20/figs/x_plt.png, id=1189, 462.528pt x 346.896pt>
 File: 2021/BT/20/figs/x_plt.png Graphic file (type png)
 <use 2021/BT/20/figs/x_plt.png>
 Package pdftex.def Info: 2021/BT/20/figs/x_plt.png  used on input line 93.
@@ -2601,7 +2683,7 @@ Package pdftex.def Info: 2021/BT/20/figs/x_plt.png  used on input line 93.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<2021/BT/20/figs/y_plt.png, id=1121, 462.528pt x 346.896pt>
+<2021/BT/20/figs/y_plt.png, id=1190, 462.528pt x 346.896pt>
 File: 2021/BT/20/figs/y_plt.png Graphic file (type png)
 <use 2021/BT/20/figs/y_plt.png>
 Package pdftex.def Info: 2021/BT/20/figs/y_plt.png  used on input line 99.
@@ -2618,30 +2700,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79])
+ [85])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80 <./2021/BT/20/figs/x_plt.png>]
+ [86 <./2021/BT/20/figs/x_plt.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81 <./2021/BT/20/figs/y_plt.png>]
+ [87 <./2021/BT/20/figs/y_plt.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82
+ [88
 
 ]
 Chapter 4.
 (./2022/systems.tex
-<2022/EE/39/figs/question.jpg, id=1148, 361.35pt x 142.28156pt>
+<2022/EE/39/figs/question.jpg, id=1217, 361.35pt x 142.28156pt>
 File: 2022/EE/39/figs/question.jpg Graphic file (type jpg)
 <use 2022/EE/39/figs/question.jpg>
 Package pdftex.def Info: 2022/EE/39/figs/question.jpg  used on input line 9.
@@ -2653,7 +2735,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83 <./2022/EE/39/figs/question.jpg>]) (./2022/EE/39/tables/table2.tex)
+ [89 <./2022/EE/39/figs/question.jpg>]) (./2022/EE/39/tables/table2.tex)
 (./2022/EE/39/tables/table3.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2663,7 +2745,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84]
+ [90]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2672,7 +2754,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85]
+ [91]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2681,13 +2763,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86]
-<2022/EE/39/figs/Figure_1.jpg, id=1194, 722.7pt x 433.62pt>
+ [92]
+<2022/EE/39/figs/Figure_1.jpg, id=1262, 722.7pt x 433.62pt>
 File: 2022/EE/39/figs/Figure_1.jpg Graphic file (type jpg)
 <use 2022/EE/39/figs/Figure_1.jpg>
 Package pdftex.def Info: 2022/EE/39/figs/Figure_1.jpg  used on input line 142.
 (pdftex.def)             Requested size: 433.62001pt x 260.17401pt.
-<2022/EE/39/figs/Figure_2.jpg, id=1195, 722.7pt x 433.62pt>
+<2022/EE/39/figs/Figure_2.jpg, id=1263, 722.7pt x 433.62pt>
 File: 2022/EE/39/figs/Figure_2.jpg Graphic file (type jpg)
 <use 2022/EE/39/figs/Figure_2.jpg>
 Package pdftex.def Info: 2022/EE/39/figs/Figure_2.jpg  used on input line 149.
@@ -2698,15 +2780,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
-<2022/CH/58/figs/question.jpg, id=1206, 638.385pt x 291.0875pt>
+ [93]
+<2022/CH/58/figs/question.jpg, id=1274, 638.385pt x 291.0875pt>
 File: 2022/CH/58/figs/question.jpg Graphic file (type jpg)
 <use 2022/CH/58/figs/question.jpg>
 Package pdftex.def Info: 2022/CH/58/figs/question.jpg  used on input line 25.
 (pdftex.def)             Requested size: 433.62001pt x 197.71922pt.
 
 (./2022/CH/58/ch_58.tex (./2022/CH/58/tables/par.tex)
-<2022/CH/58/figs/fig1.jpg, id=1207, 638.385pt x 291.0875pt>
+<2022/CH/58/figs/fig1.jpg, id=1275, 638.385pt x 291.0875pt>
 File: 2022/CH/58/figs/fig1.jpg Graphic file (type jpg)
 <use 2022/CH/58/figs/fig1.jpg>
 Package pdftex.def Info: 2022/CH/58/figs/fig1.jpg  used on input line 75.
@@ -2720,7 +2802,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88 <./2022/EE/39/figs/Figure_1.jpg>]
+ [94 <./2022/EE/39/figs/Figure_1.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2729,13 +2811,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89 <./2022/EE/39/figs/Figure_2.jpg>]
+ [95 <./2022/EE/39/figs/Figure_2.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90 <./2022/CH/58/figs/question.jpg>] (./2022/CH/58/tables/gen_routh.tex)
+ [96 <./2022/CH/58/figs/question.jpg>] (./2022/CH/58/tables/gen_routh.tex)
 (./2022/CH/58/tables/routh.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2745,27 +2827,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91 <./2022/CH/58/figs/fig1.jpg>]
+ [97 <./2022/CH/58/figs/fig1.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92])
+ [98])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
+ [99]
 (./2022/BM/54/bm-54.tex (./2022/BM/54/tables/table4.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94]
-<2022/BM/54/figs//graph_1.png, id=1272, 462.528pt x 320.1561pt>
+ [100]
+<2022/BM/54/figs//graph_1.png, id=1341, 462.528pt x 320.1561pt>
 File: 2022/BM/54/figs//graph_1.png Graphic file (type png)
 <use 2022/BM/54/figs//graph_1.png>
 Package pdftex.def Info: 2022/BM/54/figs//graph_1.png  used on input line 134.
@@ -2776,7 +2858,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
+ [101]
 (./2022/EE/19/main.tex (./2022/EE/19/tables/input2022.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2786,8 +2868,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96 <./2022/BM/54/figs//graph_1.png>] (./2022/EE/19/tables/routhtable.tex)
-<2022/EE/19/figs/bodeplot.png, id=1296, 462.528pt x 320.1561pt>
+ [102 <./2022/BM/54/figs//graph_1.png>] (./2022/EE/19/tables/routhtable.tex)
+<2022/EE/19/figs/bodeplot.png, id=1365, 462.528pt x 320.1561pt>
 File: 2022/EE/19/figs/bodeplot.png Graphic file (type png)
 <use 2022/EE/19/figs/bodeplot.png>
 Package pdftex.def Info: 2022/EE/19/figs/bodeplot.png  used on input line 45.
@@ -2798,13 +2880,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97 <./2022/EE/19/figs/bodeplot.png>]
+ [103 <./2022/EE/19/figs/bodeplot.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98]
+ [104]
 (./2022/IN/37/figs/sfg.tex) (./2022/IN/37/main.tex
 (./2022/IN/37/tables/table.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 55--77
@@ -2817,13 +2899,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99])
+ [105])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100]
+ [106]
 (./2022/IN/14/assign5.tex (./2022/IN/14/tables/tables4.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 59--75
 
@@ -2843,7 +2925,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101]
+ [107]
 Underfull \hbox (badness 10000) in paragraph at lines 85--89
 
  []
@@ -2859,7 +2941,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102]
+ [108]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -2896,63 +2978,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103]
+ [109]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [104]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [105])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [106]
-(./2022/CH/60/60.tex (./2022/CH/60/tables/tab_ch_60_22.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [107]
-<2022/CH/60/figs/plot.png, id=1421, 462.528pt x 346.896pt>
-File: 2022/CH/60/figs/plot.png Graphic file (type png)
-<use 2022/CH/60/figs/plot.png>
-Package pdftex.def Info: 2022/CH/60/figs/plot.png  used on input line 95.
-(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [108]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [109 <./2022/CH/60/figs/plot.png>] (./2022/EE/48/figs/gate22.tex) (./2022/EE/4
-8/48.tex
-Underfull \hbox (badness 10000) in paragraph at lines 108--22
-
- []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2961,9 +2988,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [110]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2978,7 +3003,64 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [112]
-<2022/BM/40/figs/fig3.png, id=1463, 634.37pt x 167.62625pt>
+(./2022/CH/60/60.tex (./2022/CH/60/tables/tab_ch_60_22.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113]
+<2022/CH/60/figs/plot.png, id=1490, 462.528pt x 346.896pt>
+File: 2022/CH/60/figs/plot.png Graphic file (type png)
+<use 2022/CH/60/figs/plot.png>
+Package pdftex.def Info: 2022/CH/60/figs/plot.png  used on input line 95.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [115 <./2022/CH/60/figs/plot.png>] (./2022/EE/48/figs/gate22.tex) (./2022/EE/4
+8/48.tex
+Underfull \hbox (badness 10000) in paragraph at lines 108--22
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118]
+<2022/BM/40/figs/fig3.png, id=1531, 634.37pt x 167.62625pt>
 File: 2022/BM/40/figs/fig3.png Graphic file (type png)
 <use 2022/BM/40/figs/fig3.png>
 Package pdftex.def Info: 2022/BM/40/figs/fig3.png  used on input line 118.
@@ -3021,13 +3103,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113 <./2022/BM/40/figs/fig3.png>])
+ [119 <./2022/BM/40/figs/fig3.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114]
+ [120]
 (./2022/IN/53/main.tex (./2022/IN/53/tables/table1.tex)
 (./2022/IN/53/tables/table2.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3035,8 +3117,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115]
-<2022/IN/53/figs/bode_mag_plot.png, id=1489, 462.528pt x 346.896pt>
+ [121]
+<2022/IN/53/figs/bode_mag_plot.png, id=1558, 462.528pt x 346.896pt>
 File: 2022/IN/53/figs/bode_mag_plot.png Graphic file (type png)
 <use 2022/IN/53/figs/bode_mag_plot.png>
 Package pdftex.def Info: 2022/IN/53/figs/bode_mag_plot.png  used on input line 
@@ -3052,7 +3134,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [116]
+ [122]
 (./2022/EE/33/main.tex (./2022/EE/33/tables/table1.tex
 Overfull \hbox (2.2915pt too wide) detected at line 5
 []
@@ -3105,7 +3187,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117 <./2022/IN/53/figs/bode_mag_plot.png>]
+ [123 <./2022/IN/53/figs/bode_mag_plot.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3114,13 +3196,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118])
+ [124])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [119]
+ [125]
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
@@ -3136,7 +3218,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120])
+ [126])
 Underfull \hbox (badness 10000) in paragraph at lines 92--162
 
  []
@@ -3150,13 +3232,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [121]
+ [127]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [122]
+ [128]
 (./2022/CH/23/main.tex (./2022/CH/23/tables/table.tex
 Overfull \hbox (3.20879pt too wide) in paragraph at lines 3--3
 []|\OT1/cmr/bx/n/10.95 Symbol| 
@@ -3221,13 +3303,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [123])
+ [129])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [124])
+ [130])
 (./2021/SYSTEMS.tex (./2021/EC/49/main.tex (./2021/EC/49/tables/table1.tex)
 (./2021/EC/49/tables/table2.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3238,8 +3320,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [125]
-<2021/EC/49/figs/fig2.png, id=1596, 789.95125pt x 436.63126pt>
+ [131]
+<2021/EC/49/figs/fig2.png, id=1664, 789.95125pt x 436.63126pt>
 File: 2021/EC/49/figs/fig2.png Graphic file (type png)
 <use 2021/EC/49/figs/fig2.png>
 Package pdftex.def Info: 2021/EC/49/figs/fig2.png  used on input line 79.
@@ -3253,8 +3335,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126 <./2021/EC/49/figs/fig2.png>]
-<2021/EC/49/figs/Figure_1.png, id=1612, 446.6286pt x 286.1892pt>
+ [132 <./2021/EC/49/figs/fig2.png>]
+<2021/EC/49/figs/Figure_1.png, id=1681, 446.6286pt x 286.1892pt>
 File: 2021/EC/49/figs/Figure_1.png Graphic file (type png)
 <use 2021/EC/49/figs/Figure_1.png>
 Package pdftex.def Info: 2021/EC/49/figs/Figure_1.png  used on input line 98.
@@ -3268,13 +3350,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127]
+ [133]
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 (./2021/EE/7/gate7.tex
-<2021/EE/7/figs/fig2.png, id=1624, 849.1725pt x 405.01312pt>
+<2021/EE/7/figs/fig2.png, id=1693, 849.1725pt x 405.01312pt>
 File: 2021/EE/7/figs/fig2.png Graphic file (type png)
 <use 2021/EE/7/figs/fig2.png>
 Package pdftex.def Info: 2021/EE/7/figs/fig2.png  used on input line 67.
@@ -3285,7 +3367,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [128 <./2021/EC/49/figs/Figure_1.png>]
+ [134 <./2021/EC/49/figs/Figure_1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3294,18 +3376,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129 <./2021/EE/7/figs/fig2.png>]
-<2021/EE/7/figs/fig3.png, id=1648, 462.528pt x 346.896pt>
+ [135 <./2021/EE/7/figs/fig2.png>]
+<2021/EE/7/figs/fig3.png, id=1717, 462.528pt x 346.896pt>
 File: 2021/EE/7/figs/fig3.png Graphic file (type png)
 <use 2021/EE/7/figs/fig3.png>
 Package pdftex.def Info: 2021/EE/7/figs/fig3.png  used on input line 90.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<2021/EE/7/figs/fig4.png, id=1649, 462.528pt x 346.896pt>
+<2021/EE/7/figs/fig4.png, id=1718, 462.528pt x 346.896pt>
 File: 2021/EE/7/figs/fig4.png Graphic file (type png)
 <use 2021/EE/7/figs/fig4.png>
 Package pdftex.def Info: 2021/EE/7/figs/fig4.png  used on input line 96.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<2021/EE/7/figs/fig1.png, id=1650, 462.528pt x 346.896pt>
+<2021/EE/7/figs/fig1.png, id=1719, 462.528pt x 346.896pt>
 File: 2021/EE/7/figs/fig1.png Graphic file (type png)
 <use 2021/EE/7/figs/fig1.png>
 Package pdftex.def Info: 2021/EE/7/figs/fig1.png  used on input line 102.
@@ -3319,7 +3401,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [130 <./2021/EE/7/figs/fig3.png>] (./2021/EC/50/50.tex
+ [136 <./2021/EE/7/figs/fig3.png>] (./2021/EC/50/50.tex
 (./2021/EC/50/tables/gate21table.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -3333,7 +3415,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [131 <./2021/EE/7/figs/fig4.png>] (./2021/EC/50/figs/block.tex))
+ [137 <./2021/EE/7/figs/fig4.png>] (./2021/EC/50/figs/block.tex))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3342,34 +3424,212 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [132 <./2021/EE/7/figs/fig1.png>])
+ [138 <./2021/EE/7/figs/fig1.png>] (./2021/BM/27/27.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [139]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134]
+ [140])
+<2021/BM/31/figs/questionfig.png, id=1760, 437.635pt x 318.18875pt>
+File: 2021/BM/31/figs/questionfig.png Graphic file (type png)
+<use 2021/BM/31/figs/questionfig.png>
+Package pdftex.def Info: 2021/BM/31/figs/questionfig.png  used on input line 33
+.
+(pdftex.def)             Requested size: 433.62001pt x 315.27486pt.
+
+(./2021/BM/31/Assignmentbm31.tex (./2021/BM/31/table/Parameter.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [135]
+ [141])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [136]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [142 <./2021/BM/31/figs/questionfig.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [143]
+<2021/EC/48/figs/figure_1.png, id=1785, 1284.8pt x 212.795pt>
+File: 2021/EC/48/figs/figure_1.png Graphic file (type png)
+<use 2021/EC/48/figs/figure_1.png>
+Package pdftex.def Info: 2021/EC/48/figs/figure_1.png  used on input line 43.
+(pdftex.def)             Requested size: 433.62001pt x 71.81682pt.
+
+(./2021/EC/48/ec-48.tex (./2021/EC/48/tables/table6.tex
+Overfull \hbox (60.25021pt too wide) in paragraph at lines 4--21
+ [][] 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [144 <./2021/EC/48/figs/figure_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [145]
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+<2021/EC/48/figs/graph_1.png, id=1824, 462.528pt x 320.1561pt>
+File: 2021/EC/48/figs/graph_1.png Graphic file (type png)
+<use 2021/EC/48/figs/graph_1.png>
+Package pdftex.def Info: 2021/EC/48/figs/graph_1.png  used on input line 133.
+(pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
+<2021/EC/48/figs/graph_2.png, id=1825, 462.528pt x 320.1561pt>
+File: 2021/EC/48/figs/graph_2.png Graphic file (type png)
+<use 2021/EC/48/figs/graph_2.png>
+Package pdftex.def Info: 2021/EC/48/figs/graph_2.png  used on input line 141.
+(pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
+<2021/EC/48/figs/graph_3.png, id=1826, 462.528pt x 320.1561pt>
+File: 2021/EC/48/figs/graph_3.png Graphic file (type png)
+<use 2021/EC/48/figs/graph_3.png>
+Package pdftex.def Info: 2021/EC/48/figs/graph_3.png  used on input line 149.
+(pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
+<2021/EC/48/figs/plot_1.png, id=1828, 462.528pt x 320.1561pt>
+File: 2021/EC/48/figs/plot_1.png Graphic file (type png)
+<use 2021/EC/48/figs/plot_1.png>
+Package pdftex.def Info: 2021/EC/48/figs/plot_1.png  used on input line 168.
+(pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
+<2021/EC/48/figs/plot_2.png, id=1829, 462.528pt x 320.1561pt>
+File: 2021/EC/48/figs/plot_2.png Graphic file (type png)
+<use 2021/EC/48/figs/plot_2.png>
+Package pdftex.def Info: 2021/EC/48/figs/plot_2.png  used on input line 176.
+(pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
+<2021/EC/48/figs/plot_3.png, id=1830, 462.528pt x 320.1561pt>
+File: 2021/EC/48/figs/plot_3.png Graphic file (type png)
+<use 2021/EC/48/figs/plot_3.png>
+Package pdftex.def Info: 2021/EC/48/figs/plot_3.png  used on input line 184.
+(pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [146]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [147 <./2021/EC/48/figs/graph_1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [148 <./2021/EC/48/figs/graph_2.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [149 <./2021/EC/48/figs/graph_3.png>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [150 <./2021/EC/48/figs/plot_1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [151]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [152]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [153]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [154 <./2021/EC/48/figs/plot_2.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [155 <./2021/EC/48/figs/plot_3.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [156
+
+]
 Chapter 5.
 (./2022/sequences.tex
-<2022/BM/15/figs/question_BM_15.png, id=1695, 608.2725pt x 301.125pt>
+<2022/BM/15/figs/question_BM_15.png, id=1901, 608.2725pt x 301.125pt>
 File: 2022/BM/15/figs/question_BM_15.png Graphic file (type png)
 <use 2022/BM/15/figs/question_BM_15.png>
 Package pdftex.def Info: 2022/BM/15/figs/question_BM_15.png  used on input line
@@ -3382,9 +3642,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [137
-
- <./2022/BM/15/figs/question_BM_15.png>]
+ [157 <./2022/BM/15/figs/question_BM_15.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3393,8 +3651,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [138]
-<2022/BM/15/figs/cross-corelation.png, id=1718, 462.528pt x 346.896pt>
+ [158]
+<2022/BM/15/figs/cross-corelation.png, id=1923, 462.528pt x 346.896pt>
 File: 2022/BM/15/figs/cross-corelation.png Graphic file (type png)
 <use 2022/BM/15/figs/cross-corelation.png>
 Package pdftex.def Info: 2022/BM/15/figs/cross-corelation.png  used on input li
@@ -3406,14 +3664,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [139 <./2022/BM/15/figs/cross-corelation.png>] (./2022/CS/36/asnmt7.tex
+ [159 <./2022/BM/15/figs/cross-corelation.png>] (./2022/CS/36/asnmt7.tex
 (./2022/CS/36/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140]
+ [160]
 Underfull \hbox (badness 10000) in paragraph at lines 91--94
 
  []
@@ -3432,8 +3690,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [141]
-<2022/CS/36/figs/Figure_1.png, id=1751, 461.8053pt x 346.1733pt>
+ [161]
+<2022/CS/36/figs/Figure_1.png, id=1957, 461.8053pt x 346.1733pt>
 File: 2022/CS/36/figs/Figure_1.png Graphic file (type png)
 <use 2022/CS/36/figs/Figure_1.png>
 Package pdftex.def Info: 2022/CS/36/figs/Figure_1.png  used on input line 121.
@@ -3448,14 +3706,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [142]
+ [162]
 (./2022/CS/51/gate2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [143 <./2022/CS/36/figs/Figure_1.png>]
+ [163 <./2022/CS/36/figs/Figure_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 83--88
 
  []
@@ -3469,7 +3727,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [144]
+ [164]
 Underfull \hbox (badness 10000) in paragraph at lines 100--105
 
  []
@@ -3483,12 +3741,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [145]
+ [165]
 Underfull \hbox (badness 10000) in paragraph at lines 126--130
 
  []
 
-<2022/CS/51/figures/gate2.png, id=1807, 462.528pt x 346.896pt>
+<2022/CS/51/figures/gate2.png, id=2012, 462.528pt x 346.896pt>
 File: 2022/CS/51/figures/gate2.png Graphic file (type png)
 <use 2022/CS/51/figures/gate2.png>
 Package pdftex.def Info: 2022/CS/51/figures/gate2.png  used on input line 141.
@@ -3503,13 +3761,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [146]
+ [166]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [147 <./2022/CS/51/figures/gate2.png>]
+ [167 <./2022/CS/51/figures/gate2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3518,7 +3776,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [148])
+ [168])
 Chapter 6.
 (./2022/sampling.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
@@ -3555,7 +3813,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [149
+ [169
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3566,8 +3824,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [150]
-<2022/IN/38/figs/plot.png, id=1847, 462.528pt x 346.896pt>
+ [170]
+<2022/IN/38/figs/plot.png, id=2053, 462.528pt x 346.896pt>
 File: 2022/IN/38/figs/plot.png Graphic file (type png)
 <use 2022/IN/38/figs/plot.png>
 Package pdftex.def Info: 2022/IN/38/figs/plot.png  used on input line 106.
@@ -3578,8 +3836,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [151 <./2022/IN/38/figs/plot.png>]
-<2022/BM/14/figs/question.png, id=1857, 760.8425pt x 533.995pt>
+ [171 <./2022/IN/38/figs/plot.png>]
+<2022/BM/14/figs/question.png, id=2063, 760.8425pt x 533.995pt>
 File: 2022/BM/14/figs/question.png Graphic file (type png)
 <use 2022/BM/14/figs/question.png>
 Package pdftex.def Info: 2022/BM/14/figs/question.png  used on input line 24.
@@ -3593,8 +3851,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [152 <./2022/BM/14/figs/question.png>]
-<2022/BM/14/figs/X_s.png, id=1867, 462.528pt x 346.896pt>
+ [172 <./2022/BM/14/figs/question.png>]
+<2022/BM/14/figs/X_s.png, id=2073, 462.528pt x 346.896pt>
 File: 2022/BM/14/figs/X_s.png Graphic file (type png)
 <use 2022/BM/14/figs/X_s.png>
 Package pdftex.def Info: 2022/BM/14/figs/X_s.png  used on input line 108.
@@ -3609,7 +3867,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [153])
+ [173])
 (./2021/SAMPLING.tex (./2021/BM/32/gate3.tex (./2021/BM/32/tables/table1.tex
 Overfull \hbox (6.31966pt too wide) in paragraph at lines 11--11
 []|\OT1/cmr/m/n/10.95 Description| 
@@ -3634,13 +3892,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [154 <./2022/BM/14/figs/X_s.png>]
-<2021/BM/32/figs/fig1.png, id=1887, 462.528pt x 320.1561pt>
+ [174 <./2022/BM/14/figs/X_s.png>]
+<2021/BM/32/figs/fig1.png, id=2094, 462.528pt x 320.1561pt>
 File: 2021/BM/32/figs/fig1.png Graphic file (type png)
 <use 2021/BM/32/figs/fig1.png>
 Package pdftex.def Info: 2021/BM/32/figs/fig1.png  used on input line 54.
 (pdftex.def)             Requested size: 226.64069pt x 156.87785pt.
-<2021/BM/32/figs/fig2.png, id=1888, 462.528pt x 320.1561pt>
+<2021/BM/32/figs/fig2.png, id=2095, 462.528pt x 320.1561pt>
 File: 2021/BM/32/figs/fig2.png Graphic file (type png)
 <use 2021/BM/32/figs/fig2.png>
 Package pdftex.def Info: 2021/BM/32/figs/fig2.png  used on input line 60.
@@ -3651,7 +3909,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [155 <./2021/BM/32/figs/fig1.png>]
+ [175 <./2021/BM/32/figs/fig1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
@@ -3674,13 +3932,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [156 <./2021/BM/32/figs/fig2.png>]
-<2021/EC/4/figs/plot1.png, id=1908, 867.24pt x 433.62pt>
+ [176 <./2021/BM/32/figs/fig2.png>]
+<2021/EC/4/figs/plot1.png, id=2114, 867.24pt x 433.62pt>
 File: 2021/EC/4/figs/plot1.png Graphic file (type png)
 <use 2021/EC/4/figs/plot1.png>
 Package pdftex.def Info: 2021/EC/4/figs/plot1.png  used on input line 91.
 (pdftex.def)             Requested size: 433.62001pt x 216.80946pt.
-<2021/EC/4/figs/plot2.png, id=1909, 578.16pt x 433.62pt>
+<2021/EC/4/figs/plot2.png, id=2115, 578.16pt x 433.62pt>
 File: 2021/EC/4/figs/plot2.png Graphic file (type png)
 <use 2021/EC/4/figs/plot2.png>
 Package pdftex.def Info: 2021/EC/4/figs/plot2.png  used on input line 97.
@@ -3698,7 +3956,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [157]
+ [177]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
@@ -3717,7 +3975,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [158 <./2021/EC/4/figs/plot1.png>]
+ [178 <./2021/EC/4/figs/plot1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3726,7 +3984,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [159 <./2021/EC/4/figs/plot2.png>]
+ [179 <./2021/EC/4/figs/plot2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
@@ -3737,7 +3995,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [160])
+ [180])
 Chapter 7.
 (./2022/contour.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -3750,7 +4008,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [161
+ [181
 
 ])
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3758,20 +4016,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [162]
+ [182]
 (./2022/IN/61/main.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [163]
+ [183]
 Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
 (./2022/MA/14/main.tex
-<2022/MA/14/figs/Figure_1.png, id=1977, 450.2421pt x 338.2236pt>
+<2022/MA/14/figs/Figure_1.png, id=2183, 450.2421pt x 338.2236pt>
 File: 2022/MA/14/figs/Figure_1.png Graphic file (type png)
 <use 2022/MA/14/figs/Figure_1.png>
 Package pdftex.def Info: 2022/MA/14/figs/Figure_1.png  used on input line 57.
@@ -3785,7 +4043,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [164]))
+ [184]))
 (./2021/CONTOUR.tex (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex
 File ignored)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3796,7 +4054,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [165 <./2022/MA/14/figs/Figure_1.png>]
+ [185 <./2022/MA/14/figs/Figure_1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3805,7 +4063,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [166])
+ [186])
 Chapter 8.
 (./2022/laplace.tex (./2022/AE/37/ae_37.tex (./2022/AE/37/tables/ae_37_tab.tex)
 
@@ -3817,10 +4075,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [167
+ [187
 
 ]
-<2022/AE/37/figs/plot.png, id=2024, 462.528pt x 346.896pt>
+<2022/AE/37/figs/plot.png, id=2231, 462.528pt x 346.896pt>
 File: 2022/AE/37/figs/plot.png Graphic file (type png)
 <use 2022/AE/37/figs/plot.png>
 Package pdftex.def Info: 2022/AE/37/figs/plot.png  used on input line 91.
@@ -3834,13 +4092,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [168]
+ [188]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [169 <./2022/AE/37/figs/plot.png>] (./2022/CH/34/main.tex (./2022/CH/34/tables
+ [189 <./2022/AE/37/figs/plot.png>] (./2022/CH/34/main.tex (./2022/CH/34/tables
 /table1.tex)
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
@@ -3850,8 +4108,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [170]
-<2022/CH/34/figs/Graph_of_y(t).png, id=2056, 462.528pt x 346.896pt>
+ [190]
+<2022/CH/34/figs/Graph_of_y(t).png, id=2261, 462.528pt x 346.896pt>
 File: 2022/CH/34/figs/Graph_of_y(t).png Graphic file (type png)
 <use 2022/CH/34/figs/Graph_of_y(t).png>
 Package pdftex.def Info: 2022/CH/34/figs/Graph_of_y(t).png  used on input line 
@@ -3866,20 +4124,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [171 <./2022/CH/34/figs/Graph_of_y(t).png>] (./2022/EE/11/main.tex
+ [191 <./2022/CH/34/figs/Graph_of_y(t).png>] (./2022/EE/11/main.tex
 (./2022/EE/11/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [172]
+ [192]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [173])
+ [193])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3888,7 +4146,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [174]
+ [194]
 Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
@@ -3903,7 +4161,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [175]
+ [195]
 (./2022/EC/24/figs/ckt1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3913,14 +4171,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [176]
+ [196]
 (./2022/EC/24/figs/plot1.tex)
-<2022/EC/24/figs/Figure_2.png, id=2124, 462.528pt x 320.1561pt>
+<2022/EC/24/figs/Figure_2.png, id=2330, 462.528pt x 320.1561pt>
 File: 2022/EC/24/figs/Figure_2.png Graphic file (type png)
 <use 2022/EC/24/figs/Figure_2.png>
 Package pdftex.def Info: 2022/EC/24/figs/Figure_2.png  used on input line 113.
 (pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
-<2022/EC/24/figs/Figure_4.png, id=2125, 479.8728pt x 280.4076pt>
+<2022/EC/24/figs/Figure_4.png, id=2331, 479.8728pt x 280.4076pt>
 File: 2022/EC/24/figs/Figure_4.png Graphic file (type png)
 <use 2022/EC/24/figs/Figure_4.png>
 Package pdftex.def Info: 2022/EC/24/figs/Figure_4.png  used on input line 120.
@@ -3931,7 +4189,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [177]
+ [197]
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
@@ -3942,7 +4200,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [178 <./2022/EC/24/figs/Figure_2.png>]
+ [198 <./2022/EC/24/figs/Figure_2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3951,8 +4209,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [179 <./2022/EC/24/figs/Figure_4.png>]
-<2022/ES/36/figs/a.png, id=2168, 462.528pt x 346.896pt>
+ [199 <./2022/EC/24/figs/Figure_4.png>]
+<2022/ES/36/figs/a.png, id=2374, 462.528pt x 346.896pt>
 File: 2022/ES/36/figs/a.png Graphic file (type png)
 <use 2022/ES/36/figs/a.png>
 Package pdftex.def Info: 2022/ES/36/figs/a.png  used on input line 86.
@@ -3963,7 +4221,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [180]
+ [200]
 (./2022/EE/46/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3973,8 +4231,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [181 <./2022/ES/36/figs/a.png>]
-<2022/EE/46/figs/fig_1.jpg, id=2186, 462.528pt x 346.896pt>
+ [201 <./2022/ES/36/figs/a.png>]
+<2022/EE/46/figs/fig_1.jpg, id=2391, 462.528pt x 346.896pt>
 File: 2022/EE/46/figs/fig_1.jpg Graphic file (type jpg)
 <use 2022/EE/46/figs/fig_1.jpg>
 Package pdftex.def Info: 2022/EE/46/figs/fig_1.jpg  used on input line 82.
@@ -3992,7 +4250,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [182]
+ [202]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4001,13 +4259,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [183 <./2022/EE/46/figs/fig_1.jpg>])
+ [203 <./2022/EE/46/figs/fig_1.jpg>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [184]
+ [204]
 Underfull \hbox (badness 10000) in paragraph at lines 75--80
 
  []
@@ -4046,13 +4304,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [185]
-<2022/IN/11/figs/freq.png, id=2225, 578.16pt x 433.62pt>
+ [205]
+<2022/IN/11/figs/freq.png, id=2432, 578.16pt x 433.62pt>
 File: 2022/IN/11/figs/freq.png Graphic file (type png)
 <use 2022/IN/11/figs/freq.png>
 Package pdftex.def Info: 2022/IN/11/figs/freq.png  used on input line 92.
 (pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
-<2022/IN/11/figs/phase.png, id=2226, 578.16pt x 433.62pt>
+<2022/IN/11/figs/phase.png, id=2433, 578.16pt x 433.62pt>
 File: 2022/IN/11/figs/phase.png Graphic file (type png)
 <use 2022/IN/11/figs/phase.png>
 Package pdftex.def Info: 2022/IN/11/figs/phase.png  used on input line 98.
@@ -4070,7 +4328,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [186]
+ [206]
 (./2022/EC/33/8.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -4080,7 +4338,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [187 <./2022/IN/11/figs/freq.png>]
+ [207 <./2022/IN/11/figs/freq.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4089,7 +4347,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [188 <./2022/IN/11/figs/phase.png>]
+ [208 <./2022/IN/11/figs/phase.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4098,26 +4356,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [189])
+ [209])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [190]
+ [210]
 (./2022/IN/15/in15.tex (./2022/IN/15/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [191]
-<2022/IN/15/figs/Figure_1.jpg, id=2303, 722.7pt x 433.62pt>
+ [211]
+<2022/IN/15/figs/Figure_1.jpg, id=2509, 722.7pt x 433.62pt>
 File: 2022/IN/15/figs/Figure_1.jpg Graphic file (type jpg)
 <use 2022/IN/15/figs/Figure_1.jpg>
 Package pdftex.def Info: 2022/IN/15/figs/Figure_1.jpg  used on input line 100.
 (pdftex.def)             Requested size: 433.62001pt x 260.17401pt.
-<2022/IN/15/figs/Figure_2.jpg, id=2304, 722.7pt x 433.62pt>
+<2022/IN/15/figs/Figure_2.jpg, id=2510, 722.7pt x 433.62pt>
 File: 2022/IN/15/figs/Figure_2.jpg Graphic file (type jpg)
 <use 2022/IN/15/figs/Figure_2.jpg>
 Package pdftex.def Info: 2022/IN/15/figs/Figure_2.jpg  used on input line 107.
@@ -4128,8 +4386,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [192 <./2022/IN/15/figs/Figure_1.jpg>]
-<2022/BM/38/figs/given_graph.png, id=2312, 705.63625pt x 416.55624pt>
+ [212 <./2022/IN/15/figs/Figure_1.jpg>]
+<2022/BM/38/figs/given_graph.png, id=2517, 705.63625pt x 416.55624pt>
 File: 2022/BM/38/figs/given_graph.png Graphic file (type png)
 <use 2022/BM/38/figs/given_graph.png>
 Package pdftex.def Info: 2022/BM/38/figs/given_graph.png  used on input line 11
@@ -4149,8 +4407,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [193 <./2022/IN/15/figs/Figure_2.jpg>]
-<2022/BM/38/figs/phase.png, id=2321, 462.528pt x 346.896pt>
+ [213 <./2022/IN/15/figs/Figure_2.jpg>]
+<2022/BM/38/figs/phase.png, id=2526, 462.528pt x 346.896pt>
 File: 2022/BM/38/figs/phase.png Graphic file (type png)
 <use 2022/BM/38/figs/phase.png>
 Package pdftex.def Info: 2022/BM/38/figs/phase.png  used on input line 91.
@@ -4168,7 +4426,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [194 <./2022/BM/38/figs/given_graph.png>]
+ [214 <./2022/BM/38/figs/given_graph.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4177,14 +4435,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [195 <./2022/BM/38/figs/phase.png>]
-<2022/BM/38/figs/laplace_transform1.png, id=2340, 462.528pt x 346.896pt>
+ [215 <./2022/BM/38/figs/phase.png>]
+<2022/BM/38/figs/laplace_transform1.png, id=2546, 462.528pt x 346.896pt>
 File: 2022/BM/38/figs/laplace_transform1.png Graphic file (type png)
 <use 2022/BM/38/figs/laplace_transform1.png>
 Package pdftex.def Info: 2022/BM/38/figs/laplace_transform1.png  used on input 
 line 113.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<2022/BM/38/figs/laplace_transform2.png, id=2341, 462.528pt x 346.896pt>
+<2022/BM/38/figs/laplace_transform2.png, id=2547, 462.528pt x 346.896pt>
 File: 2022/BM/38/figs/laplace_transform2.png Graphic file (type png)
 <use 2022/BM/38/figs/laplace_transform2.png>
 Package pdftex.def Info: 2022/BM/38/figs/laplace_transform2.png  used on input 
@@ -4197,7 +4455,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<2022/BM/38/figs/graph.png, id=2342, 462.528pt x 346.896pt>
+<2022/BM/38/figs/graph.png, id=2548, 462.528pt x 346.896pt>
 File: 2022/BM/38/figs/graph.png Graphic file (type png)
 <use 2022/BM/38/figs/graph.png>
 Package pdftex.def Info: 2022/BM/38/figs/graph.png  used on input line 127.
@@ -4211,8 +4469,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [196]
-<2022/EC/39/figs/sin.png, id=2355, 462.528pt x 346.896pt>
+ [216]
+<2022/EC/39/figs/sin.png, id=2562, 462.528pt x 346.896pt>
 File: 2022/EC/39/figs/sin.png Graphic file (type png)
 <use 2022/EC/39/figs/sin.png>
 Package pdftex.def Info: 2022/EC/39/figs/sin.png  used on input line 142.
@@ -4234,7 +4492,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [197 <./2022/BM/38/figs/laplace_transform1.png>]
+ [217 <./2022/BM/38/figs/laplace_transform1.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -4247,7 +4505,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [198 <./2022/BM/38/figs/laplace_transform2.png>]
+ [218 <./2022/BM/38/figs/laplace_transform2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4256,7 +4514,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [199 <./2022/BM/38/figs/graph.png>]
+ [219 <./2022/BM/38/figs/graph.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4265,7 +4523,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [200 <./2022/EC/39/figs/sin.png>])
+ [220 <./2022/EC/39/figs/sin.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4274,7 +4532,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [201]
+ [221]
 (./2022/CE/48/ce-48-2022.tex (./2022/CE/48/tables/table5.tex)
 Underfull \vbox (badness 2027) has occurred while \output is active []
 
@@ -4284,8 +4542,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [202]
-<2022/CE/48/figs//graph_1.png, id=2416, 1336.995pt x 695.9601pt>
+ [222]
+<2022/CE/48/figs//graph_1.png, id=2622, 1336.995pt x 695.9601pt>
 File: 2022/CE/48/figs//graph_1.png Graphic file (type png)
 <use 2022/CE/48/figs//graph_1.png>
 Package pdftex.def Info: 2022/CE/48/figs//graph_1.png  used on input line 125.
@@ -4299,7 +4557,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [203]
+ [223]
 (./2022/IN/41/main.tex (./2022/IN/41/tables/table1.tex)
 (./2022/IN/41/figs/tikz.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4310,13 +4568,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [204 <./2022/CE/48/figs//graph_1.png>]
+ [224 <./2022/CE/48/figs//graph_1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [205]
+ [225]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4325,21 +4583,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [206])
+ [226])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [207]
+ [227]
 (./2022/NM/50/g50.tex (./2022/NM/50/tables/table.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [208]
-<2022/NM/50/figs/g50fig1.png, id=2490, 462.528pt x 346.896pt>
+ [228]
+<2022/NM/50/figs/g50fig1.png, id=2697, 462.528pt x 346.896pt>
 File: 2022/NM/50/figs/g50fig1.png Graphic file (type png)
 <use 2022/NM/50/figs/g50fig1.png>
 Package pdftex.def Info: 2022/NM/50/figs/g50fig1.png  used on input line 188.
@@ -4350,7 +4608,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [209]
+ [229]
 (./2022/IN/40/Gate.tex (./2022/IN/40/tables/Table.tex
 Overfull \hbox (3.8537pt too wide) in paragraph at lines 4--4
 []|\OT1/cmr/m/n/9 PARAMETER| 
@@ -4369,7 +4627,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [210 <./2022/NM/50/figs/g50fig1.png>]
+ [230 <./2022/NM/50/figs/g50fig1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
@@ -4393,7 +4651,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [211]
+ [231]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4402,7 +4660,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [212]
+ [232]
 (./2022/IN/63/figs/fig_1.tex) (./2022/IN/63/main.tex
 (./2022/IN/63/tables/tab_1.tex) (./2022/IN/63/figs/fig_2.tex)
 
@@ -4417,7 +4675,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [213]
+ [233]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4426,7 +4684,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [214])
+ [234])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4435,8 +4693,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [215]
-<2022/XE/80/figs/question.png, id=2565, 246.9225pt x 147.55125pt>
+ [235]
+<2022/XE/80/figs/question.png, id=2771, 246.9225pt x 147.55125pt>
 File: 2022/XE/80/figs/question.png Graphic file (type png)
 <use 2022/XE/80/figs/question.png>
 Package pdftex.def Info: 2022/XE/80/figs/question.png  used on input line 207.
@@ -4449,7 +4707,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [216 <./2022/XE/80/figs/question.png>]
+ [236 <./2022/XE/80/figs/question.png>]
 Underfull \vbox (badness 1377) has occurred while \output is active []
 
 
@@ -4458,7 +4716,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [217]
+ [237]
 Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
@@ -4472,7 +4730,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [218]
+ [238]
 (./2022/XE/80/figs/fig_2.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -4482,7 +4740,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [219])
+ [239])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4491,7 +4749,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [220]
+ [240]
 (./2022/EE/17/figs/fig1.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 221--228
 
@@ -4508,7 +4766,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [221]
+ [241]
 Underfull \hbox (badness 10000) in paragraph at lines 146--149
 
  []
@@ -4532,7 +4790,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [222]
+ [242]
 Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
@@ -4546,7 +4804,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [223]
+ [243]
 (./2022/BM/42/gate.tex (./2022/BM/42/tables/table.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -4556,7 +4814,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [224]
+ [244]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4565,8 +4823,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [225]
-<2022/BM/42/figs/stem_plot.png, id=2688, 679.338pt x 445.1832pt>
+ [245]
+<2022/BM/42/figs/stem_plot.png, id=2893, 679.338pt x 445.1832pt>
 File: 2022/BM/42/figs/stem_plot.png Graphic file (type png)
 <use 2022/BM/42/figs/stem_plot.png>
 Package pdftex.def Info: 2022/BM/42/figs/stem_plot.png  used on input line 126.
@@ -4581,8 +4839,78 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [226 <./2022/BM/42/figs/stem_plot.png>]) (./2021/LAPLACE.tex (./2021/CH/36/gat
-e.tex
+ [246 <./2022/BM/42/figs/stem_plot.png>] (./2022/BM/37/assign4.tex
+(./2022/BM/37/tables/table1.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [247])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [248]
+\absvshift=\dimen387
+
+(./2022/IN/62/assign5.tex (./2022/IN/62/tables/table1.tex)
+\absvshift=\dimen388
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [249]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [250]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [251]
+<2022/IN/62/figs/graph.png, id=2964, 462.528pt x 346.896pt>
+File: 2022/IN/62/figs/graph.png Graphic file (type png)
+<use 2022/IN/62/figs/graph.png>
+Package pdftex.def Info: 2022/IN/62/figs/graph.png  used on input line 135.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [252 <./2022/IN/62/figs/graph.png>]) (./2021/LAPLACE.tex (./2021/CH/36/gate.te
+x
 (./2021/CH/36/tables/table.tex)
 Overfull \hbox (30.38449pt too wide) detected at line 94
 []
@@ -4597,7 +4925,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [227]
+ [253]
 Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
@@ -4611,12 +4939,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [228]
+ [254]
 Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
-<2021/CH/36/figs/plot.png, id=2725, 462.528pt x 320.1561pt>
+<2021/CH/36/figs/plot.png, id=2997, 462.528pt x 320.1561pt>
 File: 2021/CH/36/figs/plot.png Graphic file (type png)
 <use 2021/CH/36/figs/plot.png>
 Package pdftex.def Info: 2021/CH/36/figs/plot.png  used on input line 127.
@@ -4633,13 +4961,267 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [229])
+ [255]
+(./2021/AE/1/gate3.tex (./2021/AE/1/tables/table4.tex
+\gnumericTableWidth=\skip84
+\gnumericTableWidthComplete=\skip85
+\gnumericMultiRowLength=\skip86
+\gnumericColA=\skip87
+\gnumericColB=\skip88
+\gnumericColC=\skip89
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 66.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 66.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [230 <./2021/CH/36/figs/plot.png>]
+ [256 <./2021/CH/36/figs/plot.png>]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 78.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 78.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [257]
+<2021/AE/1/figures/figure.png, id=3036, 462.528pt x 346.896pt>
+File: 2021/AE/1/figures/figure.png Graphic file (type png)
+<use 2021/AE/1/figures/figure.png>
+Package pdftex.def Info: 2021/AE/1/figures/figure.png  used on input line 89.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [258 <./2021/AE/1/figures/figure.png>] (./2021/CE/26/gate4.tex
+(./2021/CE/26/tables/table5.tex)
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 67.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 67.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [259]
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
+<2021/CE/26/figures/figure1.png, id=3061, 462.528pt x 346.896pt>
+File: 2021/CE/26/figures/figure1.png Graphic file (type png)
+<use 2021/CE/26/figures/figure1.png>
+Package pdftex.def Info: 2021/CE/26/figures/figure1.png  used on input line 98.
+
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [260]
+(./2021/CH/52/GATE_CH_21_52.tex (./2021/CH/52/tables/table1.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [261 <./2021/CE/26/figures/figure1.png>]
+<2021/CH/52/figs/assign9.png, id=3080, 462.528pt x 346.896pt>
+File: 2021/CH/52/figs/assign9.png Graphic file (type png)
+<use 2021/CH/52/figs/assign9.png>
+Package pdftex.def Info: 2021/CH/52/figs/assign9.png  used on input line 90.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [262]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [263 <./2021/CH/52/figs/assign9.png>] (./2021/EE/20/figs/tikz.tex)
+<2021/EE/20/figs/bode.png, id=3101, 991.705pt x 412.54124pt>
+File: 2021/EE/20/figs/bode.png Graphic file (type png)
+<use 2021/EE/20/figs/bode.png>
+Package pdftex.def Info: 2021/EE/20/figs/bode.png  used on input line 43.
+(pdftex.def)             Requested size: 433.62001pt x 180.37933pt.
+ (./2021/EE/20/main.tex (./2021/EE/20/tables/table1.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [264 <./2021/EE/20/figs/bode.png>]
+<2021/EE/20/figs/frequency_response.png, id=3111, 462.528pt x 346.896pt>
+File: 2021/EE/20/figs/frequency_response.png Graphic file (type png)
+<use 2021/EE/20/figs/frequency_response.png>
+Package pdftex.def Info: 2021/EE/20/figs/frequency_response.png  used on input 
+line 101.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [265]
+(./2021/IN/46/main.tex (./2021/IN/46/tables/table1.tex
+Overfull \hbox (7.13481pt too wide) in paragraph at lines 3--3
+[]|\OT1/cmr/m/n/10.95 Symbol| 
+ []
+
+
+Overfull \hbox (22.74883pt too wide) detected at line 5
+[]
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 6--6
+\OT1/cmr/m/n/10.95 main is mul-ti-pli-ca-
+ []
+
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [266 <./2021/EE/20/figs/frequency_response.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [267])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [268]
+(./2021/AG/26/main.tex (./2021/AG/26/tables/table1.tex)
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 80.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 80.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 91.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 91.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [269]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [270]
+<2021/AG/26/figs/fig1.png, id=3168, 462.528pt x 346.896pt>
+File: 2021/AG/26/figs/fig1.png Graphic file (type png)
+<use 2021/AG/26/figs/fig1.png>
+Package pdftex.def Info: 2021/AG/26/figs/fig1.png  used on input line 103.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [271 <./2021/AG/26/figs/fig1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [272
+
+]
 Chapter 9.
 (./2022/fourier.tex (./2022/EC/46/figs/question_blockdiag.tex)
 (./2022/EC/46/main.tex (./2022/EC/46/tables/gate22_EC_Q46tab.tex)
@@ -4652,15 +5234,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [231
-
-]
+ [273]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [232]
+ [274]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4669,7 +5249,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [233]
+ [275]
 Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
@@ -4683,7 +5263,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [234]
+ [276]
 (./2022/EC/15/main.tex (./2022/EC/15/tables/table-1.tex
 Overfull \hbox (10.31525pt too wide) detected at line 5
 [][] \OML/cmm/m/it/10.95 x [] e[]dt
@@ -4700,7 +5280,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [235])
+ [277])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4709,7 +5289,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [236]
+ [278]
 (./2022/EC/55/55.tex (./2022/EC/55/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -4719,7 +5299,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [237])
+ [279])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4728,7 +5308,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [238]
+ [280]
 (./2022/EE/37/main.tex (./2022/EE/37/tables/table.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 33--80
 
@@ -4740,7 +5320,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [239]
+ [281]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4749,7 +5329,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [240]
+ [282]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4758,18 +5338,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [241]
-<2022/EE/37/figs/input.png, id=2875, 462.528pt x 346.896pt>
+ [283]
+<2022/EE/37/figs/input.png, id=3309, 462.528pt x 346.896pt>
 File: 2022/EE/37/figs/input.png Graphic file (type png)
 <use 2022/EE/37/figs/input.png>
 Package pdftex.def Info: 2022/EE/37/figs/input.png  used on input line 141.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<2022/EE/37/figs/output.png, id=2876, 462.528pt x 346.896pt>
+<2022/EE/37/figs/output.png, id=3310, 462.528pt x 346.896pt>
 File: 2022/EE/37/figs/output.png Graphic file (type png)
 <use 2022/EE/37/figs/output.png>
 Package pdftex.def Info: 2022/EE/37/figs/output.png  used on input line 146.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<2022/EE/37/figs/transfer.png, id=2877, 462.528pt x 346.896pt>
+<2022/EE/37/figs/transfer.png, id=3311, 462.528pt x 346.896pt>
 File: 2022/EE/37/figs/transfer.png Graphic file (type png)
 <use 2022/EE/37/figs/transfer.png>
 Package pdftex.def Info: 2022/EE/37/figs/transfer.png  used on input line 151.
@@ -4795,7 +5375,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [242 <./2022/EE/37/figs/input.png>]
+ [284 <./2022/EE/37/figs/input.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
@@ -4806,14 +5386,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [243 <./2022/EE/37/figs/output.png>] (./2022/IN/13/g13.tex (./2022/IN/13/table
+ [285 <./2022/EE/37/figs/output.png>] (./2022/IN/13/g13.tex (./2022/IN/13/table
 s/table.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [244 <./2022/EE/37/figs/transfer.png>]
+ [286 <./2022/EE/37/figs/transfer.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4822,20 +5402,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [245]
+ [287]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [246]
-<2022/IN/13/figs/f.png, id=2934, 462.528pt x 346.896pt>
+ [288]
+<2022/IN/13/figs/f.png, id=3368, 462.528pt x 346.896pt>
 File: 2022/IN/13/figs/f.png Graphic file (type png)
 <use 2022/IN/13/figs/f.png>
 Package pdftex.def Info: 2022/IN/13/figs/f.png  used on input line 212.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
 )
-<2022/EC/32/figs/fig1.png, id=2935, 548.0475pt x 381.425pt>
+<2022/EC/32/figs/fig1.png, id=3369, 548.0475pt x 381.425pt>
 File: 2022/EC/32/figs/fig1.png Graphic file (type png)
 <use 2022/EC/32/figs/fig1.png>
 Package pdftex.def Info: 2022/EC/32/figs/fig1.png  used on input line 69.
@@ -4858,7 +5438,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [247]
+ [289]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4867,7 +5447,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [248 <./2022/IN/13/figs/f.png>]
+ [290 <./2022/IN/13/figs/f.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4876,7 +5456,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [249 <./2022/EC/32/figs/fig1.png>]
+ [291 <./2022/EC/32/figs/fig1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
@@ -4890,7 +5470,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [250]
+ [292]
 (./2022/EE/59/main.tex (./2022/EE/59/tables/table1.tex)
 (./2022/EE/59/codes/sol.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4898,7 +5478,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [251]
+ [293]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4907,7 +5487,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [252]
+ [294]
 (./2022/EE/59/codes/v_in.tex) (./2022/EE/59/codes/v_out.tex)
 (./2022/EE/59/codes/i_T1.tex)
 
@@ -4926,7 +5506,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [253])
+ [295])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4935,14 +5515,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [254]
+ [296]
 (./2022/NM/24/GATE_NM_22_24.tex (./2022/NM/24/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [255]
+ [297]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4951,7 +5531,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [256])
+ [298])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4960,7 +5540,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [257]
+ [299]
 (./2022/ME/14/gate6.tex
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
@@ -4975,7 +5555,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [258])
+ [300])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4984,7 +5564,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [259]
+ [301]
 (./2022/EE/49/49.tex (./2022/EE/49/tables/tab_ee_49_22.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -4994,8 +5574,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [260]
-<2022/EE/49/figs/plot.png, id=3092, 462.528pt x 346.896pt>
+ [302]
+<2022/EE/49/figs/plot.png, id=3527, 462.528pt x 346.896pt>
 File: 2022/EE/49/figs/plot.png Graphic file (type png)
 <use 2022/EE/49/figs/plot.png>
 Package pdftex.def Info: 2022/EE/49/figs/plot.png  used on input line 114.
@@ -5009,14 +5589,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [261]
+ [303]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [262 <./2022/EE/49/figs/plot.png>]
-<2022/NM/40/figs/qfig.png, id=3113, 722.7pt x 361.35pt>
+ [304 <./2022/EE/49/figs/plot.png>]
+<2022/NM/40/figs/qfig.png, id=3548, 722.7pt x 361.35pt>
 File: 2022/NM/40/figs/qfig.png Graphic file (type png)
 <use 2022/NM/40/figs/qfig.png>
 Package pdftex.def Info: 2022/NM/40/figs/qfig.png  used on input line 162.
@@ -5030,7 +5610,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [263 <./2022/NM/40/figs/qfig.png>])
+ [305 <./2022/NM/40/figs/qfig.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5039,7 +5619,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [264]
+ [306]
 (./2022/EE/58/tikz/fig1.tex) (./2022/EE/58/main.tex
 (./2022/EE/58/tables/table.tex) (./2022/EE/58/tikz/fig2.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5050,7 +5630,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [265]
+ [307]
 (./2022/EE/58/tikz/fig4.tex) (./2022/EE/58/tikz/fig3.tex))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -5060,7 +5640,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [266]
+ [308]
 (./2022/PH/26/main.tex (./2022/PH/26/tables/table.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -5070,7 +5650,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [267]
+ [309]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5079,7 +5659,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [268]
+ [310]
 (./2022/PH/26/figs/fig1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -5089,7 +5669,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [269]
+ [311]
 (./2022/PH/26/figs/fig2.tex))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -5099,7 +5679,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [270])
+ [312]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+(./2022/ME/36/main.tex
+Overfull \hbox (143.34256pt too wide) detected at line 80
+[]
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [313])
 (./2021/FOURIER.tex (./2021/EC/41/gate.tex (./2021/EC/41/tables/table.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -5109,8 +5705,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [271]
-<2021/EC/41/figs/Figure_1.png, id=3209, 462.528pt x 320.1561pt>
+ [314]
+<2021/EC/41/figs/Figure_1.png, id=3659, 462.528pt x 320.1561pt>
 File: 2021/EC/41/figs/Figure_1.png Graphic file (type png)
 <use 2021/EC/41/figs/Figure_1.png>
 Package pdftex.def Info: 2021/EC/41/figs/Figure_1.png  used on input line 84.
@@ -5128,10 +5724,60 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [272]
-(./2021/EC/41Q/g.tex
+ [315]
+(./2021/AE/18/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [316 <./2021/EC/41/figs/Figure_1.png>]) (./2021/EC/41Q/g.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [317]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [318])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [319]
+(./2021/EE/43/main.tex
+Overfull \hbox (0.37514pt too wide) in paragraph at lines 24--64
+[]$ \OT1/cmr/m/n/10.95 for $[] \OMS/cmsy/m/n/10.95 ^^T \OT1/cmr/m/n/10.95 1$. L
+et the Fourier trans-form of $\OML/cmm/m/it/10.95 x []$ \OT1/cmr/m/n/10.95 be d
+e-fined as $\OML/cmm/m/it/10.95 X [] \OT1/cmr/m/n/10.95 = [][] \OML/cmm/m/it/10
+.95 x [] e[]dt$\OT1/cmr/m/n/10.95 .
+ []
+
+<2021/EE/43/figs/graph.png, id=3723, 578.16pt x 433.62pt>
+File: 2021/EE/43/figs/graph.png Graphic file (type png)
+<use 2021/EE/43/figs/graph.png>
+Package pdftex.def Info: 2021/EE/43/figs/graph.png  used on input line 81.
+(pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5142,31 +5788,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [273 <./2021/EC/41/figs/Figure_1.png>]
+ [320])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [274])
+ [321 <./2021/EE/43/figs/graph.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [275])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [276
+ [322
 
 ]
 Appendix A.
@@ -5179,7 +5813,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [277]
+ [323]
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
@@ -5198,7 +5832,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [278]
+ [324]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5207,16 +5841,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [279])
+ [325])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [280]
+ [326]
 Appendix B.
 (./app/cont.tex
-<app/figs/img1.png, id=3318, 734.745pt x 702.625pt>
+<app/figs/img1.png, id=3802, 734.745pt x 702.625pt>
 File: app/figs/img1.png Graphic file (type png)
 <use app/figs/img1.png>
 Package pdftex.def Info: app/figs/img1.png  used on input line 12.
@@ -5230,7 +5864,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [281
+ [327
 
  <./app/figs/img1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5241,35 +5875,50 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [282])
+ [328])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [283]
+ [329]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [284
+ [330
 
 ]
 Appendix C.
-(./app/lapl.tex)
+(./app/lapl.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [285]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [331]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [286
+ [332])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [333]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [334
 
 ]
 No file main.ind.
@@ -5278,13 +5927,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2FF41EE861FB5CF72AB38A29292EAE22;2788.
  ) 
 Here is how much of TeX's memory you used:
- 64697 strings out of 478287
- 1617942 string characters out of 5849290
- 2217662 words of memory out of 5000000
- 79399 multiletter control sequences out of 15000+600000
+ 66276 strings out of 478287
+ 1662132 string characters out of 5849290
+ 2242593 words of memory out of 5000000
+ 80569 multiletter control sequences out of 15000+600000
  502297 words of font info for 155 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,20n,108p,754b,2427s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 109i,23n,108p,754b,2427s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-di
@@ -5314,10 +5963,10 @@ dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (293 pages, 3400467 bytes).
+Output written on main.pdf (341 pages, 3820031 bytes).
 PDF statistics:
- 3874 PDF objects out of 4296 (max. 8388607)
- 3281 compressed objects within 33 object streams
- 1812 named destinations out of 2073 (max. 500000)
- 711 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4451 PDF objects out of 5155 (max. 8388607)
+ 3760 compressed objects within 38 object streams
+ 2102 named destinations out of 2487 (max. 500000)
+ 791 words of extra memory for PDF output out of 10000 (max. 10000000)
 
