@@ -246,5 +246,33 @@ where $F(s)$ is the Laplace transform of the function $f(t)$, then what is the v
 \input{2022/BM/42/gate.tex}
 \pagebreak
 
+\item Solution of the differential equation $\frac{dy}{dx}-y=cos\brak{x}$ is
+\begin{align}
+\brak{A}\quad y&=\frac{sin\brak{x}-cos\brak{x}}{2}+ce^x\\
+\brak{B}\quad y&=\frac{sin\brak{x}+cos\brak{x}}{2}+ce^x\\
+\brak{C}\quad y&=\frac{sin\brak{x}+cos\brak{x}}{2}+ce^{-x}\\
+\brak{D}\quad y&=\frac{sin\brak{x}-cos\brak{x}}{2}+ce^{-x}
+\end{align}
+\hfill(GATE BM 2022)\\
+\solution
+\input{2022/BM/37/assign4.tex}
+\pagebreak
+
+\item In the circuit shown, the capacitance $C_{0}=10\micro F  $ and inductance $L_{0}=1mH$ and the diode is ideal. The capacitor is initially charged to 10V and the current in the inductor is initially zero. If the switch is closed at t=0, the voltage $V_{c}\brak{t}$(in volts) across the capacitor at t=0.5s is? 
+(round off to one decimal place)\\
+ \begin{figure}[h!]
+   \centering
+   \begin{circuitikz}[american]
+       \draw (0,4) to [C,a^=$C_{0}$,v=$V_c\brak{t}$](0,0);
+       \draw (0,4) to [Do](4,4);
+       \draw (4,4) to [L,a^=$L_{0}$,i=$I\brak{t}$](4,0);
+       \draw (0,0) to [short] (4,0);
+   \end{circuitikz}
+   \end{figure}\\
+\hfill(GATE IN 2022)\\
+\solution
+\input{2022/IN/62/assign5.tex}
+\pagebreak
+
 
 \end{enumerate}
