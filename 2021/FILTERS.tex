@@ -4,4 +4,28 @@
 \solution
 \input{2021/EC/23/main.tex}
 \pagebreak
+\item In the circuit shown below, $R_1=2\ohm$,$R_2=1\ohm$,$L_1=2$ h,and $L_2=0.5$ H. Which of the following describe(s) the correct characteristics of the circuit ?\\
+\begin{center}
+\begin{circuitikz}
+   \draw (0,0)
+   to[sV, v=$V_s$] (0,2) % Sinusoidal voltage source
+   to[L, l=$L_1$] (2,2)   % Inductor
+   to[L, l=$L_2$] (4,2)   % Resistor
+   to [european][R, l=$R_2$] (4,0)   % Resistor
+   -- (0,0)              % Connection to ground
+   (2,2) to [european][R, l=$R_1$] (2,0);  % Resistor
+   \draw (4,2) to[short, *-o] (5,2) node[right] {};
+   \draw (4,0) to[short, *-o] (5,0) node[right] {};
+   \draw (5,1) node[right]{$v_0$};
+\end{circuitikz}
+\end{center}
+\begin{enumerate}
+    \item Second order high pass filter \\
+    \item Second order low pass filter\\
+    \item Under damped system \\
+    \item Overdamped system\\
+\end{enumerate}
+\hfill{GATE BM 2021}\\
+\solution\\
+\input{2021/BM/43/main.tex}
 \end{enumerate}

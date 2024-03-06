@@ -1,0 +1,124 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                   \usepackage{circuitikz}                        
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+ \newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+ \bibliographystyle{IEEEtran}
+ \vspace{3cm}
+ \title{\textbf{BM 43}}
+ \author{EE23BTECH11048-Ponugumati Venkata Chanakya$^{*}$% <-this % stops a space
+ }
+ \maketitle
+
+ \bigskip
+ \renewcommand{\thefigure}{\theenumi}
+ \renewcommand{\thetable}{\theenumi}
+ \textbf{QUESTION:}
+In the circuit shown below, $R_1=2\ohm$,$R_2=1\ohm$,$L_1=2$ h,and $L_2=0.5$ H. Which of the following describe(s) the correct characteristics of the circuit ?\\
+\begin{center}
+\begin{circuitikz}
+   \draw (0,0)
+   to[sV, v=$V_s$] (0,2) % Sinusoidal voltage source
+   to[L, l=$L_1$] (2,2)   % Inductor
+   to[L, l=$L_2$] (4,2)   % Resistor
+   to [european][R, l=$R_2$] (4,0)   % Resistor
+   -- (0,0)              % Connection to ground
+   (2,2) to [european][R, l=$R_1$] (2,0);  % Resistor
+   \draw (4,2) to[short, *-o] (5,2) node[right] {};
+   \draw (4,0) to[short, *-o] (5,0) node[right] {};
+   \draw (5,1) node[right]{$v_0$};
+\end{circuitikz}
+\end{center}
+\begin{enumerate}
+    \item Second order high pass filter \\
+    \item Second order low pass filter\\
+    \item Under damped system \\
+    \item Overdamped system\\
+\end{enumerate}
+\hfill{GATE BM 2021}\\
+\solution\\
+\fi
+Converting above circuit to frequency domain using laplace transform\\
+let $V_1$ and $V_2$ be voltages at shown positions\\
+\begin{center}
+\begin{circuitikz}
+   \draw (0,0)
+   to[sV, v=$V_s$] (0,2) % Sinusoidal voltage source
+   to[L, l=$sL_1$] (2,2)   % Inductor
+   to[L, l=$sL_2$] (4,2)   % Resistor
+   to [european][R, l=$R_2$] (4,0)   % Resistor
+   -- (0,0)              % Connection to ground
+   (2,2) to [european][R, l=$R_1$] (2,0);  % Resistor
+   \draw (4,2) to[short, *-o] (5,2) node[right] {};
+   \draw (4,0) to[short, *-o] (5,0) node[right] {};
+   \draw (5,1) node[right]{$v_0$};
+   \node at (2,2.3){$V_1$};
+   \node at (4,2.3){$V_2$};
+\end{circuitikz}
+\end{center}
+ \begin{table}[!ht]
+    \centering
+        \input{2021/BM/43/Table/table.tex}
+    \caption{input parameters}
+\end{table}
+\begin{align}
+    V_0&=V_1\brak{\frac{R_2}{R_2+sL_2}}\\
+   V_1&=V_s\brak{\frac{R_1\brak{\frac{sL_2+R_2}{R_1+R_2+SL_2}}}{sL_1+R_1\brak{\frac{sL_2+R_2}{R_1+R_2+SL_2}}}}\\
+   V_1&=V_s\brak{\frac{2+s}{(2+s)+s(6+s)}}\\
+   V_0&=V_s\brak{\frac{2}{s^2+7s+2}}\\ \label{BM_43.4}
+   \text{let } s&=j\omega\\
+   V_0&= V_s\brak{\frac{2}{-\omega^2 + 7\jmath\omega+2}}\\
+   &=V_s\brak{\frac{4-2\omega^2-7\jmath\omega}{\omega^4+45\omega^2+4}}
+\end{align}
+For lower frequency $V_0$ is finite and for higher frequency $V_0$ is zero\\
+ $\therefore $  Second order low pass filter\\
+ From \ref{BM_43.4}
+\begin{align}
+    s^2+7s+2&=0\\
+    \text{ for } as^2+bs+c=0\\
+\text{(Damping Factor)}\zeta&=\frac{b}{2\sqrt{ac}}\\
+\text{By comparing }\zeta&=\frac{7}{2\sqrt{2}}\\
+\implies \zeta>1
+\end{align}
+$\therefore $  Over-damped System\\
+$\therefore$ B,D are correct options
+%\end{document}
