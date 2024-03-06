@@ -1,0 +1,18 @@
+\begin{tikzpicture}[auto, node distance=2cm, >=latex']
+    \node[input, name=input] (input) {$X(s)$};
+    \node[sum, right=of input] (sum) {};
+    \node[block, draw, right=of sum] (controller) {$K_p + \frac{K_i}{s}$};
+    \node[block, draw, right=of controller] (plant) {$\frac{2}{s^3 + 4s^2 + 5s + 2}$};
+    \node[junction, dot, right=of plant] (junction1) {}; % New junction
+    \node[output, right=of junction1] (output) {$Y(s)$};
+    \node[circle, draw, minimum size=3mm, font=\normalsize, right=1.78cm of input]{$\times$};
+    \node[circle, draw, minimum size=3mm, font=\small, fill=black] (junction2) at (junction1) {}; % New circle at the junction
+
+    \draw[->] ([xshift=2mm]input.east) -- node[above] {$+$} (sum); % Adjusted xshift value
+    \draw[->] (sum) -- (controller);
+    \draw[->] (controller) -- (plant);
+    \draw[->] (plant) -- (junction1); % Changed target to junction1
+    % \draw[->] (convolver) -- (controller); % Removed this line as convolver is not defined in the code
+    \draw[->] (junction1) -- (output);
+    \draw[->] (junction1) -- ++(0,-1.5) -| node[pos=0.95, below left] {$-$} (sum);
+\end{tikzpicture}
