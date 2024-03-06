@@ -1,0 +1,21 @@
+
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [, line width=0.7pt](11.5,9.75) node[op amp,scale=1] (opamp2) {}; \draw [, line width=0.7pt](opamp2.+) to[short] (10,9.25); \draw [, line width=0.7pt] (opamp2.-) to[short] (10,10.25); \draw [, line width=0.7pt](12.7,9.75) to[short](13,9.75);
+\draw [](10,10.25) to[short] (10,10.5);
+\draw [](10,11) to[short] (10,10.5);
+\draw[] (10,11) to[short] (6.75,11);
+\draw [, line width=0.9pt](6.75,11) to[sinusoidal voltage source, sources/symbol/rotate=auto,l={ \large $V_{in}$}] (6.75,8.5);
+\draw [line width=0.9pt](6.75,8.5) to (6.75,8.25) node[ground]{};
+\draw [, line width=0.9pt](10,4.75) to[resistor , i=$I_1$] (10,8.25);
+\draw [, line width=0.9pt](10,8.25) to[resistor , i=$I_2$] (14.25,8.25);
+\draw [, line width=0.9pt](12.75,9.75) to[short] (13.75,9.75);
+\draw [, line width=0.9pt](10,8.25) to[short] (10,9.25);
+\draw [, line width=0.9pt](13.75,9.75) to[short] (14.25,9.75);
+\draw [, line width=0.9pt](14.25,9.75) to[short] (14.25,8.25);
+\draw [line width=0.9pt](10,5) to (10,4.75) node[ground]{};
+\node [font=\large] at (13,10) {$V_{out}$};
+\node [font=\large] at (12.25,7.5) {$20k\Omega$};
+\node [font=\large] at (9,6.75) {$2.2k\Omega$};
+\end{circuitikz}
+
