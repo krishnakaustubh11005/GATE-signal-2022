@@ -17,4 +17,46 @@ Let $\dfrac{\partial y\brak{x,t}}{\partial t}$ be $y_t\brak{x,t}$ and $\dfrac{\p
  &= \dfrac{d}{dx}\int_{0}^{\infty}e^{-st}y\brak{x,t}dt \label{L(y_x(x,t))}\\
  &= \dfrac{dY\brak{x,s}}{dx}
 \end{align}
+\item Laplace transform of f(t):
+\begin{align}
+        f(t)u(t)\system{L}&\int_{0}^{\infty}f(t)e^{-st}\; dt\\
+        &=F(s)\label{lap transform}
+\end{align}
+\item Laplace transform of powers of $t$\\
+        Let $f(t)=t^nu(t)$\\
+From \eqref{lap transform},and considering $h=st$
+\begin{align}
+        F(s)&=\frac{1}{s^{n+1}}\int_{0}^{\infty}h^ne^{-h}\;dh\label{lap 1}\\
+        (n-1)!&=\int_0^\infty e^{-t}t^{n-1}\;dt\text{ (Gamma function)}\label{gamma}
+\end{align}
+From \eqref{lap 1},\eqref{gamma}
+\begin{align}
+        F(s)&=\frac{n!}{s^{n+1}}\\
+         t^nu(t)&\system{L}\frac{n!}{s^{n+1}}\label{lap exp}
+\end{align}
+\item Frequency shift property:\\
+        Let $f(t)=y(t)e^{-at}u(t)$\\
+From\eqref{lap transform},
+\begin{align}
+        F(s)&=\int_0^{\infty}y(t)e^{-(s+a)t}\;dt\\
+         y(t)e^{-at}u(t)&\system{L}Y(s+a)\label{lap freq shift}
+\end{align}
+\item Inverse Laplace for partial fractions\\
+From \eqref{lap exp},\eqref{lap freq shift} we get
+\begin{align}
+    &\frac{b}{(s+a)^n}\Large\xleftrightarrow{\mathcal{L}^{-1}}\frac{b}{(n-1)!}\cdot t^{n-1} e^{-at}\cdot u(t)\label{inv lap (partial fractions)}
+\end{align}
+\item Laplace transform of derivatives:\\
+        Let $f(t)=y'(t)u(t)$\\
+From \eqref{lap transform}, integration by parts,recursion
+\begin{align}
+        F(s)&=\int_{0}^\infty e^{-st}\; dy\\
+        &=[y(t)e^{-st}]_0^\infty+s\int_0^\infty y(t)e^{-st}dt\\
+        &=-y(0)+sY(s)\label{lap 2}
+\end{align}
+From\eqref{lap 2},recursion
+\begin{align}
+        y'(t)u(t)&\system{L}sY(s)-\int y'(t)\;dt\vert_{t=0}\\
+        y^{(n)}(t)u(t)&\system{L}s^nY(s)-\sum\limits_{k=0}^{n-1}s^{(n-1-k)}y^{(k)}(0)\label{lap (derivatives)}
+\end{align}
 \end{enumerate}

@@ -1,0 +1,22 @@
+\begin{circuitikz}
+   \draw(0,0) to [R](2,0);
+   % \draw (2,0) -- (2.5,0);
+   \draw(2,0) to [L] (4,0);
+   % \draw (5,0) to (5,0);
+   \draw (4,0) to [C] (4,-2);
+   \draw(4,-2)  to (0,-2);
+   \draw (4,0) -- (5,0);
+   \draw (4,-2)to (5,-2);
+   \node[circle,fill,inner sep=1pt] at (0,0) {};
+   \node[circle,fill,inner sep=1pt] at (5,0) {};
+   \node[circle,fill,inner sep=1pt] at (5,-2) {};
+   \node[circle,fill,inner sep=1pt] at (0,-2) {};
+   \draw[->](0,-1.85) to (0,-0.15);
+   \draw[->](5,-1.85) to (5,-0.15);
+   \node at (0.3,-1) {$V_i$};
+   \node at (5.5,-1) {$V_o$};
+
+   \node at (1,0.5) {$R$};
+   \node at (3,0.5) {$1mH$};
+   \node at (2.8,-1) {$250\micro F$};\node[circle,fill,inner sep=1pt] at (0,0) {};
+\end{circuitikz}
