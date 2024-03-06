@@ -1,0 +1,77 @@
+\iffalse
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}       
+\usepackage[latin1]{inputenc}   
+\usepackage{array}  
+\usepackage{tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+
+\title{}
+\author{EE23BTECH11217 - Prajwal M$^{*}$
+}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\section*{EE 16}
+The steady state output $V_{out}$ of the circuit shown below, will
+\begin{figure}[h]
+    \centering
+    \input{EE/16/figs/ques}
+    \caption{circuit}
+    \label{fig: 217.EE.16.1}
+\end{figure}
+
+\begin{enumerate}
+    \item saturate to $+V_{DD}$
+    \item saturate to $-V_{EE}$
+    \item become equal to $0.1V$
+    \item become equal to $-0.1V$
+\end{enumerate}
+
+\noindent Solution: \\
+
+\fi
+\begin{table}[h]
+    \centering
+    \input{2022/EE/16/tables/table}
+    \caption{Parameter description}
+\label{tab: 217.EE.16.1}
+\end{table}
+
+\begin{figure}[h]
+    \centering
+    \input{2022/EE/16/figs/sol}
+    \caption{s-domain circuit}
+    \label{fig: 217.EE.16.2}
+\end{figure}
+
+for an ideal OP amp,
+\begin{align}
+    V_+ & = 0V \\
+    V_- & = 0V\label{217.EE.16.1}
+\end{align}
+using KVL,
+\begin{align}
+    0 & = \frac{V_{-} - 0.1}{R_1} + C_1 s\brak{V_{-} - V_{out}}\\
+    V_{out} & = \frac{V_- -0.1}{R_1C_1s} + V_-\\
+    & = -\frac{0.1}{R_1C_1s} & \text{using \eqref{217.EE.16.1}}\\
+    V_{out} & \system{L^-} v_{out}\\
+    v_{out} & = -\frac{0.1}{R_1C_1}t\\
+    v_{out} & = max\cbrak{-v_{EE}, -\frac{1}{R_1C_1}t}
+\end{align}
+
+Hence, $v_{out}$ saturates to $-v_{EE}$
