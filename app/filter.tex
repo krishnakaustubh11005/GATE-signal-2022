@@ -1,0 +1,132 @@
+\begin{enumerate}[label=\thechapter.\arabic*,ref=\thechapter.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item \begin{figure}[!ht]
+    \centering
+    \input{app/figs/tikz1}
+    \caption{RLC Low pass filter}
+\end{figure}
+\begin{table}[!ht]
+    \centering
+    \input{app/tables/table1}
+    \caption{Input Parameters}
+\end{table}
+\begin{align}
+    Y(s) &= I(s)Z_C\\
+    &= \frac{X(s)}{Z_L + Z_R + Z_C}Z_C\\
+    H(s) &= \frac{Y(s)}{X(s)}\\
+    &= \frac{Z_C}{Z_L + Z_R + Z_C}\\
+    &= \frac{\frac{1}{sC}}{sL + R + \frac{1}{sC}}\\
+    &= \frac{1}{s^2LC + sRC + 1}\\
+    \implies H(s) &= \omega_0^2\frac{1}{(s-p_1)(s-p_2)}
+\end{align}
+where,
+\begin{align}
+    \omega_0 &= \frac{1}{\sqrt{LC}}\\
+    p_{1, 2} &= -\frac{R}{2L} \pm \sqrt{\brak{\frac{R}{2L}}^2 - \frac{1}{LC}}\\
+    &= -\alpha \pm \sqrt{\alpha^2 - \omega_0^2}
+\end{align}
+where
+\begin{align}
+    \alpha &= \frac{R}{2L}
+\end{align}
+Damping Factor is given by,
+\begin{align}
+   \zeta &= \frac{\alpha}{\omega_0}\\
+   &= \frac{R}{2}\sqrt{\frac{C}{L}}
+\end{align}
+\begin{table}[!ht]
+    \centering
+    \input{app/tables/table2}
+    \caption{Effect of Damping Coefficient $\zeta$ on system behaviour}
+\end{table}
+\newpage
+\begin{enumerate}
+\item Overdamped Response
+\begin{align}
+    Y(s) &= X(s)H(s)\\
+    &= \omega_0^2\frac{1}{s(s-p_1)(s-p_2)}\\
+    &= \frac{c_0}{s} + \frac{c_1}{s-p_1} + \frac{c_2}{s-p_2}
+\end{align}
+where,
+\begin{align}
+    c_0 &= 1\\
+    c_1 &= \frac{p_2}{p_1 - p_2}\\
+    c_2 &= \frac{p_1}{p_2 - p_1}
+\end{align}
+Taking inverse Laplace,
+\begin{align}
+    y(t) &= c_0 + c_1e^{p_1t} + c_2e^{p_2t}\\
+    &= \brak{1 + \frac{p_2}{p_1 - p_2}e^{p_1t} +  \frac{p_1}{p_2 - p_1}e^{p_2t}}u(t)
+\end{align}
+
+\begin{figure}[!ht]
+    \centering
+    \input{app/figs/tikz2}
+    \caption{s-Plane for Overdamped case}
+\end{figure}
+
+\item Critically Damped Response
+\begin{align}
+    Y(s)&=X(s)H(s)\\
+    &= \omega_0^2\frac{1}{s(s-p)^2}\\
+    &= \frac{c_0}{s}+\frac{c_1}{\left(s-p\right)^2}+\frac{c_2}{s-p}
+\end{align}
+where,
+\begin{align}
+    c_0 &= 1\\
+    c_1 &= p\\
+    c_2 &= -1
+\end{align}
+Taking Inverse Laplace,
+\begin{align}
+    y(t) &= c_0+(c_1t+c_2)e^{pt}\\
+    &= \brak{1+(pt-1)e^{pt}}u(t)
+\end{align}
+\begin{figure}[!ht]
+    \centering
+    \input{app/figs/tikz3}
+    \caption{s-Plane for Critically damped case}
+\end{figure}
+
+\item Underdamped Response
+\begin{align}
+    Y(s) &= X(s)H(s)\\
+    &= \omega_0^2\frac{1}{s(s-p)(s-p^\ast)}\\
+    &= \frac{c_0}{s}+\frac{c_1}{s-p}+\frac{c_2}{s-p^\ast}
+\end{align}
+where,
+\begin{align}
+    c_0 &= 1\\
+    c_1 &= \frac{p^\ast}{p-p^\ast}\\
+    c_2 &= \frac{p}{p^\ast-p}
+\end{align}
+Taking Inverse Laplace,
+\begin{align}
+    y(t) &= c_0+c_1e^{pt}+c_2e^{p^\ast t}\\
+    &= 1+\frac{\abs{p}}{\omega_d}\ e^{-\sigma t}\frac{
+    e^{j(\omega_d t+\varphi)}+e^{-j(\omega_d t+\varphi)}}{2}\\
+    &= \brak{1+\frac{|p|}{\omega_d}e^{-\sigma t}\cos(\omega_d t+\varphi)}u(t)
+\end{align}
+where,
+\begin{align}
+    \abs{p}&=\sqrt{{\omega_d}^2+\sigma^2}\\
+    \omega_d&=\omega_0\sqrt{1-\zeta^2}\\
+    \sigma&=\omega_0\zeta\\
+    \varphi&=\pi-\tan^{-1}\frac{\sigma}{\omega_d}
+\end{align}
+\begin{figure}[!ht]
+    \centering
+    \input{app/figs/tikz4}
+    \caption{s-Plane for Under damped case}
+\end{figure}
+\end{enumerate}
+\begin{figure}
+    \centering
+    \includegraphics[width = \columnwidth]{app/figs/plot.png}
+    \caption{Step response in all three cases}
+\end{figure}
+
+\end{enumerate}
