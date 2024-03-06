@@ -1,0 +1,8 @@
+* source GATE-22-16 used PSpice
+X_U1         N00227 N000771 N000772 N000773 N00234 ALD1701/AL
+R_R1         N001021 N00227  1k TC=0,0 
+R_R2         0 N000771  1k TC=0,0 
+V_V1         N001021 0 0.1Vdc
+V_V2         0 N000772 20Vdc
+V_V3         N000773 0 -20Vdc
+C_C1         N00227 N00234  1n  TC=0,0 
