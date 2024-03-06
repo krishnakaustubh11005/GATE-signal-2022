@@ -1,0 +1,107 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{xparse}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\def\inputGnumericTable{}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{ifthen}
+\usepackage{lscape}
+\include{app/lapl.tex}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE-CE.26}
+\author{EE23BTECH11046 - Poluri Hemanth$^{*}$}
+\maketitle
+\textbf{Question:}
+The solution of second-order differential equation \\ $\frac{d^2y}{dx^2}+2\frac{dy}{dx}+y=0$ with boundary conditions $y(0)=1$ and $y(1)=3$.\\
+\hfill{(GATE  2021 CE.26)}\\
+\textbf{Solution:}
+\fi
+\begin{table}[h!]
+    % Change address in github
+        \input{2021/CE/26/tables/table5.tex}
+        \caption{Parameters}
+\end{table}\\
+Applying Laplace transform
+\\From \ref{lap (derivatives)}
+\begin{align}
+	\frac{d^2y}{dx^2}+2\frac{dy}{dx}+y&\Large\xleftrightarrow{\mathcal{L}}s^2Y(s)-sy(0)-y'(0)+2sY(s)-2y(0)+Y(s)
+\end{align}
+\begin{align}
+	Y(s)(s^2+2s+1)&=s-2-y'(0)
+\end{align}
+\begin{align}
+	\Rightarrow Y(s)&=\frac{s-2-y'(0)}{s^2+2s+1}\\
+	&=\frac{1}{s+1}-\frac{2+y'(0)}{(s+1)^2}\label{1ce.1}
+\end{align}
+For inversion of $Y(s)$ in partial fractions-
+\\From \ref{inv lap (partial fractions)}
+\begin{align}
+	&\frac{b}{(s+a)^n}\system{L}\frac{b}{(n-1)!}\cdot x^{n-1} e^{-ax}\cdot u(x)\label{invce.26}
+\end{align}
+Applying Laplace inverse-\\
+\\From \eqref{1ce.1},\eqref{invce.26}
+\begin{align}
+	y(x)&=\frac{1}{0!} e^{-x}\cdot u(x)-\frac{3+y'(0)}{1!}x\cdot e^{-x}\cdot u(x)\\
+	&=(1-(3+y'(0))x)e^{-x}u(x)\label{yce.26}
+\end{align}
+From \eqref{yce.26},
+\begin{align}
+	y(1)&=(1-3-y'(0))e^{-1}\\
+	3&=(1-3-y'(0))e^{-1}\\
+	\Rightarrow y'(0)&=-(2+3e)\label{y'0ce.26}
+\end{align}
+From\eqref{y'0ce.26},\eqref{yce.26}
+\begin{align}
+	y(x)=(e^x+(3e-1)xe^{-x})u(x)
+\end{align}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{2021/CE/26/figures/figure1.png}
+        \caption{Plot of y(x)}
+\end{figure}
+
+
+%\end{document}
+
+
+
+
