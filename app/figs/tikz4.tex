@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+    \draw[<->] (-4,0) -- (2,0) node[right] {$\mathcal{R}(s)$};
+    \draw[<->] (0,-3) -- (0,3) node[above] {$\mathcal{I}(s)$};
+       % \draw[blue, thick, ->] (-2,1) -- (0,2);
+       %  \draw[blue, thick, ->] (-2,-1) -- (0,2);
+
+  \draw [blue,arrows = {-Latex[width=0pt 10, length=10pt]}] (-2,1) -- (0,2);
+   \draw [blue,arrows = {-Latex[width=0pt 10, length=10pt]}] (-2,-1) -- (0,2);
+
+   \draw[brown, dashed] (-2,1) -- (0,1);
+   \draw[brown, dashed] (-2,1) -- (-2,-1);
+   \draw[brown, dashed] (-2,-1) -- (0,-1);
+   \draw[red, dashed] (-2,1) -- (0,0);
+
+   \node at (-2.2,1) {\small$P_{_1}$};
+   \node at (-2.2,-1) {\small$P^*$};
+   \node [orange]at (-1.7,0.2) {\small$-\sigma$};
+   \node[blue] at (0.3,2) {\small $j\omega$};
+    \node[brown] at (0.5,1) {\small $j\omega_d$};
+    \node[brown] at (0.5,-1) {\small $-j\omega_d$};
+    \node[red] at (-1.45,0.6){\small $\omega_0$};
+    % \draw[dashed,->] (0,0.25) ++(-0.222:0.111) arc (90:153.5:0.25);
+    \draw[brown,dashed,<->] (0,0.5) arc (90:153.5:0.5);
+    \node [purple]at (-0.45,0.65) {\tiny$\sin^{-1}\zeta$};
+\end{tikzpicture}
