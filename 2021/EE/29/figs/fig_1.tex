@@ -1,0 +1,16 @@
+\begin{figure}[h]
+    \renewcommand\thefigure{1}
+    \centering
+    \begin{circuitikz}[american]
+    \draw (0,0) to (1,0) to (1,-2) to [R=$4\Omega$] (3,-2) to [V=$30V$,invert] (5,-2) to (5,0) to  [R=$1\Omega$] (7,0) to [L=$0.5H$] (7,-4) to (0,-4) to [V=$10V$,invert] (0,0);
+    % Draw the open switch
+    \draw (1,0) to[ospst] (5,0);
+    % Add a label for the open switch
+    \node at (3,0.8) {\scriptsize{Open at $t=0$}};
+    % Draw the arrow and label for current
+    \draw [->] (6.6,-1.4) -- (6.6,-2.7);
+    \node at (6.4,-1.9) {$i_{L}$};
+    \end{circuitikz}
+    \caption{Circuit in $T$ domain}
+    \label{fig:EE_21_29_1}
+\end{figure}

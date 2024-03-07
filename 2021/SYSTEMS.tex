@@ -82,5 +82,24 @@ The stability of the overall system is controlled by tuning the PI control param
 \input{2021/EE/11/main.tex}
 \pagebreak
 
-
+Consider two 16-point sequences x\sbrak{n} and h\sbrak{n}. Let the linear convolution of x\sbrak{n} and h\sbrak{n} be denoted by y\sbrak{n}, while z\sbrak{n} denotes the 16-point inverse discrete Fourier transform \brak{IDFT} of the product of the 16-point DFTs of x\brak{n} and h\sbrak{n}. The values of k for which z\sbrak{k} = y\sbrak{k} are 
+\begin{enumerate}
+    \item $k = 0, 1, 2, 3, ... , 15$
+    \item $k = 0$
+    \item $k = 15$
+    \item $k = 0$ and $k = 15$
+\end{enumerate}
+\hfill(GATE EC 2021)\\
+\solution
+\input{2021/EC/5/ec5.tex}
+\pagebreak
+\item The input signal shown below \\
+\input{2021/IN/44/figs/xn}\\
+is passed through the filter with following taps\\
+\input{2021/IN/44/figs/n}\\
+The number of non-zero output samples is \underline{\hspace{1cm}}.\\
+\hfill(GATE IN 2021)
+\solution
+\input{2021/IN/44/main.tex}
+\pagebreak
 \end{enumerate}

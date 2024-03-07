@@ -1,0 +1,90 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{circuitikz}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\newtheorem{theorem}{Theorem}[section]
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{GATE 21 EE/29}
+\author{EE23BTECH11040 - Manoj Kumar Ambatipudi$^{*}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\textbf{QUESTION:}
+In the circuit, switch 'S' is in the closed position for a very long time. If the switch is opened at time $t=0$, then $i_L\brak{t}$ in amperes, for $t\geq0$ is
+\input{2021/EE/29/figs/fig_1}\\
+\hfill(GATE 2021 EE 29)
+\textbf{Solution:}
+\fi
+\input{2021/EE/29/tables/tab_1}
+Circuit in $S$ domain is
+\input{2021/EE/29/figs/fig_2}\\
+From \figref{fig:EE_21_29_1}, $i_L\brak{0}$ can be found using steady state analysis. Writing $KVL$ , we get
+\begin{align}
+    10-i_L\brak{0} &= 0\\
+    i_L\brak{0} &= 10\label{eq:EE_21_29_1}
+\end{align}
+Writing $KVL$ for \figref{fig:EE_21_29_2},
+\begin{align}
+    \frac{10}{s} - I_L\brak{s}\brak{4+1+0.5s} + \frac{30}{s} + Li_L\brak{0} &= 0\\
+    \implies I_L\brak{s} &= \frac{sLi_L\brak{0}+40}{5s + 0.5s^2} 
+\end{align}
+From \tabref{tab:EE_21_29_1}, 
+\begin{align}
+    I_L\brak{s} &= \frac{2.5s+40}{5s + 0.5s^2}\\
+    I_L\brak{s} &= \frac{10s+80}{10s + s^2}\\
+                &= \frac{8}{s} + \frac{2}{s+10}
+\end{align}
+Taking Inverse Laplace, 
+\begin{align}
+    i_L\brak{t} &= \brak{8+2e^{-10t}}u\brak{t}
+\end{align}
+\begin{figure}[h]
+\renewcommand\thefigure{3}
+    \centering
+    \includegraphics[width=1.0\columnwidth]{2021/EE/29/figs/fig_3.jpg}
+    \caption{Plot of $i_L\brak{t}$ taken from Python3}
+    \label{fig:EE_21_29_3}
+\end{figure}
