@@ -1,0 +1,82 @@
+Analogous systems of electrical-mechanical systems are like a common language that bridges the gap between electrical and mechanical engineering. They allow us to understand and predict how different components interact, whether they're electrical circuits or mechanical machines. By recognizing similarities between electrical and mechanical elements, engineers can solve problems more efficiently and design better systems. This approach encourages collaboration between specialists from different fields and helps us develop innovative solutions that seamlessly integrate both electrical and mechanical aspects. \\
+
+ELECTRICAL ANALOGIES OF MECHANICAL SYSTEMS:\\
+
+Two systems are said to be analogous if :
+\begin{enumerate}
+\item The two systems are physically different.
+\item Differential equation modelling of these two systems are same.
+\end{enumerate} 
+
+
+There are two types of electrical analogies of translational mechanical systems:
+\begin{enumerate}
+\item Force-Voltage analogy
+\item Force-Current analogy
+\end{enumerate} 
+
+FORCE-VOLTAGE ANALOGY:\\
+In this, the mathematical equations of translational mechanical system are compared with mesh equations of the electrical system.
+
+
+\begin{table}[!ht]    
+    \centering
+     \input{app/tables/tableg54.a.1.tex} 
+      \caption{Input Parameters}
+    \label{table:ishitha.g22.nm.54.at1}
+\end{table}
+
+
+Example: 
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[scale=0.5]{app/figs/g54.fig1.png}
+    \caption{ }
+    \label{fig:ishitha.g22.nm.54.af1}
+\end{figure}  
+
+
+Equations of translational mechanical system:\\
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[scale=0.5]{app/figs/g54.fig2.jpeg}
+    \caption{ }
+    \label{fig:ishitha.g22.nm.54.af2}
+\end{figure} 
+
+
+\begin{align}
+m_1\ddot{x_1}(t) - k_2\brak{x_2(t)-x_1(t)}+ k_1x_1(t)&=0\\
+m_2\ddot{x_2}(t) + k_2\brak{x_2(t)-x_1(t)}&=0
+\end{align}
+
+Mesh equations of electrical system:\\   
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[scale=1.5]{app/figs/tikz.pdf}
+    \caption{ }
+    \label{fig:ishitha.g22.nm.54.af3}
+\end{figure}   
+\begin{align}
+ k_1\int i_1 \, dt + L_1\frac{di_1}{dt}+k_2\int \brak{i_1-i_2} \, dt &=0\\
+ L_2\frac{di_2}{dt}-k_2\int \brak{i_1-i_2} \, dt &=0
+\end{align}    
+
+but we know, $i=\frac{dq}{dt}$ 
+ \begin{align}
+ \implies L_1\ddot q_1 -k_2\brak{q_2-q_1} + k_1q_1  &=0 \\
+ \implies L_2\ddot q_2+k_2\brak{q_2-q_1} \, dt &=0
+\end{align}  
+
+FORCE-CURRENT ANALOGY:\\
+In this , the mathematical equations of the translational mechanical system are compared with the nodal equations of the electrical system.
+
+
+\begin{table}[!ht]    
+    \centering
+     \input{app/tables/tableg54.a.2.tex} 
+    \label{table:ishitha.g22.nm.54.at2}
+\end{table}
+

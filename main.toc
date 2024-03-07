@@ -3,31 +3,32 @@
 \contentsline {chapter}{\numberline {1}Harmonics}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}2022}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}2021}{26}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Filters}{27}{chapter.2}%
-\contentsline {section}{\numberline {2.1}2022}{27}{section.2.1}%
-\contentsline {section}{\numberline {2.2}2021}{67}{section.2.2}%
-\contentsline {chapter}{\numberline {3} Z-transform}{73}{chapter.3}%
-\contentsline {section}{\numberline {3.1}2022}{73}{section.3.1}%
-\contentsline {section}{\numberline {3.2}2021}{81}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Systems}{89}{chapter.4}%
-\contentsline {section}{\numberline {4.1}2022}{89}{section.4.1}%
-\contentsline {section}{\numberline {4.2}2021}{131}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Sequences}{157}{chapter.5}%
-\contentsline {section}{\numberline {5.1}2022}{157}{section.5.1}%
-\contentsline {section}{\numberline {5.2}2021}{168}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Sampling}{169}{chapter.6}%
-\contentsline {section}{\numberline {6.1}2022}{169}{section.6.1}%
-\contentsline {section}{\numberline {6.2}2021}{174}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Contour Integration}{181}{chapter.7}%
-\contentsline {section}{\numberline {7.1}2022}{181}{section.7.1}%
-\contentsline {section}{\numberline {7.2}2021}{186}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Laplace Transform}{187}{chapter.8}%
-\contentsline {section}{\numberline {8.1}2022}{187}{section.8.1}%
-\contentsline {section}{\numberline {8.2}2021}{253}{section.8.2}%
-\contentsline {chapter}{\numberline {9}Fourier transform}{273}{chapter.9}%
-\contentsline {section}{\numberline {9.1}2022}{273}{section.9.1}%
-\contentsline {section}{\numberline {9.2}2021}{314}{section.9.2}%
-\contentsline {chapter}{\numberline {A}Fourier transform}{323}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Contour Integration}{327}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Laplace Transform}{331}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Filters}{335}{appendix.D}%
+\contentsline {chapter}{\numberline {2}Filters}{35}{chapter.2}%
+\contentsline {section}{\numberline {2.1}2022}{35}{section.2.1}%
+\contentsline {section}{\numberline {2.2}2021}{79}{section.2.2}%
+\contentsline {chapter}{\numberline {3} Z-transform}{85}{chapter.3}%
+\contentsline {section}{\numberline {3.1}2022}{85}{section.3.1}%
+\contentsline {section}{\numberline {3.2}2021}{93}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Systems}{101}{chapter.4}%
+\contentsline {section}{\numberline {4.1}2022}{101}{section.4.1}%
+\contentsline {section}{\numberline {4.2}2021}{143}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Sequences}{177}{chapter.5}%
+\contentsline {section}{\numberline {5.1}2022}{177}{section.5.1}%
+\contentsline {section}{\numberline {5.2}2021}{188}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Sampling}{189}{chapter.6}%
+\contentsline {section}{\numberline {6.1}2022}{189}{section.6.1}%
+\contentsline {section}{\numberline {6.2}2021}{194}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Contour Integration}{203}{chapter.7}%
+\contentsline {section}{\numberline {7.1}2022}{203}{section.7.1}%
+\contentsline {section}{\numberline {7.2}2021}{208}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Laplace Transform}{209}{chapter.8}%
+\contentsline {section}{\numberline {8.1}2022}{209}{section.8.1}%
+\contentsline {section}{\numberline {8.2}2021}{275}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Fourier transform}{297}{chapter.9}%
+\contentsline {section}{\numberline {9.1}2022}{297}{section.9.1}%
+\contentsline {section}{\numberline {9.2}2021}{338}{section.9.2}%
+\contentsline {chapter}{\numberline {A}Fourier transform}{353}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Contour Integration}{357}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Laplace Transform}{361}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Filters}{365}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Analogous Systems}{373}{appendix.E}%
