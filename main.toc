@@ -31,3 +31,4 @@
 \contentsline {chapter}{\numberline {B}Contour Integration}{357}{appendix.B}%
 \contentsline {chapter}{\numberline {C}Laplace Transform}{361}{appendix.C}%
 \contentsline {chapter}{\numberline {D}Filters}{365}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Analogous Systems}{373}{appendix.E}%
