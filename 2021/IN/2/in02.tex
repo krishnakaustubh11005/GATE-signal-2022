@@ -1,0 +1,161 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage{booktabs}
+
+%
+%\usepackage{setspace}
+%\usepackage{gensymb}
+%\doublespacing
+%\singlespacing
+
+%\usepackage{graphicx}
+%\usepackage{amssymb}
+%\usepackage{relsize}
+%\usepackage[cmex10]{amsmath}
+%\usepackage{amsthm}
+%\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+%\usepackage{txfonts}
+%\restoresymbol{TXF}{iint}
+%\usepackage{wasysym}
+%\usepackage{amsthm}
+%\usepackage{iithtlc}
+%\usepackage{mathrsfs}
+%\usepackage{txfonts}
+%\usepackage{stfloats}
+%\usepackage{bm}
+%\usepackage{cite}
+%\usepackage{cases}
+%\usepackage{subfig}
+%\usepackage{xtab}
+%\usepackage{longtable}
+%\usepackage{multirow}
+
+%\usepackage{algpseudocode}
+%\usepackage{enumitem}
+%\usepackage{mathtools}
+%\usepackage{tikz}
+%\usepackage{circuitikz}
+%\usepackage{verbatim}
+%\usepackage{tfrupee}
+%\usepackage{stmaryrd}
+%\usetkzobj{all}
+%    \usepackage{color}                                            %%
+%    \usepackage{array}                                            %%
+%    \usepackage{longtable}                                        %%
+%    \usepackage{calc}                                             %%
+%    \usepackage{multirow}                                         %%
+%    \usepackage{hhline}                                           %%
+%    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+%    \usepackage{lscape}     
+%\usepackage{multicol}
+%\usepackage{chngcntr}
+%\usepackage{enumerate}
+
+%\usepackage{wasysym}
+%\documentclass[conference]{IEEEtran}
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+%\newtheorem{thm}{Theorem}[section] 
+%\newtheorem{defn}[thm]{Definition}
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+%\bibliographystyle{ieeetr}
+\begin{document}
+%
+
+\bibliographystyle{IEEEtran}
+
+
+\vspace{3cm}
+
+\title{
+%	\logo{
+Gate 2021 Assignment 
+
+\large{EE:1205 Signals and Systems}
+
+Indian Institute of Technology, Hyderabad
+%	}
+}
+\author{Abhey Garg
+
+EE23BTECH11202
+}	
+
+
+% make the title area
+\maketitle
+
+
+
+%\tableofcontents
+
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+%\renewcommand{\theequation}{\theenumi}
+
+\section{Question IN 02}
+Consider the sequence $ x_n = 0.5x_{n-1} + 1 , n = 1,2,...$ with $x_0 = 0$ Then $ \lim_{n \to \infty} x_n$ is :
+\begin{enumerate}
+\item[A]0
+\item[B]1
+\item[C]2
+\item[D]$\infty$
+\end{enumerate}
+\hfill {GATE 2021 IN}
+\section{Solution}
+\fi
+\begin{align}
+x_n = 0.5 x_{n-1} + 1
+\end{align}
+Taking Z-transform:
+\begin{align}
+X(z) = 0.5 z^{-1} X(z) + \frac{1}{1-z^{-1}} \\
+X(z)[1-0.5z^{-1}] = \frac{1}{1-z^{-1}} \\
+X(z) = \frac{1}{(1-z^{-1})(1-0.5z^{-1})}\\
+X(z) = \frac{A}{1-z^{-1}} + \frac{B}{1-0.5z^{-1}}\\
+A+B = 1 \\
+A = -2B \\
+A = 2 \\
+B = -1 \\
+X(z) = \frac{2}{1-z^{-1}} + \frac{-1}{1-0.5z^{-1}}\\
+\end{align}
+Taking inverse Z-transform:
+\begin{align}
+x(n) = 2 u(n) + (-1)(0.5^n)u(n)\\
+\lim_{n \to \infty} x(n) = 2
+\end{align}

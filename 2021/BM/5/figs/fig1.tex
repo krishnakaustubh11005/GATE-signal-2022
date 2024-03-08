@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+    % Axis
+    \draw[->] (-2,0) -- (5,0) node[right] {$t$};
+    \draw[->] (0,-0.5) -- (0,1.5) node[above] {$x(t)$};
+    
+    % Rectangular pulse
+    \draw[thick,blue] (-4,0) -- (-2,0) -- (-2,1) -- (2,1) -- (2,0) -- (4,0);
+    % Labels
+    \draw (0,1.2) node[left] {$A$};
+    \draw (-2,0) node[below] {$\frac {-\tau} {2}$};
+    \draw (2,0) node[below] {$\frac {\tau} {2}$};
+\end{tikzpicture}
